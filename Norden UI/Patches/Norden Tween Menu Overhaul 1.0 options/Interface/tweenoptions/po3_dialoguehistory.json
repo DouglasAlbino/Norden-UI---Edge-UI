@@ -1,0 +1,7 @@
+{
+	"papyrus_event": "OpenTween_DialogueHistory",
+	"menuName": "HISTORY",
+	"icon": "dialogue",
+	"priority": 150,
+	"category": "right"
+}

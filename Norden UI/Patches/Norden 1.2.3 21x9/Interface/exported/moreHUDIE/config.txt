@@ -1,0 +1,36 @@
+
+; If any parameters are left blank the built-in default values are used including the default clips
+
+[LargeItemCard]
+fXOffset=-9.5
+fYOffset=5.5
+fXScale=1.0
+fYScale=1.0
+
+;Vanilla is 15, does not apply when extra data is shown in the bottom of the itemcard, like magic cost, etc
+fDescriptionBottomMargin = 50
+;Vanilla is 44 based on the tallest bottom element. This is the margin used for the description when the item card displays extra data like magic level and cost, active effects remaining time, etc
+fDescriptionBottomMarginExtra = 75	
+;Vanilla is 15
+fDescriptionRightMargin = 55
+;Padding between the Decription and extra bottom elements
+fExtraDataPadding = 10
+;Vanilla is -25.  for some crafting menus, the item card data is shifted to display required materials
+fCraftingCardYOffset = 0.01
+sSWFPath='moreHUDIE/baseLargeItemCard.swf'
+
+[ItemCard]
+;Vanilla is 60
+fAlpha=100
+; Set to true for debugging, adds a border around all textfields
+bDebugDrawBorders = false
+
+[Icons]
+sSWFPath='moreHUDIE/baseIcons.swf'
+sPosEffectFontColorHex = '#189515'
+sNegEffectFontColorHex = '#ee0000'
+;Set to true to enable drop shadow to any text in the icon container (Default is false)
+bEnableDropShadow = false
+;Default is '#999999'
+sTextFieldColorHex = '#999999'
+

@@ -1,0 +1,34 @@
+{
+	"Configurations" :
+	[
+		{
+			"ScriptName" : "AA000XarrianLockBreakScriptNormal",
+			"Thresholds" : { "Novice" : "350", "Apprentice" : "450", "Adept" : "550" },
+			"Counter" : "0",
+			"Layout" : 
+			{
+				"PositionX" : "960",
+				"PositionY" : "800",
+				"Rotation" : "0",
+				"ScaleX" : "100",
+				"ScaleY" : "100",
+				"Alpha" : "100"
+			},
+			"Colors" : 
+			[
+				{
+					"Type" : "Ready",
+					"Red" : "66", "Green" : "93", "Blue" : "45"
+				},
+				{
+					"Type" : "Waiting",
+					"Red" : "253", "Green" : "214", "Blue" : "132"
+				},
+				{
+					"Type" : "Insufficient",
+					"Red" : "113", "Green" : "46", "Blue" : "38"
+				}
+			]
+		}
+	]
+}

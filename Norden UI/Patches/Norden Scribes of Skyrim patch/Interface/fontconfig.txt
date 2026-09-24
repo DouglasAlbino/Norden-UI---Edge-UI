@@ -1,0 +1,291 @@
+; Font Libraries
+;;;;;;;;;;;;;;;;
+fontlib "Interface\fonts_en.swf";  Default font matching language
+fontlib "Interface\fonts_console.swf"; Default font
+fontlib "Interface\fonts_12thcentury.swf"
+fontlib "Interface\fonts_2peassketchy.swf"
+fontlib "Interface\fonts_aauthorizedsignature.swf"
+fontlib "Interface\fonts_aberaregular.swf"
+fontlib "Interface\fonts_agorgotscaqh.swf"
+fontlib "Interface\fonts_amalficoast.swf"
+fontlib "Interface\fonts_angelica.swf"
+fontlib "Interface\fonts_ankecalligraphicfg.swf"
+fontlib "Interface\fonts_ardagh.swf"
+fontlib "Interface\fonts_atziluthscript.swf"
+fontlib "Interface\fonts_augusta.swf"
+fontlib "Interface\fonts_avocado.swf"
+fontlib "Interface\fonts_baldur.swf"
+fontlib "Interface\fonts_berserker.swf"
+fontlib "Interface\fonts_blackchancery.swf"
+fontlib "Interface\fonts_blackknight.swf"
+fontlib "Interface\fonts_blackwoodcastle.swf"
+fontlib "Interface\fonts_boeretudor.swf"
+fontlib "Interface\fonts_bruceshandregular.swf"
+fontlib "Interface\fonts_californiastreet.swf"
+fontlib "Interface\fonts_caligraf1435.swf"
+fontlib "Interface\fonts_cardinalalternate.swf"
+fontlib "Interface\fonts_cardinalregular.swf"
+fontlib "Interface\fonts_carolineshandbolditalic.swf"
+fontlib "Interface\fonts_carolingia.swf"
+fontlib "Interface\fonts_castlesqueen.swf"
+fontlib "Interface\fonts_catchilds.swf"
+fontlib "Interface\fonts_cathohenzollern.swf"
+fontlib "Interface\fonts_charlotte.swf"
+fontlib "Interface\fonts_charming.swf"
+fontlib "Interface\fonts_cheboygan.swf"
+fontlib "Interface\fonts_childishkid.swf"
+fontlib "Interface\fonts_ckbella.swf"
+fontlib "Interface\fonts_cloisterblack.swf"
+fontlib "Interface\fonts_crusade.swf"
+fontlib "Interface\fonts_datura.swf"
+fontlib "Interface\fonts_djbwerecowofdanville.swf"
+fontlib "Interface\fonts_dobkinscript.swf"
+fontlib "Interface\fonts_dumbledor.swf"
+fontlib "Interface\fonts_ebuscript.swf"
+fontlib "Interface\fonts_edscript.swf"
+fontlib "Interface\fonts_eldamaria.swf"
+fontlib "Interface\fonts_eleven.swf"
+fontlib "Interface\fonts_esocartographer.swf"
+fontlib "Interface\fonts_exocetlight.swf"
+fontlib "Interface\fonts_ffxcaricature.swf"
+fontlib "Interface\fonts_firstordercond.swf"
+fontlib "Interface\fonts_florensflourished.swf"
+fontlib "Interface\fonts_forgotten.swf"
+fontlib "Interface\fonts_fzhand21italic.swf"
+fontlib "Interface\fonts_galantscript.swf"
+fontlib "Interface\fonts_galantscriptbold.swf"
+fontlib "Interface\fonts_germanica.swf"
+fontlib "Interface\fonts_giambattistadrei.swf"
+fontlib "Interface\fonts_goudythirty.swf"
+fontlib "Interface\fonts_greetingmonotone.swf"
+fontlib "Interface\fonts_grenouille.swf"
+fontlib "Interface\fonts_greyred.swf"
+fontlib "Interface\fonts_handsomebold.swf"
+fontlib "Interface\fonts_handwrittenbold.swf"
+fontlib "Interface\fonts_helenascript.swf"
+fontlib "Interface\fonts_immortal.swf"
+fontlib "Interface\fonts_joleneshandregular.swf"
+fontlib "Interface\fonts_journalscriptssk.swf"
+fontlib "Interface\fonts_kallamar.swf"
+fontlib "Interface\fonts_kells.swf"
+fontlib "Interface\fonts_kiddosoup.swf"
+fontlib "Interface\fonts_kingthingscalligraphicai.swf"
+fontlib "Interface\fonts_kingthingsfoundation.swf"
+fontlib "Interface\fonts_kingthingspetrock.swf"
+fontlib "Interface\fonts_kingthingspetrocklight.swf"
+fontlib "Interface\fonts_lehn150.swf"
+fontlib "Interface\fonts_linuxlibertine.swf"
+fontlib "Interface\fonts_moderna.swf"
+fontlib "Interface\fonts_magnacarta.swf"
+fontlib "Interface\fonts_manicdepressive.swf"
+fontlib "Interface\fonts_megalomaniaxkg.swf"
+fontlib "Interface\fonts_menuetto.swf"
+fontlib "Interface\fonts_michaelmas.swf"
+fontlib "Interface\fonts_moderna.swf"
+fontlib "Interface\fonts_monotypecorsiva.swf"
+fontlib "Interface\fonts_morpheus.swf"
+fontlib "Interface\fonts_morrisromanblack.swf"
+fontlib "Interface\fonts_newdayscript.swf"
+fontlib "Interface\fonts_nosferatu.swf"
+fontlib "Interface\fonts_oldenglish.swf"
+fontlib "Interface\fonts_oldtypefaces.swf"
+fontlib "Interface\fonts_ollieshandregular.swf"
+fontlib "Interface\fonts_p22hopperedward.swf"
+fontlib "Interface\fonts_perrygothic.swf"
+fontlib "Interface\fonts_pirataone.swf"
+fontlib "Interface\fonts_planewalker.swf"
+fontlib "Interface\fonts_quentin.swf"
+fontlib "Interface\fonts_quill.swf"
+fontlib "Interface\fonts_raceregular.swf"
+fontlib "Interface\fonts_regalhandwriting.swf"
+fontlib "Interface\fonts_ripper.swf"
+fontlib "Interface\fonts_rosabeliasldt.swf"
+fontlib "Interface\fonts_rosemaryroman.swf"
+fontlib "Interface\fonts_saintandrewsqueen.swf"
+fontlib "Interface\fonts_saritha.swf"
+fontlib "Interface\fonts_seaweedscript.swf"
+fontlib "Interface\fonts_semiascriptssi.swf"
+fontlib "Interface\fonts_sewstain.swf"
+fontlib "Interface\fonts_sfburlingtonscriptbolditalic.swf"
+fontlib "Interface\fonts_songofcoronos.swf"
+fontlib "Interface\fonts_spirititc.swf"
+fontlib "Interface\fonts_suavescript.swf"
+fontlib "Interface\fonts_summertime.swf"
+fontlib "Interface\fonts_swashbucklerscript.swf"
+fontlib "Interface\fonts_thereconlegend.swf"
+fontlib "Interface\fonts_thesoulofvodka.swf"
+fontlib "Interface\fonts_trattatello.swf"
+fontlib "Interface\fonts_typographytimes.swf"
+fontlib "Interface\fonts_valleyforgeb.swf"
+fontlib "Interface\fonts_valleyforgei.swf"
+fontlib "Interface\fonts_volutascript.swf"
+fontlib "Interface\fonts_washington.swf"
+fontlib "Interface\fonts_westernprincess.swf"
+fontlib "Interface\fonts_yanzelregular.swf"
+fontlib "Interface\font_trattatello.swf"
+fontlib "Interface\Fonticon.swf"
+fontlib "Interface\JostRegular.swf"
+
+; Player
+;;;;;;;;
+map "$PlayerFont" 					= "Megalomaniax KG" Normal
+
+; Books
+;;;;;;;
+map "$SkyrimBooks" 					= "SkyrimBooks_Gaelic" Normal; Default font and tag for compatibility
+map "$SkyrimBooks02" 				= "Kingthings Petrock" Normal
+map "$SkyrimBooks03" 				= "CAT Hohenzollern" Normal
+map "$SkyrimBooks04"				= "Valley Forge Bold" Normal
+map "$SkyrimBooks05" 				= "Typography Times" Normal
+map "$SkyrimBooks06"				= "First Order Condensed" Normal
+map "$SkyrimBooks07"				= "Goudy Thirty" Normal
+map "$SkyrimBooks08" 				= "Cardinal Alternate" Normal
+map "$SkyrimBooks09" 				= "Argor Got Scaqh" Normal
+map "$SkyrimBooks10"				= "RosemaryRoman" Normal
+map "$SkyrimBooks11" 				= "Ardagh" Normal
+map "$SkyrimBooks12" 				= "Baldur" Normal
+map "$SkyrimBooks13" 				= "Washington Text" Normal
+map "$SkyrimBooks14" 				= "BlackKnightFLF" Normal
+map "$SkyrimBooks15" 				= "BlackwoodCastle" Normal
+map "$SkyrimBooks16" 				= "CAT Childs" Normal
+map "$SkyrimBooks17" 				= "The Soul Of Vodka" Normal
+map "$SkyrimBooks18" 				= "Cheboygan" Normal
+map "$SkyrimBooks19" 				= "Cloister Black Light" Normal
+map "$SkyrimBooks20" 				= "Crusades" Normal
+map "$SkyrimBooks21" 				= "Datura" Normal
+map "$SkyrimBooks22" 				= "Dumbledor 3 Thin" Normal
+map "$SkyrimBooks23" 				= "Exocet" Normal
+map "$SkyrimBooks24" 				= "Berserker" Normal
+map "$SkyrimBooks25" 				= "Germanica" Normal
+map "$SkyrimBooks26" 				= "Immortal" Normal
+map "$SkyrimBooks27" 				= "Kallamar" Normal
+map "$SkyrimBooks28" 				= "Kells SD" Normal
+map "$SkyrimBooks29" 				= "Kingthings Foundation" Normal
+map "$SkyrimBooks30"				= "12th Jhd. Medieval Font" Normal
+map "$SkyrimBooks31" 				= "Augusta" Normal
+map "$SkyrimBooks32" 				= "Linux Libertine Display Capitals" Normal
+map "$SkyrimBooks33" 				= "Moderna" Normal
+map "$SkyrimBooks34" 				= "Menuetto" Normal
+map "$SkyrimBooks35" 				= "Morpheus" Normal
+map "$SkyrimBooks36" 				= "Morris Roman" Normal
+map "$SkyrimBooks37" 				= "Nosferatu" Normal
+map "$SkyrimBooks38" 				= "Old English Text MT" Normal
+map "$SkyrimBooks39" 				= "OldTypeFaces" Normal
+map "$SkyrimBooks40" 				= "PerryGothic Regular" Normal
+map "$SkyrimBooks41" 				= "Pirata One" Normal
+map "$SkyrimBooks42" 				= "Planewalker" Normal
+map "$SkyrimBooks43" 				= "TheReconLegendFont" Normal
+map "$SkyrimBooks44" 				= "BoereTudor" Normal
+map "$SkyrimBooks45" 				= "Cardinal" Normal
+map "$SkyrimBooks46" 				= "ESO Cartographer" Normal
+map "$SkyrimBooks47" 				= "Carolingia" Normal
+map "$SkyrimBooks48" 				= "ForgottenUncial" Normal
+map "$SkyrimBooks49" 				= "Swashbuckler" Normal
+map "$SkyrimBooks50" 				= "Kingthings Petrock Light" Normal
+
+; Notes
+;;;;;;;
+map "$HandwrittenFont" 				= "SkyrimBooks_Handwritten_Bold" Normal; Default font and tag for compatibility
+map "$HandwrittenBold" 				= "SkyrimBooks_Handwritten_Bold" Normal; Default font and tag for compatibility
+map "$HandwrittenFont02"			= "Galant Script" Normal
+map "$HandwrittenBold02"			= "Galant Script" Bold
+map "$HandwrittenFont03"			= "HandwrittenBold" Normal
+map "$HandwrittenFont04"			= "Quentin" Normal
+map "$HandwrittenFont05"			= "SeaweedScript" Normal
+map "$HandwrittenFont06"			= "Regal Handwriting" Normal
+map "$HandwrittenFont07" 			= "Anke Calligraphic FG" Normal
+map "$HandwrittenFont08" 			= "Grey+Red" Normal
+map "$HandwrittenFont09" 			= "Jellyka Saint-Andrew's Queen" Normal
+map "$HandwrittenFont10"			= "DJB WERECOW OF DANVILLE" Normal
+map "$HandwrittenFont11" 			= "Saritha" Normal
+map "$HandwrittenFont12" 			= "Rosabelia SLDT" Normal
+map "$HandwrittenFont13" 			= "Grenouille" Normal
+map "$HandwrittenFont14" 			= "Jellyka Castle's Queen" Normal
+map "$HandwrittenFont15" 			= "Charlotte" Normal
+map "$HandwrittenFont16" 			= "Ripper" Normal
+map "$HandwrittenFont17" 			= "Ed" Normal
+map "$HandwrittenFont18" 			= "Kiddo-soup" Normal
+map "$HandwrittenFont19" 			= "Handsome" Normal
+map "$HandwrittenFont20" 			= "California Street" Normal
+map "$HandwrittenFont21" 			= "Race" Normal
+map "$HandwrittenFont22" 			= "Helena Script" Normal
+map "$HandwrittenFont23" 			= "Jellyka Western Princess" Normal
+map "$HandwrittenFont24" 			= "Angelica" Normal
+map "$HandwrittenFont25" 			= "BrucesHand" Normal
+map "$HandwrittenFont26" 			= "SF Burlington Script" Normal
+map "$HandwrittenFont27" 			= "ChildishKid" Normal
+map "$HandwrittenFont28" 			= "Ebu" Normal
+map "$HandwrittenFont29" 			= "a Authorized Signature" Normal
+map "$HandwrittenFont30" 			= "OlliesHand" Normal
+map "$HandwrittenFont31" 			= "Semia Script SSi" Normal
+map "$HandwrittenFont32" 			= "Yanzel" Normal
+map "$HandwrittenFont33" 			= "CarolinesHand" Normal
+map "$HandwrittenFont34" 			= "CK Bella" Normal
+map "$HandwrittenFont35" 			= "2Peas Sketchy" Normal
+map "$HandwrittenFont36" 			= "Abera ttnorm" Normal
+map "$HandwrittenFont37" 			= "manic-depressive" Normal
+map "$HandwrittenFont38" 			= "Atziluth" Normal
+map "$HandwrittenFont39" 			= "Amalfi Coast" Normal
+map "$HandwrittenFont40" 			= "JolenesHand" Normal
+
+; Journals
+;;;;;;;;;;
+map "$JournalFont01"				= "Valley Forge Italic" Normal
+map "$JournalBold01"				= "Valley Forge Italic" Bold
+map "$JournalFont02"				= "Trattatello" Normal
+map "$JournalFont03"				= "Caligraf 1435" Normal
+map "$JournalFont04"				= "Avocado" Normal
+map "$JournalFont05"				= "Magna Carta" Normal
+map "$JournalFont06" 				= "GiamBattistaDrei" Normal
+map "$JournalFont07" 				= "JournalScriptSSK" Normal
+map "$JournalFont08" 				= "A Charming Font Italic" Normal
+map "$JournalFont09" 				= "Kingthings Calligraphica Italic" Normal
+map "$JournalFont10" 				= "Michaelmas" Normal
+map "$JournalFont11" 				= "Monotype Corsiva" Normal
+map "$JournalFont12" 				= "Summertime" Normal
+map "$JournalFont13" 				= "BlackChancery" Normal
+map "$JournalFont14" 				= "Spirit ITC TT" Normal
+map "$JournalFont15" 				= "LEHN150" Normal
+map "$JournalFont16" 				= "FFX Caricature" Normal
+map "$JournalFont17" 				= "Suave Script" Normal
+map "$JournalFont18" 				= "VolutaScript" Normal
+map "$JournalFont19" 				= "Megalomaniax KG" Normal
+map "$JournalFont20" 				= "P22 Hopper Edward" Normal
+map "$JournalFont21" 				= "Sewstain" Normal
+map "$JournalFont22" 				= "Quill" Normal
+map "$JournalFont23" 				= "Elda Maria" Normal
+map "$JournalFont24" 				= "DobkinScript" Normal
+map "$JournalFont25" 				= "Eleven" Normal
+map "$JournalFont26" 				= "FZ HAND 21 ITALIC" Normal
+map "$JournalFont27" 				= "Song of coronos" Normal
+map "$JournalFont28" 				= "New Day" Normal
+map "$JournalFont29" 				= "Florens Flourished" Normal
+map "$JournalFont30" 				= "Greeting Monotone" Normal
+
+; Symbols
+;;;;;;;;;
+map "$DragonFont"					= "Dragon_script" Normal
+map "$FalmerFont"					= "Falmer" Normal
+map "$DwemerFont"					= "Dwemer" Normal
+map "$DaedricFont" 					= "Daedric" Normal
+map "$MageScriptFont"				= "Mage Script" Normal
+map "$SkyrimSymbolsFont"			= "SkyrimSymbols" Normal
+map "$SkyrimBooks_UnreadableFont"	= "SkyrimBooks_Unreadable" Normal
+
+; Console, UI & Menus
+;;;;;;;;;;;;;;;;;;;;;
+map "$Iconographia" = "Iconographia" Normal
+map "$ConsoleFont" = "Arial" Normal
+map "$StartMenuFont" = "jostregular" Normal
+map "$DialogueFont" = "jostregular" Normal
+map "$EverywhereFont" = "jostregular" Normal
+map "$EverywhereBoldFont" = "jostregular" Normal
+map "$EverywhereMediumFont" = "jostregular" Normal
+map "$CClub_Font"					= "Eurostile LT Std" Roman
+map "$CClub_Font_Bold"				= "Eurostile LT Std" Demi
+map "ControllerButtons"				= "Controller  Buttons" Normal
+map "ControllerButtonsInverted"		= "Controller  Buttons inverted" Normal
+
+; Valid Character Range
+;;;;;;;;;;;;;;;;;;;;;;;
+validNameChars "`1234567890-=~!@#$%^&*():_+QWERTYUIOP[]ASDFGHJKL;'ZXCVBNM,./qwertyuiop{}\\asdfghjkl;'zxcvbnm<>?|¡¢£¤¥¦§¨©ª«®¯°²³´¶·¸¹º»¼½¾¿ÄÀÁÂÃÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþ ÿ "

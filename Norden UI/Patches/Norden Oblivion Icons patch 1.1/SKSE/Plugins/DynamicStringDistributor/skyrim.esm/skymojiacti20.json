@@ -1,0 +1,652 @@
+[
+{
+"form_id": "000A9169|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> S </font>"
+},
+{
+"form_id": "000D95C5|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> S </font>"
+},
+{
+"form_id": "000D95C7|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> S </font>"
+},
+{
+"form_id": "000C2D3F|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> S </font>"
+},
+{
+"form_id": "00022219|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> S </font>"
+},
+{
+"form_id": "0002221E|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> S </font>"
+},
+{
+"form_id": "000B97AF|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> S </font>"
+},
+{
+"form_id": "00077235|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "000F083A|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F0874|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "00077DA9|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F146A|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F084B|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F146B|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F085D|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F085B|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F085E|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F0859|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F085A|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F085C|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F085F|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F0860|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F0858|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F084D|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F084E|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F084A|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F146C|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F146D|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F146E|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F0850|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F084C|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F084F|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F0841|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F146F|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F1470|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F1471|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F083F|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F0840|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F083D|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F083E|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "00077DA8|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F0861|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F0852|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F0847|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F0867|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F0865|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F0868|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F0863|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F0864|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F0866|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F0869|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F086A|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F0862|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F0854|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F0855|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F0851|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F0849|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F0848|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F0845|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F0857|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F0853|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F0856|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F0842|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F0846|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F0844|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F0843|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F083B|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "000F083C|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "00070982|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "00070983|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "00070984|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "00070985|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "00070986|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "00070987|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "00070988|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "00070989|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "0007098A|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "0007098B|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "0007098C|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "0007098D|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "0007098E|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "0007098F|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "00070990|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "00070991|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "00070992|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "00070993|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "00070994|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "00070995|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "00070996|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "00070997|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "00070998|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "00070999|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "0007099A|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "0007099B|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "0007099C|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "0007099D|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "0007099E|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "0007099F|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "000709A0|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "000709A1|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "000709A2|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "000709A3|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "000709A4|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "000709A5|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "000709A6|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "000709A7|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "000709A8|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "000709A9|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "000709AA|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "000709AB|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "000709AC|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "000709AD|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "000709AE|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "000709AF|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "000709B0|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "000709B1|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "000709B2|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "000709B3|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "000709B4|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "000709B5|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "000709B6|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "000709B7|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "000709B8|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "000709B9|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "000709BA|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "000709BB|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "000709BC|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "000709BD|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "000709BE|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+},
+{
+"form_id": "000709BF|Skyrim.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> W </font>"
+}
+]

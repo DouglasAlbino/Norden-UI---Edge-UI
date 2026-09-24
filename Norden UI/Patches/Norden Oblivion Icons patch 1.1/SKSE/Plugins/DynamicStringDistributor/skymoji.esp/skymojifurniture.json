@@ -1,0 +1,92 @@
+[
+{
+"form_id": "FE000800|skymoji.esp",
+"type": "PERK EPFD",
+"index": 0,
+"string": " <font face='$Iconographia' color='#C4C4C4'>r</font> <br> Alchemy Lab "
+},
+{
+"form_id": "FE000800|skymoji.esp",
+"type": "PERK EPFD",
+"index": 1,
+"string": " <font face='$Iconographia' color='#C4C4C4'>q</font> <br> Cooking Pot "
+},
+{
+"form_id": "FE000800|skymoji.esp",
+"type": "PERK EPFD",
+"index": 2,
+"string": " <font face='$Iconographia' color='#C4C4C4'>q</font> <br> Cooking Spit "
+},
+{
+"form_id": "FE000800|skymoji.esp",
+"type": "PERK EPFD",
+"index": 3,
+"string": " <font face='$Iconographia' color='#C4C4C4'>o</font> <br> Arcane Enchanter "
+},
+{
+"form_id": "FE000800|skymoji.esp",
+"type": "PERK EPFD",
+"index": 4,
+"string": " <font face='$Iconographia' color='#C4C4C4'>k</font> <br> Forge "
+},
+{
+"form_id": "FE000800|skymoji.esp",
+"type": "PERK EPFD",
+"index": 5,
+"string": " <font face='$Iconographia' color='#C4C4C4'>k</font> <br> Skyforge "
+},
+{
+"form_id": "FE000800|skymoji.esp",
+"type": "PERK EPFD",
+"index": 6,
+"string": " <font face='$Iconographia' color='#C4C4C4'>M</font> <br> Grindstone "
+},
+{
+"form_id": "FE000800|skymoji.esp",
+"type": "PERK EPFD",
+"index": 7,
+"string": " <font face='$Iconographia' color='#C4C4C4'>s</font> <br> Smelter "
+},
+{
+"form_id": "FE000800|skymoji.esp",
+"type": "PERK EPFD",
+"index": 8,
+"string": " <font face='$Iconographia' color='#C4C4C4'>k</font> <br> Workbench "
+},
+{
+"form_id": "FE000800|skymoji.esp",
+"type": "PERK EPFD",
+"index": 9,
+"string": " <font face='$Iconographia' color='#C4C4C4'>N</font> <br> Meridia's Beacon "
+},
+{
+"form_id": "FE000800|skymoji.esp",
+"type": "PERK EPFD",
+"index": 10,
+"string": " <font face='$Iconographia' color='#C4C4C4'>s</font> <br> Amulet Fragment "
+},
+{
+"form_id": "FE000800|skymoji.esp",
+"type": "PERK EPFD",
+"index": 11,
+"string": " <font face='$Iconographia' color='#C4C4C4'>N</font> <br> Focusing Crystal "
+},
+{
+"form_id": "FE000800|skymoji.esp",
+"type": "PERK EPFD",
+"index": 12,
+"string": " <font face='$Iconographia' color='#C4C4C4'>N</font> <br> Glenmoril Witch Head "
+},
+{
+"form_id": "FE000800|skymoji.esp",
+"type": "PERK EPFD",
+"index": 13,
+"string": " <font face='$Iconographia' color='#C4C4C4'>D</font> <br> Lever "
+},
+{
+"form_id": "FE000800|skymoji.esp",
+"type": "PERK EPFD",
+"index": 14,
+"string": " <font face='$Iconographia' color='#C4C4C4'>F</font> <br> Suspicious Feature "
+}
+]

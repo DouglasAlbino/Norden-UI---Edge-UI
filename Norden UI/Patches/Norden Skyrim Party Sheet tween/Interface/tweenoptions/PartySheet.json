@@ -1,0 +1,7 @@
+{
+    "papyrus_event": "PartySheet_Open",
+    "menuName": "PARTY SHEET",
+    "icon": "mirror",
+    "priority": 65,
+    "category": "bottom"
+}

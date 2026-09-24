@@ -1,0 +1,9 @@
+bBookMenuPS = false
+bDialogueMenuPS = false
+bHUDMenuPS = false
+bItemCardPS = false
+bLockpickingMenuPS = false
+bSleepWaitMenuPS = false
+bStartMenuPS = false
+bTrainingMenuPS = false
+bTutorialMenuPS = false

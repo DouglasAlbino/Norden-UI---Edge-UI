@@ -1,0 +1,7 @@
+{
+	"papyrus_event":"OpenTween_PhotoMode",
+	"menuName":"PHOTO",
+	"icon":"photo",
+	"priority": 9999,
+	"category": "bottom"
+}

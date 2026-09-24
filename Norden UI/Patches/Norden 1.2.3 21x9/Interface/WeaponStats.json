@@ -1,0 +1,25 @@
+{
+    "label" : {
+        "styles" : {
+            "color" : "#999999",
+            "fontFamily" : "\"$EverywhereFont\"",
+            "fontSize" : 16
+        }
+    },
+    "value" : {
+        "styles" : {
+            "color" : "#479A49",
+            "fontFamily" : "\"$EverywhereFont\"",
+            "fontSize" : 19.5
+        }
+    },
+    "config" : {
+        "marginInline" : 40,
+        "animationInterval" : 2.5,
+        "animationDuration" : 0.5,
+        "showCrit" : true,
+        "showReach" : true,
+        "showSpeed" : true,
+        "showStagger" : true
+    }
+}

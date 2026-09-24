@@ -1,0 +1,1845 @@
+{
+  "iconDefinitions": [
+// Vanilla fixes
+    {
+      "index": 15, // Mine
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "index": 57, // DLC02ToSkyrim
+      "hideFromHUD": true
+    },
+    {
+      "index": 58, // DLC02ToSolstheim
+      "hideFromHUD": true
+    },
+// CoMAP Core Markers
+    {
+      "name": "ElvenRuinsMarker",
+      "source": {
+        "exportNames": ["ElvenRuins", "ElvenRuins Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "AkaviriRuinsMarker",
+      "source": {
+        "exportNames": ["AkaviriRuins", "AkaviriRuins Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryDungeon"
+    },
+    {
+      "name": "FortDawnguardMarker",
+      "source": {
+        "exportNames": ["FortDawnguard", "FortDawnguard Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "CastleVolkiharMarker",
+      "source": {
+        "exportNames": ["CastleVolkihar", "CastleVolkihar Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "HighHrothgarMarker",
+      "source": {
+        "exportNames": ["HighHrothgar", "HighHrothgar Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "ThalmorCampMarker",
+      "source": {
+        "exportNames": ["ThalmorCamp", "ThalmorCamp Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "ReachTribeMarker",
+      "source": {
+        "exportNames": ["ReachTribe", "ReachTribe Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "DarkBrotherhoodMarker",
+      "source": {
+        "exportNames": ["DarkBrotherhood", "DarkBrotherhood Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "ThievesMarker",
+      "source": {
+        "exportNames": ["Thieves", "Thieves Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "PeakMarker",
+      "source": {
+        "exportNames": ["Peak", "Peak Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "JailMarker",
+      "source": {
+        "exportNames": ["Jail", "Jail Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "TavernMarker",
+      "source": {
+        "exportNames": ["Tavern", "Tavern Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "NightingaleMarker",
+      "source": {
+        "exportNames": ["Nightingale", "Nightingale Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "TravelIconNWMarker",
+      "source": {
+        "exportNames": ["TravelIconNW", "TravelIconNW Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric",
+      "hideFromHUD": true
+    },
+    {
+      "name": "TravelIconSEMarker",
+      "source": {
+        "exportNames": ["TravelIconSE", "TravelIconSE Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric",
+      "hideFromHUD": true
+    },
+    {
+      "name": "TravelIconNMarker",
+      "source": {
+        "exportNames": ["TravelIconN", "TravelIconN Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric",
+      "hideFromHUD": true
+    },
+    {
+      "name": "TravelIconEMarker",
+      "source": {
+        "exportNames": ["TravelIconE", "TravelIconE Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric",
+      "hideFromHUD": true
+    },
+    {
+      "name": "TravelIconSMarker",
+      "source": {
+        "exportNames": ["TravelIconS", "TravelIconS Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric",
+      "hideFromHUD": true
+    },
+    {
+      "name": "TravelIconWMarker",
+      "source": {
+        "exportNames": ["TravelIconW", "TravelIconW Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric",
+      "hideFromHUD": true
+    },
+    {
+      "name": "BorderCrossingMarker",
+      "source": {
+        "exportNames": ["BorderCrossing", "BorderCrossing Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "CompanionsMarker",
+      "source": {
+        "exportNames": ["Companions", "Companions Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "RootDungeonMarker",
+      "source": {
+        "exportNames": ["RootDungeon", "RootDungeon Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "ActualShipwreckMarker",
+      "source": {
+        "exportNames": ["ActualShipwreck", "ActualShipwreck Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "MorrowindDwemerMarker",
+      "source": {
+        "exportNames": ["MorrowindDwemer", "MorrowindDwemer Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryDungeon"
+    },
+    {
+      "name": "AncientImperialRuinMarker",
+      "source": {
+        "exportNames": ["AncientImperialRuin", "AncientImperialRuin Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryDungeon"
+    },
+    {
+      "name": "DaedricRuinsMarker",
+      "source": {
+        "exportNames": ["DaedricRuins", "DaedricRuins Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryDungeon"
+    },
+    {
+      "name": "GraveyardMarker",
+      "source": {
+        "exportNames": ["Graveyard", "Graveyard Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "RedguardRuinMarker",
+      "source": {
+        "exportNames": ["RedguardRuin", "RedguardRuin Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "OasisMarker",
+      "source": {
+        "exportNames": ["Oasis", "Oasis Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "OblivionGateMarker",
+      "source": {
+        "exportNames": ["OblivionGate", "OblivionGate Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryDungeon"
+    },
+    {
+      "name": "MinotaurCampMarker",
+      "source": {
+        "exportNames": ["MinotaurCamp", "MinotaurCamp Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "IslandMarker",
+      "source": {
+        "exportNames": ["Island", "Island Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "MageMarker",
+      "source": {
+        "exportNames": ["Mage", "Mage Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "DunmeriSettlementMarker",
+      "source": {
+        "exportNames": ["DunmeriSettlement", "DunmeriSettlement Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "BreticTownMarker",
+      "source": {
+        "exportNames": ["BreticTown", "BreticTown Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryTown"
+    },
+    {
+      "name": "BreticSettlementMarker",
+      "source": {
+        "exportNames": ["BreticSettlement", "BreticSettlement Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "CyrodillicTownMarker",
+      "source": {
+        "exportNames": ["CyrodillicTown", "CyrodillicTown Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryTown"
+    },
+    {
+      "name": "CyrodillicSettlementMarker",
+      "source": {
+        "exportNames": ["CyrodillicSettlement", "CyrodillicSettlement Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "RedguardTownMarker",
+      "source": {
+        "exportNames": ["RedguardTown", "RedguardTown Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryTown"
+    },
+    {
+      "name": "RedguardSettlementMarker",
+      "source": {
+        "exportNames": ["RedguardSettlement", "RedguardSettlement Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "ArgonianSettlementMarker",
+      "source": {
+        "exportNames": ["ArgonianSettlement", "ArgonianSettlement Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "KhajiitiSettlementMarker",
+      "source": {
+        "exportNames": ["KhajiitiSettlement", "KhajiitiSettlement Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "BosmeriTownMarker",
+      "source": {
+        "exportNames": ["BosmeriTown", "BosmeriTown Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryTown"
+    },
+    {
+      "name": "BosmeriSettlementMarker",
+      "source": {
+        "exportNames": ["BosmeriSettlement", "BosmeriSettlement Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "EastEmpireCompanyMarker",
+      "source": {
+        "exportNames": ["EastEmpireCompany", "EastEmpireCompany Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "CorsairsMarker",
+      "source": {
+        "exportNames": ["Corsairs", "Corsairs Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "PiratesMarker",
+      "source": {
+        "exportNames": ["Pirates", "Pirates Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "CovenMarker",
+      "source": {
+        "exportNames": ["Coven", "Coven Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "CryptMarker",
+      "source": {
+        "exportNames": ["Crypt", "Crypt Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "AkaviriTempleMarker",
+      "source": {
+        "exportNames": ["AkaviriTemple", "AkaviriTemple Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "CampfireMarker",
+      "source": {
+        "exportNames": ["Campfire", "Campfire Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "MageTowerMarker",
+      "source": {
+        "exportNames": ["MageTower", "MageTower Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "DeciduousGroveMarker",
+      "source": {
+        "exportNames": ["DeciduousGrove", "DeciduousGrove Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "DeciduousClearingMarker",
+      "source": {
+        "exportNames": ["DeciduousClearing", "DeciduousClearing Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "RuinedNordicSettlementMarker",
+      "source": {
+        "exportNames": ["RuinedNordicSettlement", "RuinedNordicSettlement Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "RuinedBreticSettlementMarker",
+      "source": {
+        "exportNames": ["RuinedBreticSettlement", "RuinedBreticSettlement Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "RuinedCyrodillicSettlementMarker",
+      "source": {
+        "exportNames": ["RuinedCyrodillicSettlement", "RuinedCyrodillicSettlement Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "RuinedRedguardSettlementMarker",
+      "source": {
+        "exportNames": ["RuinedRedguardSettlement", "RuinedRedguardSettlement Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LargeCavernMarker",
+      "source": {
+        "exportNames": ["LargeCavern", "LargeCavern Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "CaravanMarker",
+      "source": {
+        "exportNames": ["Caravan", "Caravan Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "FishingSpotMarker",
+      "source": {
+        "exportNames": ["FishingSpot", "FishingSpot Undiscovered"]
+      },
+      "scale": 0.500000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "RieklingMarker",
+      "source": {
+        "exportNames": ["Riekling", "Riekling Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "AnimalDenMarker",
+      "source": {
+        "exportNames": ["AnimalDen", "AnimalDen Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "BattleMarker",
+      "source": {
+        "exportNames": ["Battle", "Battle Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "StoreMarker",
+      "source": {
+        "exportNames": ["Store", "Store Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "AlchemistMarker",
+      "source": {
+        "exportNames": ["Alchemist", "Alchemist Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "SmithMarker",
+      "source": {
+        "exportNames": ["Smith", "Smith Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "FenceMarker",
+      "source": {
+        "exportNames": ["Fence", "Fence Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "JewelMarker",
+      "source": {
+        "exportNames": ["Jewel", "Jewel Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "BookMarker",
+      "source": {
+        "exportNames": ["Book", "Book Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "TailorMarker",
+      "source": {
+        "exportNames": ["Tailor", "Tailor Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "FletcherMarker",
+      "source": {
+        "exportNames": ["Fletcher", "Fletcher Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "FalmerHiveMarker",
+      "source": {
+        "exportNames": ["FalmerHive", "FalmerHive Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryDungeon"
+    },
+    {
+      "name": "RuinedNordicTownMarker",
+      "source": {
+        "exportNames": ["RuinedNordicTown", "RuinedNordicTown Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "RuinedBreticTownMarker",
+      "source": {
+        "exportNames": ["RuinedBreticTown", "RuinedBreticTown Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "RuinedCyrodillicTownMarker",
+      "source": {
+        "exportNames": ["RuinedCyrodillicTown", "RuinedCyrodillicTown Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "RuinedRedguardTownMarker",
+      "source": {
+        "exportNames": ["RuinedRedguardTown", "RuinedRedguardTown Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "RuinedTavernMarker",
+      "source": {
+        "exportNames": ["RuinedTavern", "RuinedTavern Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "WarehouseMarker",
+      "source": {
+        "exportNames": ["Warehouse", "Warehouse Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "KarstaagMarker",
+      "source": {
+        "exportNames": ["Karstaag", "Karstaag Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryDungeon"
+    },
+    {
+      "name": "SoulCairnMarker",
+      "source": {
+        "exportNames": ["SoulCairn", "SoulCairn Undiscovered"]
+      },
+      "scale": 0.750000,
+      "hideFromHUD": true,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "CheckpointMarker",
+      "source": {
+        "exportNames": ["Checkpoint", "Checkpoint Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "ForgottenValeMarker",
+      "source": {
+        "exportNames": ["ForgottenVale", "ForgottenVale Undiscovered"]
+      },
+      "scale": 0.750000,
+      "hideFromHUD": true,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "SnowElfRuinsMarker",
+      "source": {
+        "exportNames": ["SnowElfRuins", "SnowElfRuins Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "SkyrimMarker",
+      "source": {
+        "exportNames": ["Skyrim", "Skyrim Undiscovered"]
+      },
+      "scale": 0.750000,
+      "hideFromHUD": true,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "CyrodiilMarker",
+      "source": {
+        "exportNames": ["Cyrodiil", "Cyrodiil Undiscovered"]
+      },
+      "scale": 0.750000,
+      "hideFromHUD": true,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "MineshaftMarker",
+      "source": {
+        "exportNames": ["Mineshaft", "Mineshaft Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryDungeon"
+    },
+    {
+      "name": "SoulCairnTowerMarker",
+      "source": {
+        "exportNames": ["SoulCairnTower", "SoulCairnTower Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryDungeon"
+    },
+    {
+      "name": "SoulCairnRuinsMarker",
+      "source": {
+        "exportNames": ["SoulCairnRuins", "SoulCairnRuins Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryDungeon"
+    },
+    {
+      "name": "DwemerLiftMarker",
+      "source": {
+        "exportNames": ["DwemerLift", "DwemerLift Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "DeadlandsMarker",
+      "source": {
+        "exportNames": ["Deadlands", "Deadlands Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "DeadlandsTowerMarker",
+      "source": {
+        "exportNames": ["DeadlandsTower", "DeadlandsTower Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryDungeon"
+    },
+    {
+      "name": "BardsCollegeMarker",
+      "source": {
+        "exportNames": ["BardsCollege", "BardsCollege Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "VigilantsMarker",
+      "source": {
+        "exportNames": ["Vigilants", "Vigilants Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "CronvangrClanMarker",
+      "source": {
+        "exportNames": ["CronvangrClan", "CronvangrClan Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "QuarraClanMarker",
+      "source": {
+        "exportNames": ["QuarraClan", "QuarraClan Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "BankMarker",
+      "source": {
+        "exportNames": ["Bank", "Bank Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "BreticFortMarker",
+      "source": {
+        "exportNames": ["BreticFort", "BreticFort Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "PenitusOculatusMarker",
+      "source": {
+        "exportNames": ["PenitusOculatus", "PenitusOculatus Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "OldNordTownMarker",
+      "source": {
+        "exportNames": ["OldNordTown", "OldNordTown Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryTown"
+    },
+    {
+      "name": "OldNordSettlementMarker",
+      "source": {
+        "exportNames": ["OldNordSettlement", "OldNordSettlement Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "DeadwoodGroveMarker",
+      "source": {
+        "exportNames": ["DeadwoodGrove", "DeadwoodGrove Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "DeadwoodClearingMarker",
+      "source": {
+        "exportNames": ["DeadwoodGrove", "DeadwoodGrove Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "VolcanoMarker",
+      "source": {
+        "exportNames": ["Volcano", "Volcano Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "ThroatOfTheWorldMarker",
+      "source": {
+        "exportNames": ["ThroatOfTheWorld", "ThroatOfTheWorld Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "OvenMarker",
+      "source": {
+        "exportNames": ["Oven", "Oven Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+	{
+      "name": "SoulCairnGateMarker",
+      "source": {
+        "exportNames": ["SoulCairnGate", "SoulCairnGate Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "GlacialCaveMarker",
+      "source": {
+        "exportNames": ["GlacialCave", "GlacialCave Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryDungeon"
+    },
+    {
+      "name": "XanmeerMarker",
+      "source": {
+        "exportNames": ["Xanmeer", "Xanmeer Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryDungeon"
+    },
+// Redesigned and Cut CoMAP Core Markers - Retained in case anyone wants them instead of the improved replacements
+    {
+      "name": "CUTTavernMarker",
+      "source": {
+        "path": "Resources\\comapresources_cut.swf",
+        "exportNames": ["CUTTavern", "CUTTavern Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "CUTRuinedNordicSettlementMarker",
+      "source": {
+        "path": "Resources\\comapresources_cut.swf",
+        "exportNames": ["CUTRuinedNordicSettlement", "CUTRuinedNordicSettlement Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "CUTRuinedBreticSettlementMarker",
+      "source": {
+        "path": "Resources\\comapresources_cut.swf",
+        "exportNames": ["CUTRuinedBreticSettlement", "CUTRuinedBreticSettlement Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "CUTRuinedCyrodillicSettlementMarker",
+      "source": {
+        "path": "Resources\\comapresources_cut.swf",
+        "exportNames": ["CUTRuinedCyrodillicSettlement", "CUTRuinedCyrodillicSettlement Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "CUTRuinedRedguardSettlementMarker",
+      "source": {
+        "path": "Resources\\comapresources_cut.swf",
+        "exportNames": ["CUTRuinedRedguardSettlement", "CUTRuinedRedguardSettlement Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "CUTPogfishMarker",
+      "source": {
+        "path": "Resources\\comapresources_cut.swf",
+        "exportNames": ["CUTPogfish", "CUTPogfish Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "CUTRuinedNordicTownMarker",
+      "source": {
+        "path": "Resources\\comapresources_cut.swf",
+        "exportNames": ["CUTRuinedNordicTown", "CUTRuinedNordicTown Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "CUTRuinedBreticTownMarker",
+      "source": {
+        "path": "Resources\\comapresources_cut.swf",
+        "exportNames": ["CUTRuinedBreticTown", "CUTRuinedBreticTown Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "CUTRuinedCyrodillicTownMarker",
+      "source": {
+        "path": "Resources\\comapresources_cut.swf",
+        "exportNames": ["CUTRuinedCyrodillicTown", "CUTRuinedCyrodillicTown Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "CUTRuinedRedguardTownMarker",
+      "source": {
+        "path": "Resources\\comapresources_cut.swf",
+        "exportNames": ["CUTRuinedRedguardTown", "CUTRuinedRedguardTown Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "CUTMageMarker",
+      "source": {
+        "path": "Resources\\comapresources_cut.swf",
+        "exportNames": ["CUTMage", "CUTMage Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "CUTRuinedTavernMarker",
+      "source": {
+        "path": "Resources\\comapresources_cut.swf",
+        "exportNames": ["CUTRuinedTavern", "CUTRuinedTavern Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "CUTEastEmpireCompanyMarker",
+      "source": {
+        "path": "Resources\\comapresources_cut.swf",
+        "exportNames": ["CUTEastEmpireCompany", "CUTEastEmpireCompany Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "CUTCovenMarker",
+      "source": {
+        "path": "Resources\\comapresources_cut.swf",
+        "exportNames": ["CUTCoven", "CUTCoven Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "CUTOblivionGateMarker",
+      "source": {
+        "path": "Resources\\comapresources_cut.swf",
+        "exportNames": ["CUTOblivionGate", "CUTOblivionGate Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryDungeon"
+    },
+    {
+      "name": "CUTCastleVolkiharMarker",
+      "source": {
+        "path": "Resources\\comapresources_cut.swf",
+        "exportNames": ["CUTCastleVolkihar", "CUTCastleVolkihar Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryDungeon"
+    },
+    {
+      "name": "CUTBreticTownMarker",
+      "source": {
+        "path": "Resources\\comapresources_cut.swf",
+        "exportNames": ["CUTBreticTown", "CUTBreticTown Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryTown"
+    },
+    {
+      "name": "CUTCyrodilicTownMarker",
+      "source": {
+        "path": "Resources\\comapresources_cut.swf",
+        "exportNames": ["CUTCyrodilicTown", "CUTCyrodilicTown Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryTown"
+    },
+    {
+      "name": "CUTRuinedBreticTownV1Marker",
+      "source": {
+        "path": "Resources\\comapresources_cut.swf",
+        "exportNames": ["CUTRuinedBreticTownV1", "CUTRuinedBreticTownV1 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "CUTRuinedCyrodillicTownV1Marker",
+      "source": {
+        "path": "Resources\\comapresources_cut.swf",
+        "exportNames": ["CUTRuinedCyrodillicTownV1", "CUTRuinedCyrodillicTownV1 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "CUTRuinedBreticTownV2Marker",
+      "source": {
+        "path": "Resources\\comapresources_cut.swf",
+        "exportNames": ["CUTRuinedBreticTownV2", "CUTRuinedBreticTownV2 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "CUTRuinedCyrodillicTownV2Marker",
+      "source": {
+        "path": "Resources\\comapresources_cut.swf",
+        "exportNames": ["CUTRuinedCyrodillicTownV2", "CUTRuinedCyrodillicTownV2 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+// Wyrmstooth
+    {
+      "name": "WTStonehollowMarker",
+      "source": {
+        "path": "Resources\\wtresources.swf",
+        "exportNames": ["WTStonehollow", "WTStonehollow Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryCity"
+    },
+// Cities of the North Series
+    {
+      "name": "COTNDawnstarCastleMarker",
+      "source": {
+        "path": "Resources\\cotnresources.swf",
+        "exportNames": ["COTNDawnstarCastle", "COTNDawnstarCastle Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "COTNMorthalCastleMarker",
+      "source": {
+        "path": "Resources\\cotnresources.swf",
+        "exportNames": ["COTNMorthalCastle", "COTNMorthalCastle Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "COTNWinterholdCastleMarker",
+      "source": {
+        "path": "Resources\\cotnresources.swf",
+        "exportNames": ["COTNWinterholdCastle", "COTNWinterholdCastle Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "COTNFalkreathCastleMarker",
+      "source": {
+        "path": "Resources\\cotnresources.swf",
+        "exportNames": ["COTNFalkreathCastle", "COTNFalkreathCastle Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+// Holds - The City Overhaul
+    {
+      "name": "HoldsDawnstarCastleMarker",
+      "source": {
+        "path": "Resources\\holdsresources.swf",
+        "exportNames": ["HoldsDawnstarCastle", "HoldsDawnstarCastle Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "HoldsFalkreathCastleMarker",
+      "source": {
+        "path": "Resources\\holdsresources.swf",
+        "exportNames": ["HoldsFalkreathCastle", "HoldsFalkreathCastle Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+// Beyond Skyrim - Bruma
+    {
+      "name": "BSBrumaCityMarker",
+      "source": {
+        "path": "Resources\\brumaresources.swf",
+        "exportNames": ["BSBrumaCity", "BSBrumaCity Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryCity"
+    },
+    {
+      "name": "BSBrumaCastleMarker",
+      "source": {
+        "path": "Resources\\brumaresources.swf",
+        "exportNames": ["BSBrumaCastle", "BSBrumaCastle Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "BSBrumaCollegeOfWhispersMarker",
+      "source": {
+        "path": "Resources\\brumaresources.swf",
+        "exportNames": ["BSBrumaCollegeOfWhispers", "BSBrumaCollegeOfWhispers Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "BSFrostcragMarker",
+      "source": {
+        "path": "Resources\\brumaresources.swf",
+        "exportNames": ["BSFrostcrag", "BSFrostcrag Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+// Legacy of the Dragonborn
+    {
+      "name": "LOTDDragonbornGalleryMarker",
+      "source": {
+        "path": "Resources\\lotdresources.swf",
+        "exportNames": ["LOTDDragonbornGallery", "LOTDDragonbornGallery Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LOTDExplorersMarker",
+      "source": {
+        "path": "Resources\\lotdresources.swf",
+        "exportNames": ["LOTDExplorers", "LOTDExplorers Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LOTDDevAvezaMarker",
+      "source": {
+        "path": "Resources\\lotdresources.swf",
+        "exportNames": ["LOTDDevAveza", "LOTDDevAveza Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+// The Republic of Maslea
+    {
+      "name": "MasleaCityMarker",
+      "source": {
+        "path": "Resources\\maslearesources.swf",
+        "exportNames": ["MasleaCity", "MasleaCity Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "MasleaAlessianRuinsMarker",
+      "source": {
+        "path": "Resources\\maslearesources.swf",
+        "exportNames": ["MasleaAlessianRuins", "MasleaAlessianRuins Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryDungeon"
+    },
+    {
+      "name": "MasleaPalaceMarker",
+      "source": {
+        "path": "Resources\\maslearesources.swf",
+        "exportNames": ["MasleaPalace", "MasleaPalace Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "MasleaManorMarker",
+      "source": {
+        "path": "Resources\\maslearesources.swf",
+        "exportNames": ["MasleaManor", "MasleaManor Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "MasleaPentagramMarker",
+      "source": {
+        "path": "Resources\\maslearesources.swf",
+        "exportNames": ["MasleaPentagram", "MasleaPentagram Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "MasleaTownMarker",
+      "source": {
+        "path": "Resources\\maslearesources.swf",
+        "exportNames": ["MasleaTown", "MasleaTown Undiscovered"]
+      },
+      "scale": 1.200000,
+      "discoveryMusic": "MUSDiscoveryTown"
+    },
+    {
+      "name": "MasleaPaluseuilMarker",
+      "source": {
+        "path": "Resources\\maslearesources.swf",
+        "exportNames": ["MasleaPaluseuil", "MasleaPaluseuil Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "MasleaSIPortalMarker",
+      "source": {
+        "path": "Resources\\maslearesources.swf",
+        "exportNames": ["MasleaSIPortal", "MasleaSIPortal Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "MasleaSIRuinsMarker",
+      "source": {
+        "path": "Resources\\maslearesources.swf",
+        "exportNames": ["MasleaSIRuins", "MasleaSIRuins Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+// Vanilla for Local Map (Scaleable)
+    {
+      "name": "LocalVanillaMarker1",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 1", "CoMAP 1 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker2",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 2", "CoMAP 2 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker3",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 3", "CoMAP 3 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker4",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 4", "CoMAP 4 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker5",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 5", "CoMAP 5 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker6",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 6", "CoMAP 6 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker7",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 7", "CoMAP 7 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker8",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 8", "CoMAP 8 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker9",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 9", "CoMAP 9 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker10",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 10", "CoMAP 10 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker11",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 11", "CoMAP 11 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker12",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 12", "CoMAP 12 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker13",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 13", "CoMAP 13 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker14",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 14", "CoMAP 14 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker15",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 15", "CoMAP 15 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker16",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 16", "CoMAP 16 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker17",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 17", "CoMAP 17 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker18",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 18", "CoMAP 18 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker19",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 19", "CoMAP 19 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker20",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 20", "CoMAP 20 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker21",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 21", "CoMAP 21 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker22",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 22", "CoMAP 22 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker23",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 23", "CoMAP 23 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker24",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 24", "CoMAP 24 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker25",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 25", "CoMAP 25 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker26",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 26", "CoMAP 26 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker27",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 27", "CoMAP 27 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker28",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 28", "CoMAP 28 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker29",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 29", "CoMAP 29 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker30",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 30", "CoMAP 30 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker31",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 31", "CoMAP 31 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker32",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 32", "CoMAP 32 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker33",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 33", "CoMAP 33 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker34",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 34", "CoMAP 34 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker35",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 35", "CoMAP 35 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker36",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 36", "CoMAP 36 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker37",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 37", "CoMAP 37 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker38",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 38", "CoMAP 38 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker39",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 39", "CoMAP 39 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker40",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 40", "CoMAP 40 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker41",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 41", "CoMAP 41 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker42",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 42", "CoMAP 42 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker43",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 43", "CoMAP 43 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker44",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 44", "CoMAP 44 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker45",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 45", "CoMAP 45 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker46",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 46", "CoMAP 46 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker47",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 47", "CoMAP 47 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker48",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 48", "CoMAP 48 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker49",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 49", "CoMAP 49 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker50",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 50", "CoMAP 50 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker51",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 51", "CoMAP 51 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker52",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 52", "CoMAP 52 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker53",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 53", "CoMAP 53 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker54",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 54", "CoMAP 54 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker55",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 55", "CoMAP 55 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker56",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 56", "CoMAP 56 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker57",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 57", "CoMAP 57 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker58",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 58", "CoMAP 58 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    },
+    {
+      "name": "LocalVanillaMarker59",
+      "source": {
+        "path": "Resources\\vanillaresources.swf",
+        "exportNames": ["CoMAP 59", "CoMAP 59 Undiscovered"]
+      },
+      "scale": 0.750000,
+      "discoveryMusic": "MUSDiscoveryGeneric"
+    }
+  ]
+}
+

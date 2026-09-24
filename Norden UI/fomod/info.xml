@@ -1,0 +1,13 @@
+<!-- Created with FOMOD Creation Kit by Cutleast: https://www.nexusmods.com/site/mods/1366 -->
+<fomod xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Cutleast/FOMOD-Creation-Kit/master/res/schemas/info.xsd">
+	<Name>NordenUI</Name>
+	<Author>Nithog</Author>
+	<Version>1.2.6 - thanks for checking</Version>
+	<Website>https://next.nexusmods.com/profile/nithog?gameId=1704</Website>
+	<Description>Norden UI is an interface overhaul that seamlessly merges three core principles: the clean functionality of modern design, the rustic feel of the Nords, and the sophisticated restraint of a muted, monochromatic color scheme. 
+The result is a deeply immersive experience that feels both timeless and current, pulling you deeper into the world of Tamriel without ever breaking your focus.
+
+
+It's based on my previous UI - Oathvein synthesizing the best elements of Dear Diary Dark Mode, Edge UI, Nordic UI, New Horizon UI, and Horizon UI Remake into a cohesive new vision.
+</Description>
+</fomod>

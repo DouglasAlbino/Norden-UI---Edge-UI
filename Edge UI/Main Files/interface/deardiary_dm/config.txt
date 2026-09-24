@@ -1,0 +1,246 @@
+##################################################################################################
+##################################   DEAR DIARY DM CONFIG FILE   #################################
+##################################################################################################
+##
+## This file contains some options for Dear Diary DM. Please read insctuctions provided for every
+## option. Make sure not to edit option names or the settings will remain default in game. 
+##
+## You can edit most values while the game is running. Just reopen the menu to see a result after 
+## saving this file. It's completely safe (SWF files are loaded in game from disk anytime you open
+## menu). The only exceptions are loading menu and start menu. 
+##
+##======================================== VERSION TEXT ==========================================
+## Version text displayed in the System menu just right to the SKSE version text. 
+## You can safely remove this text or replace it with anything you like. 
+## Default: Dear Diary DM 1.0.1
+## Allowed: Any
+##
+sVersion = 
+##
+##====================================== QUICKSAVE BUTTON ========================================
+## QuickSave button enabling. This button is hidden in Dear Diary by default, but you can restore
+## it with this option. Some sources say quicksaving in Skyrim is not recommended.
+## Default: false
+## Allowed: true or false
+##
+bQuickSaveButton = false
+##
+##======================================= MCM OPTION NAME ========================================
+## Name for "MOD CONFIGURATION" button in System Menu. This option in System Menu stands out too
+## much among other lines in System Menu, so I often rename it to just "MCM". If you're willing to
+## rename it to something as well, delete the "$" sign and type anything you like. 
+## Default: $MOD CONFIGURATION
+## Allowed: Any
+##
+sMCMButtonName = $MOD CONFIGURATION
+##
+##========================================= INSTANT QUIT =========================================
+## Option for instant quit to desktop after hitting the Quit button in System Menu. 
+## Default: false
+## Allowed: true or false
+##
+bInstantQuit = false
+##
+##==================================== LOCKPICKING CHEAT-MODE ====================================
+## Enables lockpicking cheat-mode similar to one in Lockpick Pro (KenMOD) but in new visual
+## style. Additionally in the left corner there will be a small lockpick HP value display.
+## Default: false
+## Allowed: true or false
+##
+bLockCheatMode = false
+##
+##================================ LOCKPICKING CHEAT-MODE TIMER ==================================
+## The cheat UI will be shown after set amount of seconds. Works only for bLockCheatMode = true.
+## Default: 0
+## Allowed: 0 and anything higher
+##
+fCheatTimer = 0
+##
+##======================================= HIDE LOCK LEVEL ========================================
+## This option allows to hide the lock level text. 
+## Default: false
+## Allowed: true or false
+##
+bLockHideLevel = false
+##
+##======================================== MAP MARKERS SIZE ======================================
+## Changes the size of map markers.
+## Default: 20
+## Allowed: 1 and anything higher
+##
+fMapMarkerSize = 20
+##
+##======================================= MAP MARKERS AlPHA ======================================
+## Changes the alpha (transparency) of map markers. 0 - all markers are invisible (but clickable),
+## 100 - all markers are non-transparent. I suggest using 90..100 with paper map mods.
+## Default: 60
+## Allowed: 0 to 100
+##
+fMapMarkerAlpha = 100
+##
+##================================ DIRECTIONLESS PLAYER MAP MARKER ===============================
+## Makes the player map marker directionless (circle, works with any marker replacers).
+## Default: false
+## Allowed: true or false
+##
+bDirectionless = false
+##
+##================================ RED CROSS PLAYER-SET MAP MARKER ===============================
+## Makes the player-set map marker look like red drawn cross (works with any marker replacers).
+## Default: false
+## Allowed: true or false
+##
+bRedCross = true
+##
+##=================================== REMOVE PLAYER MAP MARKER ===================================
+## Removes the player map marker completely, making it invisible and unclickable.
+## Default: false
+## Allowed: true or false
+##
+bNoPlayerMarker = false
+##
+##==================================== REMOVE ALL MAP MARKERS ====================================
+## Removes all markers from map. Just because why not. 
+## Default: false
+## Allowed: true or false
+##
+bRemoveAllMarkers = false
+##
+##======================= SCROLLING SPEED IN FAVORITES AND INVENTORY MENUS =======================
+## Set how many lines will be scrolled with one mouse wheel move. SkyUI default: 1. 
+## Default: 2
+## Allowed: 1 and anything higher (no reason to set more than 5)
+##
+iFavScrollSpeed = 2
+##
+##============================= ADDITIONAL INFO IN WEAPON ITEM CARD ==============================
+## Display additional weapon stats in item card: stagger, speed, reach.
+## Default: false
+## Allowed: true or false
+##
+bItemCardAdditions = false
+##
+##=========================================== MCM IMAGES =========================================
+## With this option the MCM custom content can be shown or hidden.
+## Default: true
+## Allowed: true or false
+##
+bMCMImages = true
+##
+##============================================ BOOK UI ===========================================
+## Various book UI parameters.
+##
+bHideBookUI = false
+bHideBookPickButton = false
+bHidePageTurnButton = false
+sBookStealTextColor = 0xFFCC99
+##
+##======================================= HIDE LOCKPICKING UI ====================================
+## This option allows to hide all the lockpicking UI including cheat-mode if it's enabled. Note 
+## that you won't know how many lockpicks you have with this option enabled (only via inventory).
+## Default: false
+## Allowed: true or false
+##
+bHideLockUI = false
+##
+##====================================== MAX SLEEP WAIT TIMER ====================================
+## Changes the maximum hours you can wait or sleep via corresponding menu in one run.
+## Default: 24
+## Allowed: 1 and anything higher
+##
+iMaxSleepWait = 72
+##
+##==================================== SLEEP WAIT MENU Y OFFSET ==================================
+## Set the vertical offset of sleep wait menu.
+## Default: 0
+## Recommended: -240 to 305
+##
+fSleepWaitYOffset = 0
+##
+##===================================== LOADING MENU PARAMETERS ==================================
+## Various loading menu parameters.
+##
+bLoadingPercentShow = false
+bLoadingTimeShow = false
+bLoadingTimeSecs = false
+bLoadingTimeAMPM = false
+bLoadingHide3D = true
+bLoadingHideText = false
+##
+##==================================== DIALOGUE MENU PARAMETERS ==================================
+## Various dialogue menu parameters.
+##
+bHideName = false
+bHideExitButton = true
+bHideNumbers = false
+bHideTopics = false
+bRightSidedList = true
+fTopicsXOffset = 0
+fTopicsYOffset = 0
+fNameXOffset = 0
+fNameYOffset = -550
+fSubtitlesXOffset = 0
+fSubtitlesYOffset = -5
+iSubtitlesFontSize = 18
+iTopicsFontSize = 20
+iNameFontSize = 24
+sNameColor = 0xf6db85
+sSubtitlesColor = 0xb0ada3
+sNewTopicColorSel = 0xece2b7
+sOldTopicColorSel = 0xb0ada3
+sNewTopicColorUnsel = 0xd3d3d3
+sOldTopicColorUnsel = 0xb0ada3
+fUnselTopicAlpha = 80
+##
+##============================== FORCE DISABLE SURVIVAL MODE VALUES ==============================
+## This option allows to force hide the Survival Mode values. Set it to true if you have SM values
+## displayed together with Frostfall values. 
+## Default: false
+## Allowed: true or false
+##
+bDisableSM = false
+##
+##========================== DISABLE CC MESSAGE OF THE DAY IN START MENU =========================
+## Disables the ad-like message of the day in start menu (only works for CC start menu option).
+## Default: false
+## Allowed: true or false
+##
+bAdsDisable = true
+##
+##================================= START MENU X and Y OFFSETS ===================================
+## Set the horizontal and vertical offset of start menu buttons and logo.
+## Default: 0
+## Recommended: up to X -800, Y -200 for vanilla-like position
+##
+fStartMenuXOffset = 0
+fStartMenuYOffset = 0
+##
+##========================================== TRANSPARENCY ========================================
+## These options allow to change transparency(alpha) of any covered menus. Value '100' is for non-
+## transparent menus and value '0' is for menus with invisible background texture. If you want
+## menus to look like in pre-2.2 semi-trasparent variants, just set all the parameters at '70'. 
+## Default value: 100
+## Allowed values: 0 to 100
+##
+fJournalAlpha = 100
+fMCMAlpha = 100
+fBookAlpha = 70
+fLockAlpha = 70
+fFavoritesAlpha = 100
+fInventoryAlpha = 100
+fSkillsAlpha = 100
+fLocalMapAlpha = 100
+fMessageBoxAlpha = 100
+fSleepWaitAlpha = 100
+fStartMenuAlpha = 100
+fTrainingMenuAlpha = 100
+fTabMenuAlpha = 0
+fLoadingMenuAlpha = 10
+fLootMenuAlpha = 100
+fWheelMenuAlpha = 70
+fShowStatsAlpha = 70
+##
+##========================================= ADDITIONAL INFO ======================================
+## If you are using the moreHUD Inventory Edition mod, please edit the apha trasparency
+## of item cards from the file interface\moreHUDIE\config.txt
+##================================================================================================

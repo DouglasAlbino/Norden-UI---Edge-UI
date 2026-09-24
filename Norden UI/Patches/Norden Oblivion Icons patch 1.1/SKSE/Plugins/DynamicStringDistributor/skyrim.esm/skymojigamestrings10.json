@@ -1,0 +1,104 @@
+[
+	{
+		"form_id": "000EB7C1|Skyrim.esm",
+		"editor_id": "sStealFrom",
+		"type": "GMST DATA",
+		"string": "<font face='$Iconographia' color='#ff6b4e'>V</font>"
+	},
+	{ 
+		"form_id": "000D4F28|Skyrim.esm",
+		"editor_id": "sClose",
+		"type": "GMST DATA",
+		"string": "<font face='$Iconographia' color='#78766A'>X</font>"
+	},
+	{ 
+		"form_id": "000D4EA8|Skyrim.esm",
+		"editor_id": "sTakeAll",
+		"type": "GMST DATA",
+		"string": "<font face='$Iconographia' color='#C4C4C4'> t </font>"
+	},
+	{ 
+		"form_id": "000D4EA1|Skyrim.esm",
+		"editor_id": "sPickPocket",
+		"type": "GMST DATA",
+		"string": "<font face='$Iconographia' color='#ff6b4e'>b</font>"
+	},
+	{ 
+		"form_id": "000D4E13|Skyrim.esm",
+		"editor_id": "sFurnitureSleep",
+		"type": "GMST DATA",
+		"string": "<font face='$Iconographia' color='#C4C4C4'> a </font>"
+	},
+	{ 
+		"form_id": "000D4E08|Skyrim.esm",
+		"editor_id": "sUnlock",
+		"type": "GMST DATA",
+		"string": "<font face='$Iconographia' color='#C4C4C4'>Z</font>"
+	},
+	{ 
+		"form_id": "000D4E04|Skyrim.esm",
+		"editor_id": "sSteal",
+		"type": "GMST DATA",
+		"string": "<font face='$Iconographia' color='#ff6b4e'>S</font>"
+	},
+	{ 
+		"form_id": "000D4DFC|Skyrim.esm",
+		"editor_id": "sActivate",
+		"type": "GMST DATA",
+		"string": "<font face='$Iconographia' color='#C4C4C4'>Y</font>"
+	},
+	{ 
+		"form_id": "000D4C9C|Skyrim.esm",
+		"editor_id": "sUse",
+		"type": "GMST DATA",
+		"string": "<font face='$Iconographia' color='#C4C4C4'>Y</font>"
+	},
+	{ 
+		"form_id": "000D4B9B|Skyrim.esm",
+		"editor_id": "sOpen",
+		"type": "GMST DATA",
+		"string": "<font face='$Iconographia' color='#C4C4C4'>X</font>"
+	},
+	{ 
+		"form_id": "000D4B8F|Skyrim.esm",
+		"editor_id": "sSearch",
+		"type": "GMST DATA",
+		"string": "<font face='$Iconographia' color='#C4C4C4'>V</font>"
+	},
+	{ 
+		"form_id": "000D4A85|Skyrim.esm",
+		"editor_id": "sSit",
+		"type": "GMST DATA",
+		"string": "<font face='$Iconographia' color='#C4C4C4'>U</font>"
+	},
+	{ 
+		"form_id": "000D4A44|Skyrim.esm",
+		"editor_id": "sTalk",
+		"type": "GMST DATA",
+		"string": "<font face='$Iconographia' color='#C4C4C4'>T</font>"
+	},
+	{ 
+		"form_id": "000D4910|Skyrim.esm",
+		"editor_id": "sTake",
+		"type": "GMST DATA",
+		"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+	},
+	{ 
+		"form_id": "000D48B8|Skyrim.esm",
+		"editor_id": "sRide",
+		"type": "GMST DATA",
+		"string": "<font face='$Iconographia' color='#C4C4C4'>R</font>"
+	},
+	{ 
+		"form_id": "000D4492|Skyrim.esm",
+		"editor_id": "sHarvest",
+		"type": "GMST DATA",
+		"string": "<font face='$Iconographia' color='#C4C4C4'>Q</font>"
+	},
+	{ 
+		"form_id": "000D448F|Skyrim.esm",
+		"editor_id": "sRead",
+		"type": "GMST DATA",
+		"string": "<font face='$Iconographia' color='#C4C4C4'>P</font>"
+	}
+]

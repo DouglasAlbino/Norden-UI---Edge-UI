@@ -1,0 +1,92 @@
+[
+{
+"form_id": "FE007800|Dynamic Activation Key - Addons Collection.esp",
+"type": "PERK EPFD",
+"index": 1,
+"string": " <font face='$Iconographia' color='#C4C4C4'>m</font> <br> Merchant's Wares "
+},
+{
+"form_id": "FE007803|Dynamic Activation Key - Addons Collection.esp",
+"type": "PERK EPFD",
+"index": 2,
+"string": " <font face='$Iconographia' color='#C4C4C4'>m</font> <br> Training Services "
+},
+{
+"form_id": "FE007803|Dynamic Activation Key - Addons Collection.esp",
+"type": "PERK EPFD",
+"index": 3,
+"string": " <font face='$Iconographia' color='#C4C4C4'>m</font> <br> Training Services "
+},
+{
+"form_id": "FE007806|Dynamic Activation Key - Addons Collection.esp",
+"type": "PERK EPFD",
+"index": 1,
+"string": " <font face='$Iconographia' color='#C4C4C4'>V</font> <br> Follower's Pack "
+},
+{
+"form_id": "FE007808|Dynamic Activation Key - Addons Collection.esp",
+"type": "PERK EPFD",
+"index": 0,
+"string": " <font face='$Iconographia' color='#78766A'>N</font> <br> Planter "
+},
+{
+"form_id": "FE007808|Dynamic Activation Key - Addons Collection.esp",
+"type": "PERK EPFD",
+"index": 1,
+"string": " <font face='$Iconographia' color='#C4C4C4'>Q</font> <br> Planter "
+},
+{
+"form_id": "FE007808|Dynamic Activation Key - Addons Collection.esp",
+"type": "PERK EPFD",
+"index": 2,
+"string": " <font face='$Iconographia' color='#C4C4C4'>N</font> <br> Planter "
+},
+{
+"form_id": "FE007809|Dynamic Activation Key - Addons Collection.esp",
+"type": "PERK EPFD",
+"index": 1,
+"string": " <font face='$Iconographia' color='#C4C4C4'>m</font> <br> Horse "
+},
+{
+"form_id": "FE00780A|Dynamic Activation Key - Addons Collection.esp",
+"type": "PERK EPFD",
+"index": 1,
+"string": " <font face='$Iconographia' color='#C4C4C4'>V</font> <br> Saddlebags "
+},
+{
+"form_id": "FE00780E|Dynamic Activation Key - Addons Collection.esp",
+"type": "PERK EPFD",
+"index": 1,
+"string": " <font face='$Iconographia' color='#C4C4C4'>S</font> <br> Tome "
+},
+{
+"form_id": "FE007818|Dynamic Activation Key - Addons Collection.esp",
+"type": "PERK EPFD",
+"index": 1,
+"string": " <font face='$Iconographia' color='#C4C4C4'>M</font> <br> Gear "
+},
+{
+"form_id": "FE007819|Dynamic Activation Key - Addons Collection.esp",
+"type": "PERK EPFD",
+"index": 1,
+"string": " <font face='$Iconographia' color='#C4C4C4'>M</font> <br> Weapon "
+},
+{
+"form_id": "FE00781A|Dynamic Activation Key - Addons Collection.esp",
+"type": "PERK EPFD",
+"index": 1,
+"string": " <font face='$Iconographia' color='#C4C4C4'>K</font> <br> Meal "
+},
+{
+"form_id": "FE00781B|Dynamic Activation Key - Addons Collection.esp",
+"type": "PERK EPFD",
+"index": 1,
+"string": " <font face='$Iconographia' color='#C4C4C4'>K</font> <br> Ingredient "
+},
+{
+"form_id": "FE00781C|Dynamic Activation Key - Addons Collection.esp",
+"type": "PERK EPFD",
+"index": 1,
+"string": " <font face='$Iconographia' color='#C4C4C4'>M</font> <br> Scroll "
+}
+]

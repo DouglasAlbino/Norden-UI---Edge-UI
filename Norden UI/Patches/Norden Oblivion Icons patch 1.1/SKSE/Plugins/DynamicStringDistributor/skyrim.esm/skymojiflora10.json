@@ -1,0 +1,417 @@
+[
+{
+"form_id": "0010C3B5|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "0010C3B4|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "00108EE2|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "00108E38|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "00108E37|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "00108E36|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "00108E35|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "001062D1|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "001016A3|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> b </font>"
+},
+{
+"form_id": "001016A2|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> b </font>"
+},
+{
+"form_id": "001016A1|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> b </font>"
+},
+{
+"form_id": "000F675F|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "000F5ECB|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "000F5ECA|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "000F3E57|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "000ECE9A|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "000ECE21|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "000ECA60|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "000ECA5F|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "000ECA5E|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "000ECA5D|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "000ECA5C|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "000ECA5B|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "000ECA5A|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "000ECA59|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "000ECA58|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "000ECA57|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "000ECA56|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "000ECA55|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "000EC876|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "000EC875|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "000EC7E7|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "000E644B|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "000DD683|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "000DD679|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "000DD676|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "000DB6BC|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "000DB68B|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "000D8E80|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "000D8E7F|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "000D790C|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "000CE84C|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "000B202C|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>Q</font>"
+},
+{
+"form_id": "000B03AF|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>Q</font>"
+},
+{
+"form_id": "000AED89|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>L</font>"
+},
+{
+"form_id": "0009748B|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "00085F83|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> b </font>"
+},
+{
+"form_id": "00085F82|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> b </font>"
+},
+{
+"form_id": "00085F80|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> b </font>"
+},
+{
+"form_id": "0007EE00|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "0007EDF6|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "0007EDF0|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "0007E8C9|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> b </font>"
+},
+{
+"form_id": "0007E8C6|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "0007E8C2|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "0007E8B8|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>Q</font>"
+},
+{
+"form_id": "000775FE|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "00070E42|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "0006F94D|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "00052189|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "00052185|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "0004DA1F|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "0004DA0C|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "0004DA0B|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "0004DA0A|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "0004DA09|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "0004DA08|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "0004DA07|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "0004DA06|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "0004DA05|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "0004DA04|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "0004DA03|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "0004D9FF|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>A</font>"
+},
+{
+"form_id": "00038B0F|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "00038B0E|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "00038B0D|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "00038B0C|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "00034D30|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "00034D2D|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "00034D2C|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "00023CFF|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "000176CD|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "000176B2|Skyrim.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+}
+]

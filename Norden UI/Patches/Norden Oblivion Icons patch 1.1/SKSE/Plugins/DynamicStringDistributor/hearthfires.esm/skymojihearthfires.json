@@ -1,0 +1,42 @@
+[
+{
+"form_id": "0300A511|HearthFires.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>G</font>"
+},
+{
+"form_id": "0300310B|HearthFires.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>G</font>"
+},
+{
+"form_id": "0300306B|HearthFires.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>G</font>"
+},
+{
+"form_id": "03000A14|HearthFires.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>G</font>"
+},
+{
+"form_id": "030009F3|HearthFires.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>G</font>"
+},
+{
+"form_id": "030009F2|HearthFires.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>G</font>"
+},
+{
+"form_id": "0300F39B|HearthFires.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>L</font>"
+},
+{
+"form_id": "0300F1CE|HearthFires.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> b </font>"
+}
+]

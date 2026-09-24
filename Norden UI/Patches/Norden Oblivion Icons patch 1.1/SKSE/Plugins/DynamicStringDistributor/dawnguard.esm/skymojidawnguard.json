@@ -1,0 +1,157 @@
+[
+{
+"form_id": "0201A3EC|Dawnguard.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "0201A3EB|Dawnguard.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "0201A3EA|Dawnguard.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "0201A3E9|Dawnguard.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "020195A5|Dawnguard.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>G</font>"
+},
+{
+"form_id": "02019328|Dawnguard.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "0201514F|Dawnguard.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "020146D2|Dawnguard.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>D</font>"
+},
+{
+"form_id": "0201285D|Dawnguard.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "0201285C|Dawnguard.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "020121AD|Dawnguard.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>C</font>"
+},
+{
+"form_id": "02010DFE|Dawnguard.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "02010A2B|Dawnguard.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "0200FC74|Dawnguard.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>V</font>"
+},
+{
+"form_id": "0200F9CF|Dawnguard.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "0200C86B|Dawnguard.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>C</font>"
+},
+{
+"form_id": "0200BDCE|Dawnguard.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>V</font>"
+},
+{
+"form_id": "0200A905|Dawnguard.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>V</font>"
+},
+{
+"form_id": "02009405|Dawnguard.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>C</font>"
+},
+{
+"form_id": "02009404|Dawnguard.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>C</font>"
+},
+{
+"form_id": "02007F4D|Dawnguard.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>E</font>"
+},
+{
+"form_id": "02007CDA|Dawnguard.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>D</font>"
+},
+{
+"form_id": "02005060|Dawnguard.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "02003E87|Dawnguard.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>D</font>"
+},
+{
+"form_id": "02003522|Dawnguard.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>V</font>"
+},
+{
+"form_id": "02002911|Dawnguard.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>D</font>"
+},
+{
+"form_id": "02002842|Dawnguard.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "02012DBA|Dawnguard.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>Q</font>"
+},
+{
+"form_id": "02012DB9|Dawnguard.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>Q</font>"
+},
+{
+"form_id": "02010F37|Dawnguard.esm",
+"type": "FLOR RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>Q</font>"
+},
+{
+"form_id": "020149A4|Dawnguard.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#ff6b4e'>J</font>"
+}
+]

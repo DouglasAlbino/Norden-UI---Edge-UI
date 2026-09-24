@@ -1,0 +1,972 @@
+[
+{
+"form_id": "090016BC|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "09004378|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "090056BB|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "09007568|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "090076D7|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "090077A9|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> S </font>"
+},
+{
+"form_id": "09007915|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "09007AA6|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> S </font>"
+},
+{
+"form_id": "09007AA7|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> S </font>"
+},
+{
+"form_id": "09007AA8|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> S </font>"
+},
+{
+"form_id": "09007AA9|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> S </font>"
+},
+{
+"form_id": "09007B6C|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "09007E5B|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "09007E5C|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "09007E91|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "09007E92|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "09007E93|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "09007E94|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "09007F19|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "09008056|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "090082DD|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> C </font>"
+},
+{
+"form_id": "090082DE|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> C </font>"
+},
+{
+"form_id": "090082DF|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> C </font>"
+},
+{
+"form_id": "09008324|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0900832A|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0900848C|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "0900848D|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "0900848E|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "0900848F|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "09008495|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0900859E|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> C </font>"
+},
+{
+"form_id": "090085C1|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "0900872C|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> S </font>"
+},
+{
+"form_id": "09009B4B|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "09009C93|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> S </font>"
+},
+{
+"form_id": "09009CC5|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0900E6A1|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "0900E6A2|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "0900E6A3|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "0900EDCB|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> T </font>"
+},
+{
+"form_id": "0900EEE1|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0900FAE0|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "0900FEF4|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> S </font>"
+},
+{
+"form_id": "09010322|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "09010325|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "09010332|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "09010403|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "09010823|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "09011FB0|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "090121F7|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "09012401|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "09012402|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "09012403|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "09012404|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "09012588|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "09012CA8|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0901488E|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "0901488F|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "09014890|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "09014891|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "090149AA|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "09014B79|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "09014B84|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "09014B85|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "09014CE9|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "09014CEA|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "09014CEB|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "09014CEC|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "09015BEC|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "09015EFF|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "09016280|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "09016F59|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0901701C|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0901701D|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0901710F|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "09017226|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "09017227|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "09017228|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "09017229|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "090172AC|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "090172EA|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0901733C|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0901733E|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "090175E8|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "090175F3|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "090175F8|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "09017678|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "09017827|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "09017828|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "09017829|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "0901782A|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "09017A52|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "09017A53|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "09017A64|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0902C319|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0903B8F7|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0903B8F9|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "090649AF|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "090649C9|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0908356D|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "09083575|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "09088766|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "0908876F|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "09088777|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "09088782|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "0908878C|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "09088792|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "0908D981|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0908D98C|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0908D98D|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "09092B8E|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "09092B9F|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "09092BA4|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "09092BA9|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "09092BB1|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "09092BB9|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "09092BC4|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "09097DB4|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "090B17CE|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "090B17CF|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "090B17D0|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "090B17D1|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "090B17D2|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "090E9E4D|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "090E9E4E|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "090E9E4F|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "090E9E50|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "090E9E51|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "090F42E1|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "090F42FF|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "09103B7A|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "09108E54|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "09108E7A|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0911E012|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "0911E094|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0914D199|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0914D1C6|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0914D1C7|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0914D1C8|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0914D1C9|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "091763BB|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "091763C8|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0918ABE7|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> V </font>"
+},
+{
+"form_id": "0919F3BF|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "09203517|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "092094E6|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "09233EDC|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0926A5BF|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0926A5C2|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0926A606|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0926A607|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "09282A07|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "092F1A52|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> D </font>"
+},
+{
+"form_id": "093090F4|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "093090F5|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "093090F6|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0930EEA1|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0930EF8F|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0930EF9C|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0930EFA6|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0930EFA8|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0930EFA9|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0930EFAA|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0934F58B|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0934F58D|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0934F590|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0934F592|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0934F594|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0934F5B1|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0934F5C6|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0934F5CB|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0934F5CF|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0934F60F|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "093552C3|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "093552C4|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "093552C5|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0935AF4A|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> T </font>"
+},
+{
+"form_id": "09360BBE|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "09383802|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "093A06BF|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "093C8E0F|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "093DA240|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "093DA248|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "093DA25D|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "093DA263|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "093DFE13|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "093DFE33|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "093E59BC|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "093E59D8|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "093E59FB|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "093E5A01|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "093E5A0B|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "093EB5DF|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> S </font>"
+},
+{
+"form_id": "093F6D38|Glenmoril.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+}
+]

@@ -1,0 +1,235 @@
+;;==========================================================;;
+;;                       BETA 0.90B                         ;;
+;; For more details on what each setting does, consult the  ;;
+;;                    reference manual                      ;;
+;;                                                          ;;
+;;         Always keep a good backup of this file           ;;
+;;==========================================================;;
+;;  SECTION INDEX                                           ;;
+;;  --Gameplay                                              ;;
+;;  --Interface                                             ;;
+;;  --Scale                                                 ;;
+;;  --Position                                              ;;
+;;==========================================================;;
+;; uPersistentMeter  - 0 - Auto                             ;;
+;;                     1 - Always on                        ;;
+;;                     2 - Always off                       ;;
+;; bHideEnemyHealth  - Hide enemy health bar                ;;
+;;==========================================================;;
+[Gameplay]
+bHideActivateButton=0
+bHideStealthText=0
+bHideStealthMeter=1
+uPersistentMeter=1
+
+;;Compass
+bHideEnemyHealth=0
+bHideEnemyMarker=0
+bHideLocations=0
+bHideUndiscoveredLocations=0
+bHideQuest=0
+
+[Interface]
+;;==========================================================;;
+;;  bShowTOD        - Show time of day AM/PM. Ignored if    ;;
+;;                    hour is set to 24-hour format         ;;
+;;  sHourFormat     - h : 12h (3:15)                        ;;
+;;                  - hh: 12h with leading 0 (03:15)        ;;
+;;                  - H : 24h                               ;;
+;;                  - HH: 24h with leading 0                ;;
+;;  sClockAlign     - Set clock alignment relative to its   ;;
+;;                    text box (left, center, right)        ;;
+;;                    Note: Doesn't change anchor position  ;;
+;;  bPersistentClock- Always show clock even outside of     ;;
+;;                    HUD                                   ;;
+;;  bSyncMeterFade  - Sync HMS meter fade. Doesn't work     ;;
+;;                    with iHUD fast fade option            ;;
+;;==========================================================;;
+bShowClock=0
+bShowSeconds=0
+bShowTOD=1
+sHourFormat=hh
+sClockAlign=center
+bPersistentClock=0
+
+bAltArrow=1
+bAltCompass=1
+bDotCrosshair=1
+bAltHealth=1
+bAltStamina=1
+bAltCharge=1
+
+bSyncMeterFade=0
+
+sObjectiveAlign=
+sLocationInfoAlign=
+
+[Scale]
+;;==========================================================;;
+;;  If left empty, default to 1                             ;;
+;;                                                          ;;
+;;  fClock          - Clock scale (absolute)                ;;
+;;  fObjectiveText  - Objective text scale (absolute)       ;;
+;;==========================================================;;
+fClock=0.6
+fHealth=0.7
+fMagica=0.7
+fStamina=0.7
+fChargeMeter=0.9
+fCrosshair=0.9
+fCompass=0.85
+fCompassMarker=0.6
+fSubtitle=0.8
+fEnemyHealth=0.8
+fStealthMeter=0.75
+fLocationInfo=1
+fMessageInfo=0.6
+fArrowInfo=1.0
+fActivatePrompt=1
+fObjectiveText=0.8
+fLevelUpMeter=0.8
+fAnimatedLetters=1
+
+[Position]
+;;                                                                   
+;;                         .i;;;;i.                                  
+;;                       iYcviii;vXY:                                
+;;                     .YXi       .i1c.                              
+;;                    .YC.     .    in7.                             
+;;                   .vc.   ......   ;1c.                            
+;;                   i7,   ..        .;1;                            
+;;                  i7,   .. ...      .Y1i                           
+;;                 ,7v     .6MMM@;     .YX,                          
+;;                .7;.   ..IMMMMMM1     :t7.                         
+;;               .;Y.     ;$MMMMMM9.     :tc.                        
+;;               vY.   .. .nMMM@MMU.      ;1v.                       
+;;              i7i   ...  .#MM@M@C. .....:71i                       
+;;             it:   ....   $MMM@9;.,i;;;i,;tti                      
+;;            :t7.  .....   0MMMWv.,iii:::,,;St.                     
+;;           .nC.   .....   IMMMQ..,::::::,.,czX.                    
+;;          .ct:   ....... .ZMMMI..,:::::::,,:76Y.                   
+;;          c2:   ......,i..Y$M@t..:::::::,,..inZY                   
+;;         vov   ......:ii..c$MBc..,,,,,,,,,,..iI9i                  
+;;        i9Y   ......iii:..7@MA,..,,,,,,,,,....;AA:                 
+;;       iIS.  ......:ii::..;@MI....,............;Ez.                
+;;      .I9.  ......:i::::...8M1..................C0z.               
+;;     .z9;  ......:i::::,.. .i:...................zWX.              
+;;     vbv  ......,i::::,,.      ................. :AQY              
+;;    c6Y.  .,...,::::,,..:t0@@QY. ................ :8bi             
+;;   :6S. ..,,...,:::,,,..EMMMMMMI. ............... .;bZ,            
+;;  :6o,  .,,,,..:::,,,..i#MMMMMM#v.................  YW2.           
+;; .n8i ..,,,,,,,::,,,,.. tMMMMM@C:.................. .1Wn           
+;; 7Uc. .:::,,,,,::,,,,..   i1t;,..................... .UEi          
+;; 7C...::::::::::::,,,,..        ....................  vSi.         
+;; ;1;...,,::::::,.........       ..................    Yz:          
+;;  v97,.........                                     .voC.          
+;;   izAotX7777777777777777777777777777777777777777Y7n92:            
+;;     .;CoIIIIIUAA666666699999ZZZZZZZZZZZZZZZZZZZZ6ov.              
+;;==========================================================;;
+;;                  ADVANCED CONFIGURATION!                 ;;
+;;                                                          ;;
+;;   Lock setting has to be set to '0' for positioning to   ;;
+;;                      take effect                         ;;
+;;                                                          ;;
+;; If no value is entered for x/y, it assumes the default   ;;
+;;   unlocked value. This way if you only want to move      ;;
+;;      y-position of Health bar you can just leave         ;;
+;;                    x-position empty                      ;;
+;;                   
+                                      ;;
+;;             See the manual for more details              ;;
+;;==========================================================;;
+bLockHealthMeter=0
+fHealthPosX=65
+fHealthPosY=649
+
+bLockMagickaMeter=0
+fMagicaPosX=65
+fMagicaPosY=663
+
+bLockStaminaMeter=0
+fStaminaPosX=65
+fStaminaPosY=677
+
+bLockLeftChargeMeter=1
+fLeftChargeMeterPosX=1080
+fLeftChargeMeterPosY=635
+
+bLockRightChargeMeter=1
+fRightChargeMeterPosX=800
+fRightChargeMeterPosY=585
+
+bLockAltChargeMeter=0
+fAltChargeMeterPosX=60
+fAltChargeMeterPosY=600
+
+bLockArrowInfo=0
+fArrowInfoPosX=1030
+fArrowInfoPosY=633
+
+bLockCompass=0
+fCompassPosX=
+fCompassPosY=663
+
+bLockSubtitle=0
+fSubtitlePosX=
+fSubtitlePosY=550
+
+bLockEnemyHealth=0
+fEnemyHealthPosX=
+fEnemyHealthPosY=
+
+bLockCrosshair=1
+fCrosshairPosX=
+fCrosshairPosY=
+
+bLockActivatePrompt=1
+fActivateButtonPosX=
+fActivateButtonPosY=
+fActivateNamePosX=
+fActivateNamePosY=
+fActivateInfoPosX=
+fActivateInfoPosY=
+fActivateBarPosX=
+fActivateBarPosY=
+
+bLockStealthMeter=1
+fStealthMeterPosX=
+fStealthMeterPosY=
+
+bLockLocationInfo=1
+fLocationInfoPosX=
+fLocationInfoPosY=
+
+bLockMessageInfo=0
+fMessageInfoPosX=990
+fMessageInfoPosY=15
+
+bLockClock=1
+fClockPosX=
+fClockPosY=
+
+;; x-pos default: 640
+;; If you want this to align with screen edge -
+;; Left : x-pos = x-pos * scale + 10
+;; Right: x-pos = x-pos (1 + (1-scale)) - 10
+
+bLockObjectiveText=1
+fObjectiveTextPosX=
+fObjectiveTextPosY=180
+
+bLockLevelUpMeter=1
+fLevelUpMeterPosX=840
+fLevelUpMeterPosY=45
+
+bLockAnimatedLetters=1
+fAnimLetterPosY=0
+fShoutLetterPosY=0
+;;==========================================================;;
+;;              When in doubt, nuke this file               ;;
+;;==========================================================;;
+
+;; DO NOT MODIFY
+[Version]
+fVersion=84
+

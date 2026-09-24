@@ -1,0 +1,7 @@
+{
+	"papyrus_event": "ShowSquadMenu",
+	"menuName":"ORDER SQUAD",
+	"icon":"squad",
+	"priority": 60,
+	"category": "left"
+}

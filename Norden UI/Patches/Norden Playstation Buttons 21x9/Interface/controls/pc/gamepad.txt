@@ -1,0 +1,22 @@
+// 1st field: Gamepad button name.  DO NOT ALTER!  This field is used to ID events in the code
+// 2nd: Key hardware value.  Matches XINPUT_GAMEPAD_* enum values on PS3
+Up	0x0001
+Down	0x0002
+Left	0x0004
+Right	0x0008
+PS3_Start	0x0010
+PS3_Back	0x0020
+PS3_L3	0x0040
+PS3_R3	0x0080
+PS3_LB	0x0100
+PS3_RB	0x0200
+PS3_A	0x1000
+PS3_B	0x2000
+PS3_X	0x4000
+PS3_Y	0x8000
+
+// NOTE: The below hardware values are arbitrary, since there are no XINPUT_GAMEPAD values for them
+PS3_LT	0x0009
+PS3_RT	0x000a
+PS3_LS	0x000b
+PS3_RS	0x000c

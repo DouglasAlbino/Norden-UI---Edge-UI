@@ -1,0 +1,32 @@
+[
+{
+"form_id": "0E32DB88|Wyrmstooth.esp",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> G </font>"
+},
+{
+"form_id": "0E32FE4B|Wyrmstooth.esp",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> G </font>"
+},
+{
+"form_id": "0E77E30F|Wyrmstooth.esp",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> S </font>"
+},
+{
+"form_id": "0E8304AE|Wyrmstooth.esp",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> C </font>"
+},
+{
+"form_id": "0E84DE8C|Wyrmstooth.esp",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> i </font>"
+},
+{
+"form_id": "0E8635A2|Wyrmstooth.esp",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+}
+]

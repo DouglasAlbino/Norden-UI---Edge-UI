@@ -1,0 +1,47 @@
+[
+{
+"form_id": "084F322D|KhajiitWillFollow.esp",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>F</font>"
+},
+{
+"form_id": "084F8331|KhajiitWillFollow.esp",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>S</font>"
+},
+{
+"form_id": "084FD46B|KhajiitWillFollow.esp",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>W</font>"
+},
+{
+"form_id": "0850256F|KhajiitWillFollow.esp",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>W</font>"
+},
+{
+"form_id": "0853F21B|KhajiitWillFollow.esp",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>W</font>"
+},
+{
+"form_id": "0859A5D7|KhajiitWillFollow.esp",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>W</font>"
+},
+{
+"form_id": "085B8CA6|KhajiitWillFollow.esp",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>W</font>"
+},
+{
+"form_id": "08AC97BD|KhajiitWillFollow.esp",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>P</font>"
+},
+{
+"form_id": "08AD8B65|KhajiitWillFollow.esp",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'>C</font>"
+}
+]

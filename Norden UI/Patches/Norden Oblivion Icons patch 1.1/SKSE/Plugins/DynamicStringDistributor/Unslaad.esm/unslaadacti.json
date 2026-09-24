@@ -1,0 +1,647 @@
+[
+{
+"form_id": "0B02012E|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "0B0229F1|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "0B02CB03|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B02CB07|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B02F337|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B04ACF0|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B0909A5|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> S </font>"
+},
+{
+"form_id": "0B1A5BE0|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> n </font>"
+},
+{
+"form_id": "0B1A5BE3|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> n </font>"
+},
+{
+"form_id": "0B1A5BE4|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> n </font>"
+},
+{
+"form_id": "0B1A5BE5|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> n </font>"
+},
+{
+"form_id": "0B1A5BE6|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> n </font>"
+},
+{
+"form_id": "0B1A5BE7|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> n </font>"
+},
+{
+"form_id": "0B1A5BE8|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> n </font>"
+},
+{
+"form_id": "0B1A5BE9|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> n </font>"
+},
+{
+"form_id": "0B1A5BEA|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> n </font>"
+},
+{
+"form_id": "0B1A5BEB|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> n </font>"
+},
+{
+"form_id": "0B1A5BEC|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> n </font>"
+},
+{
+"form_id": "0B1A5BED|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> n </font>"
+},
+{
+"form_id": "0B1A5BEE|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> n </font>"
+},
+{
+"form_id": "0B1A5BEF|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> n </font>"
+},
+{
+"form_id": "0B1A5BF0|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> n </font>"
+},
+{
+"form_id": "0B1A5BF1|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> n </font>"
+},
+{
+"form_id": "0B1A5BF2|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> n </font>"
+},
+{
+"form_id": "0B1A5BF3|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> n </font>"
+},
+{
+"form_id": "0B1A5BF4|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> n </font>"
+},
+{
+"form_id": "0B1A5BF5|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> n </font>"
+},
+{
+"form_id": "0B1A5BF6|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> n </font>"
+},
+{
+"form_id": "0B0909A7|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> S </font>"
+},
+{
+"form_id": "0B0909A8|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> S </font>"
+},
+{
+"form_id": "0B09D432|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B1152F4|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> S </font>"
+},
+{
+"form_id": "0B11CC23|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B166B3F|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B16BBC0|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> S </font>"
+},
+{
+"form_id": "0B189FE1|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B19E305|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> S </font>"
+},
+{
+"form_id": "0B19E309|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B1A0B51|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> S </font>"
+},
+{
+"form_id": "0B1A5C0F|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B1B9EF9|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B1BC745|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B1DACFF|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "0B1DD5B6|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B1DFDFD|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B1DFE11|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> S </font>"
+},
+{
+"form_id": "0B1DFE1C|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> V </font>"
+},
+{
+"form_id": "0B1E26B8|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> V </font>"
+},
+{
+"form_id": "0B1E4F02|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B1E4F3C|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B1FBAF6|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B2904BF|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B2D6C96|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> C </font>"
+},
+{
+"form_id": "0B2E87A8|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B31370F|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> C </font>"
+},
+{
+"form_id": "0B33F0E1|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B33F0EA|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B33F0EB|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B33F0EC|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B33F0ED|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B33F0EE|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B33F0EF|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B34926C|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B3533F9|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B3533FA|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B364E26|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> S </font>"
+},
+{
+"form_id": "0B364E43|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B379456|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B380D4A|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B380D58|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B380D5B|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B380D5C|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B380D61|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B380D62|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B3A4740|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B3A701D|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B3A9956|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B3AC266|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B3AC26E|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B3AEC30|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B3AEC3C|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B3B3DAD|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> V </font>"
+},
+{
+"form_id": "0B3B3ECE|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B3B6723|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B3B6725|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> a </font>"
+},
+{
+"form_id": "0B3B680A|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B3C0D02|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B3C5DF4|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B3C5DF7|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B3C8751|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B3C880C|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "0B3CB45A|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B3D2E56|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B3D84A1|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B3DD7CE|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B3E033B|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "0B3E59EA|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B3E59EB|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B3FF666|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B3FF667|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B40741C|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B407469|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B40EE57|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B411775|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B414011|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B416915|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B41E374|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> V </font>"
+},
+{
+"form_id": "0B420BE3|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B420BE5|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B425D43|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B44E738|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B451226|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B46D856|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B46D861|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> V </font>"
+},
+{
+"form_id": "0B46D87C|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B475229|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B477A99|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> V </font>"
+},
+{
+"form_id": "0B477A9A|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B477AB6|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B47A328|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B47A367|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> C </font>"
+},
+{
+"form_id": "0B486E66|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B486E69|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B48BF59|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B48BF7C|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "0B48E805|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Y </font>"
+},
+{
+"form_id": "0B491196|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "0B491197|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "0B491198|Unslaad.esm",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+}
+]

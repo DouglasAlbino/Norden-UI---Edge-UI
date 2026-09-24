@@ -1,0 +1,17 @@
+{
+  "name": "Cycle Movesets_hidden",
+  "description": "Theme for Cycle Movesets",
+  "author": "Viny",
+  "version": "1.0.0",
+  "prompt_alignment": "radial",
+  "special_effect": 1,
+  "progress_speed": 1.52,
+  "linespacing": 0.1,
+  "prompt_size": 10,
+  "icon2font_ratio": 0.8,
+  "xPercent": 1.4,
+  "yPercent": 1.4,
+  "MarginX": 3200,
+  "MarginY": 3200,
+  "special_integers":[15461355,15461355,15461355]
+}

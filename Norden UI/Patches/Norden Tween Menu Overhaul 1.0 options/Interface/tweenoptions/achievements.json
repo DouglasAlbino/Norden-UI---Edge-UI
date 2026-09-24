@@ -1,0 +1,7 @@
+{
+	"skseName":"AchievementMenu",
+	"menuName":"Achievements",
+	"icon":"trophy",
+	"priority": 1000,
+	"category": "top"
+}

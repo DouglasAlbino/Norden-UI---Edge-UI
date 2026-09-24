@@ -1,0 +1,32 @@
+[
+{
+"form_id": "0D0171E9|FloatingSwordFollower.esp",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> F </font>"
+},
+{
+"form_id": "0D01999D|FloatingSwordFollower.esp",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> P </font>"
+},
+{
+"form_id": "0D0C757B|FloatingSwordFollower.esp",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> Q </font>"
+},
+{
+"form_id": "0D0C7673|FloatingSwordFollower.esp",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> S </font>"
+},
+{
+"form_id": "0D133CA8|FloatingSwordFollower.esp",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> D </font>"
+},
+{
+"form_id": "0D13954D|FloatingSwordFollower.esp",
+"type": "ACTI RNAM",
+"string": "<font face='$Iconographia' color='#C4C4C4'> U </font>"
+}
+]
