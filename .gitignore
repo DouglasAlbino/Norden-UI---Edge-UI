@@ -1,0 +1,14 @@
+# Norden UI's and Edge UI's permissions forbid redistributing their art outside Nexus:
+# every file that carries it stays on the build machine.
+Interface/
+SKSE/
+MapMarkers/
+build/
+dist/*.zip
+*.swf
+*.svg
+*.bin
+*.7z
+palette/edge-ui.measured.json
+__pycache__/
+*.pyc
