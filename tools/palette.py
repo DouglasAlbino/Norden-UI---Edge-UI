@@ -22,7 +22,7 @@ sample-edge.py from a real Edge UI install) it wins, so the shipped defaults are
     python palette.py              print the mapping table
     python palette.py --selftest   check the invariants (monotone, endpoints, alpha, hues)
 """
-import json, os, sys
+import json, os, sys, colorsys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PALETTE_DIR = os.path.join(ROOT, "palette")
@@ -93,6 +93,131 @@ def map_rgb(rgb, pal, accents=None):
     return (r, g, b)
 
 
+# ---------------------------------------------------------------- colour-temperature transfer
+#
+# 1.0.0 mapped the neutral ramp and left every hue alone. Measured, that was defensible - the two
+# mods share most of their ramp - but installed it read as Norden, because what makes Edge look like
+# Edge is not its greys: 35% of Edge's text nodes are cream or gold (#ece2b7, #f5d87c, #aaa07a)
+# against 5% of Norden's, concentrated in the quest journal, HUD, stats, inventory and start menu.
+#
+# So: Edge's colour temperature, Norden's structure. For a node in Norden's quest_journal.swf, look
+# at what Edge paints in the SAME role in ITS quest_journal.swf and adopt the hue and saturation at
+# Norden's own luminance. Nothing is snapped, so gradients, contrast and grey order survive.
+
+ROLES_PATH = os.path.join(PALETTE_DIR, "edge-roles.json")
+_roles_cache = {}
+_chroma_cache = {}
+
+
+def load_roles(path=ROLES_PATH):
+    if path not in _roles_cache:
+        with open(path, encoding="utf-8-sig") as fh:
+            d = json.load(fh)
+        conv = lambda tbl: {r: [(tuple(k), c) for k, c in v] for r, v in tbl.items()}
+        _roles_cache[path] = {"global": conv(d["global"]),
+                              "files": {f: conv(v) for f, v in d["files"].items()}}
+    return _roles_cache[path]
+
+
+def _luma(rgb):
+    return 0.2126 * rgb[0] + 0.7152 * rgb[1] + 0.0722 * rgb[2]
+
+
+def _sat_of(rgb):
+    return max(rgb) - min(rgb)
+
+
+def tint(value, chroma, max_sat=0.35):
+    """Norden's luminance wearing Edge's hue and saturation.
+
+    Saturation is capped: Edge's everyday cream #ece2b7 is only 22% saturated, and letting a rare
+    fully saturated gold set the tone paints whole menus in it. And HSV's V is not luminance, so the
+    result is rescaled back to the luminance asked for - otherwise warm text comes out darker than
+    the text it replaced and the UI quietly loses contrast.
+    """
+    h, s_ref = chroma
+    s_ref = min(s_ref, max_sat)
+    v = max(0.0, min(1.0, value / 255))
+    r, g, b = colorsys.hsv_to_rgb(h, s_ref, v)
+    out = [c * 255 for c in (r, g, b)]
+    got = _luma(out)
+    if got > 0.5:
+        out = [min(255.0, c * (value / got)) for c in out]
+        if max(out) >= 255.0 and _luma(out) < value - 1:
+            lift = value - _luma(out)
+            out = [min(255.0, c + lift) for c in out]
+    return tuple(int(round(c)) for c in out)
+
+
+def warm_profile(role, basename, pal=None):
+    """How warm Edge paints this role in this menu, and with what chroma.
+
+    Per menu and role, Edge's warm entries are 5-28% of the nodes and always sit next to plain white
+    (quest_journal is 23% #f5d87c and 15% #ece2b7 but still 26% white). So the question is not "which
+    single Edge colour is nearest" - that picks white and changes nothing, or picks a rare gold and
+    washes the menu - but "does Edge run warm here, and how warm".
+
+    Only the cream-gold band counts: hue 25-65 degrees, saturation 12-60%. Skyrim's status reds
+    (#9d0000, #803300, #280c02) are warm too and are inherited from vanilla by BOTH mods; averaging
+    them in turned cream text pink (#cccccc -> #ffbfb3 across 532 nodes) on the first attempt.
+    """
+    key = (role, (basename or "").lower())
+    if key in _chroma_cache:
+        return _chroma_cache[key]
+    roles = load_roles()
+    table = roles["files"].get(key[1], {}).get(role) or roles["global"].get(role) or []
+    total = sum(w for _, w in table) or 1
+    lo, hi = 25 / 360.0, 65 / 360.0
+    warm = []
+    for k, w in table:
+        if not (40 <= max(k) <= 250):
+            continue
+        h, _, sat = colorsys.rgb_to_hsv(*[c / 255 for c in k])
+        if lo <= h <= hi and 0.12 <= sat <= 0.60:
+            warm.append((k, w))
+    if not warm:
+        _chroma_cache[key] = (0.0, None)
+        return _chroma_cache[key]
+    share = sum(w for _, w in warm) / total
+    tw = sum(w for _, w in warm)
+    hs = ss = 0.0
+    for k, w in warm:
+        h, _, sat = colorsys.rgb_to_hsv(*[c / 255 for c in k])
+        hs += h * w
+        ss += sat * w
+    _chroma_cache[key] = (share, (hs / tw, ss / tw))
+    return _chroma_cache[key]
+
+
+def transfer(rgb, pal, role, basename, strength=None):
+    """Map one Norden colour by adopting Edge's temperature for that role in that menu.
+
+    Pure white and near-black are left alone on purpose: white is still Edge's most used text colour
+    and its panels are black, and anchoring both ends is what keeps this from becoming a sepia wash.
+    """
+    if is_protected(rgb, pal):
+        return tuple(rgb)
+    base = map_rgb(rgb, pal)
+    if not is_neutral(rgb, pal):
+        return base                                   # Norden's own status hues stay
+    strength = pal.get("transfer_strength", 1.0) if strength is None else strength
+    max_sat = pal.get("transfer_max_saturation", 0.35)
+    floor = pal.get("transfer_luma_floor", 32)
+    ceil = pal.get("transfer_luma_ceiling", 250)
+    thresholds = pal.get("transfer_warm_share", {})
+    need = thresholds.get(role, thresholds.get("default", 1.1))
+    share, chroma = warm_profile(role, basename, pal)
+    if chroma is None or share < need:
+        return base
+    l = _luma(base)
+    if l < floor or l >= ceil:
+        return base
+    warm = tint(l, chroma, max_sat)
+    if strength >= 1.0:
+        return warm
+    return tuple(int(round(x + (y - x) * strength)) for x, y in zip(base, warm))
+
+
 def table(pal):
     rows = []
     for v in (0, 13, 26, 34, 51, 64, 77, 88, 102, 128, 160, 192, 208, 224, 235, 255):
@@ -103,9 +228,9 @@ def table(pal):
 def _selftest(pal):
     ok = True
 
-    def check(cond, msg):
+    def check(cond, msg, detail=""):
         nonlocal ok
-        print(("  ok   " if cond else "  FAIL ") + msg)
+        print(("  ok   " if cond else "  FAIL ") + msg + (" " + detail if detail and not cond else ""))
         ok = ok and cond
 
     ys = [_interp(v, pal["neutral_ramp"]) for v in range(256)]
@@ -121,6 +246,19 @@ def _selftest(pal):
     if pal.get("accent_map"):
         check(map_rgb((255, 215, 0), pal) == (245, 216, 124), "Norden gold #ffd700 -> Edge #f5d87c")
     check(map_rgb((0, 255, 0), pal, accents=True) == (0, 255, 0), "mask still protected with --accents")
+    if os.path.exists(ROLES_PATH):
+        t = transfer((235, 235, 235), pal, "textColor", "quest_journal.xml")
+        check(t[0] > t[2], "near-white text takes Edge's warm cast where Edge runs warm", str(t))
+        check(abs(_luma(t) - _luma(map_rgb((235, 235, 235), pal))) < 12,
+              "the tint keeps Norden's brightness", str(t))
+        check(colorsys.rgb_to_hsv(*[x / 255 for x in t])[1] <= pal.get("transfer_max_saturation", .35) + .02,
+              "saturation is capped to Edge's everyday warmth", str(t))
+        check(transfer((0, 0, 0), pal, "color", "quest_journal.xml") == (0, 0, 0), "black panels stay black")
+        check(transfer((0, 255, 0), pal, "color", "hudmenu.xml") == (0, 255, 0), "masks survive transfer")
+        check(transfer((200, 60, 60), pal, "color", "hudmenu.xml") == (200, 60, 60),
+              "Norden's status hues survive transfer")
+        check(transfer((255, 255, 255), pal, "textColor", "quest_journal.xml") == (255, 255, 255),
+              "pure white stays white - Edge uses plenty of it")
     check(map_rgb((52, 51, 50), pal) == (ys[51],) * 3, "near-neutral within spread is remapped")
     check(map_rgb((51, 51, 61), pal) == (51, 51, 61), "outside the spread is left alone")
     a = map_rgb((91, 103, 190), pal, accents=True)

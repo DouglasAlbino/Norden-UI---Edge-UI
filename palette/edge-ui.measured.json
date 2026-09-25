@@ -1,50 +1,180 @@
 {
   "name": "Edge UI (measured)",
   "source": "Edge UI 0.61 (Eugene) - https://www.nexusmods.com/skyrimspecialedition/mods/130983",
-  "note": "Measured by tools/sample-edge.py from 321 Edge UI SWFs (20034 colour nodes, 389 distinct colours) against 926 Norden UI SWFs (84935 nodes, 1124 colours). Anchors below are the census result, not estimates. See docs/census.md.",
-
+  "note": "Measured by tools/sample-edge.py from 321 Edge UI SWFs (20034 colour nodes, 389 distinct colours) against 926 Norden UI SWFs (84935 nodes, 1124 colours). Anchors below are the census result, not estimates. See docs/census.md. 1.1.0 adds the colour-temperature transfer; see docs/census.md.",
   "neutral_ramp": [
-    [0, 0],
-    [16, 8],
-    [25, 13],
-    [45, 34],
-    [48, 38],
-    [88, 72],
-    [102, 92],
-    [128, 128],
-    [153, 153],
-    [169, 169],
-    [204, 204],
-    [229, 235],
-    [235, 240],
-    [255, 255]
+    [
+      0,
+      0
+    ],
+    [
+      16,
+      8
+    ],
+    [
+      25,
+      13
+    ],
+    [
+      45,
+      34
+    ],
+    [
+      48,
+      38
+    ],
+    [
+      88,
+      72
+    ],
+    [
+      102,
+      92
+    ],
+    [
+      128,
+      128
+    ],
+    [
+      153,
+      153
+    ],
+    [
+      169,
+      169
+    ],
+    [
+      204,
+      204
+    ],
+    [
+      229,
+      235
+    ],
+    [
+      235,
+      240
+    ],
+    [
+      255,
+      255
+    ]
   ],
   "neutral_spread": 3,
-
-  "accent": [170, 160, 122],
-  "accent_luma_ramp": [[0, 0], [128, 128], [255, 255]],
+  "accent": [
+    170,
+    160,
+    122
+  ],
+  "accent_luma_ramp": [
+    [
+      0,
+      0
+    ],
+    [
+      128,
+      128
+    ],
+    [
+      255,
+      255
+    ]
+  ],
   "accent_min_saturation": 25,
   "accent_enabled": false,
-
   "accent_map": {
     "ffd700": "f5d87c",
     "ffd800": "f6db85"
   },
-
-  "protected": ["00ff00", "00ffff", "ff00ff"],
-
-  "text": [204, 204, 204],
-  "panel": [0, 0, 0],
-  "stage_background": [51, 51, 51],
-
+  "protected": [
+    "00ff00",
+    "00ffff",
+    "ff00ff"
+  ],
+  "text": [
+    204,
+    204,
+    204
+  ],
+  "panel": [
+    0,
+    0,
+    0
+  ],
+  "stage_background": [
+    51,
+    51,
+    51
+  ],
   "measurement": {
-    "edge_neutrals_by_weight": [0, 255, 51, 204, 153, 211, 102, 191, 26, 14],
-    "edge_painted_surfaces": [0, 102, 153, 204, 255],
+    "edge_neutrals_by_weight": [
+      0,
+      255,
+      51,
+      204,
+      153,
+      211,
+      102,
+      191,
+      26,
+      14
+    ],
+    "edge_painted_surfaces": [
+      0,
+      102,
+      153,
+      204,
+      255
+    ],
     "edge_stage_background_only": 51,
-    "edge_text_accents": ["ece2b7", "f5d87c", "aaa07a", "b1af97", "f6db85"],
-    "norden_neutrals_by_weight": [0, 255, 51, 204, 229, 88, 169, 153, 230, 235, 25, 48, 102, 16],
-    "norden_text_accents": ["ffd700", "4dad4f"],
-    "shared_unchanged": ["0032aa", "280c02", "803300", "9d0000", "00cc66", "641601"],
-    "masks": ["00ff00", "00ffff"]
+    "edge_text_accents": [
+      "ece2b7",
+      "f5d87c",
+      "aaa07a",
+      "b1af97",
+      "f6db85"
+    ],
+    "norden_neutrals_by_weight": [
+      0,
+      255,
+      51,
+      204,
+      229,
+      88,
+      169,
+      153,
+      230,
+      235,
+      25,
+      48,
+      102,
+      16
+    ],
+    "norden_text_accents": [
+      "ffd700",
+      "4dad4f"
+    ],
+    "shared_unchanged": [
+      "0032aa",
+      "280c02",
+      "803300",
+      "9d0000",
+      "00cc66",
+      "641601"
+    ],
+    "masks": [
+      "00ff00",
+      "00ffff"
+    ]
+  },
+  "transfer_strength": 1.0,
+  "transfer_max_saturation": 0.3,
+  "transfer_luma_floor": 32,
+  "transfer_luma_ceiling": 250,
+  "transfer_warm_share": {
+    "textColor": 0.06,
+    "color": 0.04,
+    "dropShadowColor": 1.1,
+    "default": 0.06
   }
 }

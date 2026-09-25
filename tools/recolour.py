@@ -29,24 +29,59 @@ ATTR = re.compile(r'(\w+)="([^"]*)"')
 
 pal = P.load()
 accents = "--accents" in sys.argv
+# The colour-temperature transfer (1.1.0) needs to know which menu and which kind of node it is
+# looking at, so the mapping is per file and per role rather than one global table. --flat falls back
+# to 1.0.0 behaviour: the neutral ramp only, no warmth.
+transfer = "--flat" not in sys.argv and os.path.exists(P.ROLES_PATH)
 stats = collections.Counter()
+_current = {"name": ""}
 
 
 def fix(m):
     a = dict(ATTR.findall(m.group(3)))
     rgb = (int(a["red"]), int(a["green"]), int(a["blue"]))
-    new = P.map_rgb(rgb, pal, accents=accents)
+    if transfer:
+        new = P.transfer(rgb, pal, m.group(1), _current["name"])
+    else:
+        new = P.map_rgb(rgb, pal, accents=accents)
     if new == rgb:
         return m.group(0)
     stats[(rgb, new)] += 1
-    it = iter(new)
-    return re.sub(r'(red|green|blue)="\d+"', lambda mm: f'{mm.group(1)}="{next(it)}"', m.group(0))
+    # Substitute BY ATTRIBUTE NAME. JPEXS writes the attributes alphabetically - alpha, blue, green,
+    # red - so feeding the new values positionally in R,G,B order silently swaps red and blue. On
+    # neutral greys (r=g=b) that is invisible, which is how it survived 1.0.0: the only non-neutral
+    # output then was the gold #ffd700 -> #f5d87c, shipped as #7cd8f5, a pale blue. That is why the
+    # first install showed none of Edge's gold.
+    channel = {"red": new[0], "green": new[1], "blue": new[2]}
+    return re.sub(r'(red|green|blue)="\d+"', lambda mm: f'{mm.group(1)}="{channel[mm.group(1)]}"', m.group(0))
+
+
+def selftest():
+    """The regression that shipped in 1.0.0: attribute order must not decide which channel gets what."""
+    global stats
+    ok = True
+    for node in ('<textColor type="RGBA" alpha="255" blue="235" green="235" red="235"/>',
+                 '<color type="RGB" red="235" green="235" blue="235"/>'):
+        stats = collections.Counter()
+        role = "textColor" if "textColor" in node else "color"
+        out = NODE.sub(fix, node)
+        got = {k: int(v) for k, v in ATTR.findall(out) if k in ("red", "green", "blue")}
+        exp = (P.transfer((235, 235, 235), pal, role, _current["name"]) if transfer
+               else P.map_rgb((235, 235, 235), pal))
+        good = (got["red"], got["green"], got["blue"]) == tuple(exp)
+        print(("  ok   " if good else "  FAIL ") + f"{role:9} {node[:22]}... -> {got} (expected {exp})")
+        ok = ok and good
+    return ok
 
 
 def main():
+    if "--selftest" in sys.argv:
+        _current["name"] = "quest_journal.xml"
+        sys.exit(0 if selftest() else 1)
     if not os.path.isdir(SRC_XML):
         sys.exit(f"no Norden XML at {SRC_XML} - run: python export-xml.py")
-    print(f"palette: {pal['name']} ({os.path.relpath(pal['_path'], ROOT)}), accents={'on' if accents else 'off'}")
+    print(f"palette: {pal['name']} ({os.path.relpath(pal['_path'], ROOT)}), "
+          f"mode={'colour-temperature transfer' if transfer else 'flat ramp'}")
     jobs = []
     for root, _, files in os.walk(SRC_XML):
         for f in files:
@@ -56,6 +91,7 @@ def main():
             rel = os.path.relpath(src, SRC_XML)
             dst = os.path.join(DST_XML, rel)
             os.makedirs(os.path.dirname(dst), exist_ok=True)
+            _current["name"] = f
             s = open(src, encoding="utf-8").read()
             s2 = NODE.sub(fix, s)
             open(dst, "w", encoding="utf-8", newline="\n").write(s2)
