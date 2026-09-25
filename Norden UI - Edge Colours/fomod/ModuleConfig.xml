@@ -2040,11 +2040,10 @@ Widget Addon - Bathing in Skyrim Renewed
 Biggie Traits
 • https://www.nexusmods.com/skyrimspecialedition/mods/136384
 Sky Signs
-• https://www.nexusmods.com/skyrimspecialedition/mods/147884</description>
+• https://www.nexusmods.com/skyrimspecialedition/mods/147884
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
 							<image path="Images\biggienirnskysigns.jpg" />
-							<files>
-								<folder source="Patches\Norden Biggie Traits and Sky Signs 1.1\Interface" destination="Interface" priority="1" />
-							</files>
 							<typeDescriptor>
 								<type name="Optional" />
 							</typeDescriptor>
@@ -2100,11 +2099,10 @@ Casting Bar
 Racemenu
 • https://www.nexusmods.com/skyrimspecialedition/mods/19080
 Character Suggestor
-• https://www.nexusmods.com/skyrimspecialedition/mods/144854</description>
+• https://www.nexusmods.com/skyrimspecialedition/mods/144854
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
 							<image path="Images\Suggestor.jpg" />
-							<files>
-								<folder source="Patches\PatchA3.Norden Character Suggestor 1.0.9\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="1" />
-							</files>
 							<typeDescriptor>
 								<type name="Optional" />
 							</typeDescriptor>
@@ -2440,11 +2438,10 @@ Dialogue History
 ⚠️ Requires:
 
 Easy Console Commands
-• https://www.nexusmods.com/skyrimspecialedition/mods/122895</description>
+• https://www.nexusmods.com/skyrimspecialedition/mods/122895
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
 							<image path="Images\EasyComs.jpg" />
-							<files>
-								<folder source="Patches\Norden Easy Console Commands\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="1" />
-							</files>
 							<typeDescriptor>
 								<type name="Optional" />
 							</typeDescriptor>
@@ -2502,11 +2499,10 @@ Extended UI - ESP FIX ONLY!!
 ⚠️ Requires:
 
 Facation Ranks
-• https://www.nexusmods.com/skyrimspecialedition/mods/170776</description>
+• https://www.nexusmods.com/skyrimspecialedition/mods/170776
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
 							<image path="Images\factionrank.jpg" />
-							<files>
-								<folder source="Patches\Norden Faction Ranks 1.1\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="2" />
-							</files>
 							<typeDescriptor>
 								<type name="Optional" />
 							</typeDescriptor>
@@ -2531,11 +2527,10 @@ Facation Ranks
 ⚠️ Requires:
 
 Fancy Fishing - Minigame and Tweaks 
-• https://www.nexusmods.com/skyrimspecialedition/mods/89352</description>
+• https://www.nexusmods.com/skyrimspecialedition/mods/89352
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
 							<image path="Images\fancyfishing.jpg" />
-							<files>
-								<folder source="Patches\Norden Fancy Fishing patch\Interface" destination="Interface" priority="1" />
-							</files>
 							<typeDescriptor>
 								<type name="Optional" />
 							</typeDescriptor>
@@ -2661,11 +2656,10 @@ Reskinned Skill Menu from FTweaks in style of Norden UI.
 ⚠️ Requires:
 
 FTweaks Skill Increase Menu
-• https://www.nexusmods.com/skyrimspecialedition/mods/124253</description>
+• https://www.nexusmods.com/skyrimspecialedition/mods/124253
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
 							<image path="Images\requr.jpg" />
-							<files>
-								<folder source="Patches\Norden FTweaks Skill Increase Menu patch\Interface" destination="Interface" priority="1" />
-							</files>
 							<typeDescriptor>
 								<type name="Optional" />
 							</typeDescriptor>
@@ -3039,11 +3033,10 @@ Oxygen Meter
 ⚠️ Requires:
 
 Witness Indicator
-• https://www.nexusmods.com/skyrimspecialedition/mods/177592</description>
+• https://www.nexusmods.com/skyrimspecialedition/mods/177592
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
 							<image path="Images\Witness Indicator.jpg" />
-							<files>
-								<folder source="Patches\Norden Witness Indicator\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="1" />
-							</files>
 							<typeDescriptor>
 								<type name="Optional" />
 							</typeDescriptor>
@@ -3068,11 +3061,10 @@ Witness Indicator
 ⚠️ Requires:
 
 Unsearched Corpses Indicator
-• https://www.nexusmods.com/skyrimspecialedition/mods/177677</description>
+• https://www.nexusmods.com/skyrimspecialedition/mods/177677
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
 							<image path="Images\Unsearched Corpses Indicator.jpg" />
-							<files>
-								<folder source="Patches\Norden Unsearched Corpses Indicator\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="1" />
-							</files>
 							<typeDescriptor>
 								<type name="Optional" />
 							</typeDescriptor>
@@ -3125,11 +3117,10 @@ Quest Givers Have Icons Framework
 ⚠️ Requires:
 
 Who (tf) is detecting me - Complete Detection Indicator
-• https://www.nexusmods.com/skyrimspecialedition/mods/177819</description>
+• https://www.nexusmods.com/skyrimspecialedition/mods/177819
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
 							<image path="Images\Complete Detection Indicator.jpg" />
-							<files>
-								<folder source="Patches\Norden Complete Detection Indicator\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="1" />
-							</files>
 							<typeDescriptor>
 								<type name="Optional" />
 							</typeDescriptor>
@@ -3197,11 +3188,10 @@ https://www.youtube.com/watch?v=gEfftVsyk_c</description>
 ⚠️ Requires:
 
 Quest Item Icon
-• https://www.nexusmods.com/skyrimspecialedition/mods/174141</description>
+• https://www.nexusmods.com/skyrimspecialedition/mods/174141
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
 							<image path="Images\questicon.jpg" />
-							<files>
-								<folder source="Patches\Norden QuestItemIcon\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="2" />
-							</files>
 							<typeDescriptor>
 								<type name="Optional" />
 							</typeDescriptor>
@@ -3226,11 +3216,10 @@ Quest Item Icon
 ⚠️ Requires:
 
 Quick Item Transfer
-• https://www.nexusmods.com/skyrimspecialedition/mods/125160</description>
+• https://www.nexusmods.com/skyrimspecialedition/mods/125160
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
 							<image path="Images\QIT.jpg" />
-							<files>
-								<folder source="Patches\Norden Quick Item Transfer 1.0\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="1" />
-							</files>
 							<typeDescriptor>
 								<type name="Optional" />
 							</typeDescriptor>
@@ -3326,11 +3315,10 @@ Spell Hotbar
 ⚠️ Requires:
 
 Staff Enchanting Plus
-• https://www.nexusmods.com/skyrimspecialedition/mods/132680</description>
+• https://www.nexusmods.com/skyrimspecialedition/mods/132680
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
 							<image path="Images\staffench.jpg" />
-							<files>
-								<folder source="Patches\Norden Staff Enchanting Plus 1.6\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="1" />
-							</files>
 							<typeDescriptor>
 								<type name="Optional" />
 							</typeDescriptor>
@@ -3489,11 +3477,10 @@ Skyrim Character Sheet
 ⚠️ Requires:
 
 Skyrim NPC Stats Card
-• https://www.nexusmods.com/skyrimspecialedition/mods/165328</description>
+• https://www.nexusmods.com/skyrimspecialedition/mods/165328
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
 							<image path="Images\skyrim npc.jpg" />
-							<files>
-								<folder source="Patches\Norden UI Skyrim NPC Stats Card 1.3\Interface" destination="Interface" priority="1" />
-							</files>
 							<typeDescriptor>
 								<type name="Optional" />
 							</typeDescriptor>
@@ -3562,11 +3549,10 @@ SkyUILib
 ⚠️ Requires:
 
 SkyParkour v3
-• https://www.nexusmods.com/skyrimspecialedition/mods/132292</description>
+• https://www.nexusmods.com/skyrimspecialedition/mods/132292
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
 							<image path="Images\parkour.jpg" />
-							<files>
-								<folder source="Patches\Norden SkyParkour patch 1.2\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="1" />
-							</files>
 							<typeDescriptor>
 								<type name="Optional" />
 							</typeDescriptor>
@@ -3781,11 +3767,10 @@ https://www.youtube.com/watch?v=gEfftVsyk_c</description>
 ⚠️ Requires:
 
 Why I came to Skyrim - Origin Stories
-• https://www.nexusmods.com/skyrimspecialedition/mods/167166</description>
+• https://www.nexusmods.com/skyrimspecialedition/mods/167166
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
 							<image path="Images\wicts.jpg" />
-							<files>
-								<folder source="Patches\Norden Why I Came to Skyrim - Origin Stories\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="0" />
-							</files>
 							<typeDescriptor>
 								<type name="Optional" />
 							</typeDescriptor>
