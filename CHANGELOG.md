@@ -37,6 +37,18 @@ First cut: Norden UI recoloured to Edge UI's palette.
   option" rule kept choosing the opt-out; and the Wheeler pages are gated behind a flag set by an
   option that installs no files at all, so the Wheeler art was never being exercised.
 
+### Fixed after 1.0.0 was pushed
+
+The 1.0.0 push contained an installer and no art. `.gitignore` excluded `*.swf`, `*.svg`,
+`Interface/` and `SKSE/` anywhere in the tree, and a negation cannot re-include a file that lives
+inside an excluded **directory**, so `git add -A` skipped all 896 recoloured SWFs silently. Being
+ignored, they were not preserved by the build sandbox either, so the pipeline was re-run from source
+to recover them. The directory rules are now anchored to the repository root and the output tree is
+re-included explicitly, and `Norden UI - Edge Colours.zip` (1092 files, 54.6 MB, `fomod/` at its
+root) ships the same content as a Mod Organizer 2 installable archive.
+
+Lesson kept in the ignore file itself: after a build, count what is *staged*, not what is on disk.
+
 ### Not done yet
 
 * RaceMenu (race menu, bottom bar) as a DIP patch of deltas, the way Norden and NordenUIBlack ship

@@ -82,8 +82,10 @@ and the reasoning. The short version:
 * A dry install (`tools/install-with-choices.py`) of a 16x9 default run shows 15 steps, 84 options
   and **447 files** landing in `Interface`, `SKSE/Plugins/wheeler` and `MapMarkers`.
 
-Point your mod manager at that folder (or zip it with `tools/build-package.py`), install it **after**
-Norden UI, and pick the same options you picked there.
+**`Norden UI - Edge Colours.zip`** (54.6 MB, 1092 files) is that folder packaged for Mod Organizer 2
+- `fomod/` sits at the archive root, so MO2 runs the installer on it directly. Or point your mod
+manager at the folder, or rebuild the archive with `tools/build-package.py`. Install it **after**
+(below) Norden UI and pick the same options you picked there.
 
 ## Build
 
