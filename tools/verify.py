@@ -7,7 +7,7 @@ palette - i.e. the recolour is a fixed point - and reports the ramp actually pre
     python verify.py            verify EDGE_OUT
     python verify.py --svg      also verify the SVGs written by recolour-svg.py
 """
-import os, re, sys, subprocess, collections
+import collections, os, re, sys, subprocess, collections
 from concurrent.futures import ThreadPoolExecutor
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -25,7 +25,11 @@ found = collections.Counter()
 bad = collections.Counter()
 
 
-TARGETS = {P.map_rgb((v, v, v), pal)[0] for v in range(256)}
+# Until 1.2.0 this asserted that every neutral in the shipped art is a value the ramp produces. That
+# invariant died when "leave this fill exactly as Norden drew it" became a deliberate outcome. The
+# check now recomputes each shipped file from Norden's original and demands an exact match, which
+# also catches a stale build - art left behind by an earlier rule - and the channel swap.
+SRC_XML = os.environ.get("NORDEN_XML", os.path.join(P.ROOT, "build", "xml"))
 warm_text = [0, 0]      # [warm, total] text nodes in the shipped art
 
 
@@ -36,10 +40,16 @@ def _is_warm(rgb):
 
 
 def note(rgb, n=1):
-    """A shipped neutral must be a value the palette produces; anything else is Norden grey left behind."""
     found[rgb] += n
-    if P.is_neutral(rgb, pal) and round(sum(rgb) / 3) not in TARGETS:
-        bad[rgb] += n
+
+
+def _counts(path, transform=None, menu=""):
+    out = collections.Counter()
+    for m in NODE.finditer(open(path, encoding="utf-8", errors="replace").read()):
+        a = dict(ATTR.findall(m.group(3)))
+        rgb = (int(a.get("red", 0)), int(a.get("green", 0)), int(a.get("blue", 0)))
+        out[P.transfer(rgb, pal, m.group(1), menu) if transform else rgb] += 1
+    return out
 
 
 def export(job):
@@ -82,11 +92,23 @@ def main():
     greys = sorted({round(sum(k) / 3) for k in found if P.is_neutral(k, pal)})
     print(f"{len(jobs)} swfs re-exported, {len(found)} distinct colours in the shipped art")
     print("neutral ramp present:", greys)
-    if bad:
-        print("FAIL - these neutrals are not Edge values (Norden grey left in the shipped art):")
-        for k, c in bad.most_common(20):
-            print(f"  #{k[0]:02x}{k[1]:02x}{k[2]:02x} x{c}")
+    mismatched = []
+    for x in xmls:
+        rel = os.path.relpath(x, TMP)
+        src = os.path.join(SRC_XML, rel)
+        if not os.path.isfile(src):
+            continue
+        exp = _counts(src, True, os.path.basename(x))
+        got = _counts(x)
+        if exp != got:
+            mismatched.append((sum((exp - got).values()) + sum((got - exp).values()), rel))
+    if mismatched:
+        mismatched.sort(reverse=True)
+        print(f"FAIL - {len(mismatched)} shipped files do not match the rule applied to the original:")
+        for d, rel in mismatched[:10]:
+            print(f"  {d:6d} colour nodes differ  {rel}")
         return 1
+    print(f"every one of {len(xmls)} shipped files matches the rule applied to Norden's original")
     # 1.0.0 passed every structural check and still looked like Norden in game, because nothing
     # checked for the thing that makes Edge look like Edge. This is that check, and it is what caught
     # the red/blue channel swap: a build whose text comes out cyan fails here.

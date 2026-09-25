@@ -202,6 +202,21 @@ def transfer(rgb, pal, role, basename, strength=None):
         return base                                   # Norden's own status hues stay
     strength = pal.get("transfer_strength", 1.0) if strength is None else strength
     max_sat = pal.get("transfer_max_saturation", 0.35)
+
+    # Panels, from rendered pixels - the only measurement that reflects screen area. Evidence or
+    # nothing: where the renders show Norden already matches Edge the fill keeps Norden's own value,
+    # because the node-census ramp was moving panels that were already right and made 43 of 130
+    # menus worse. The curve is looked up with the ORIGINAL luminance - its domain is what Norden
+    # renders, and feeding it the ramped value pushed menus the wrong way.
+    if role in pal.get("render_match_roles", ["color"]) and load_render() is not None:
+        if pal.get("render_match_evidence_only", True) and render_curve(basename, pal) is None:
+            return tuple(rgb)
+        src = _luma(rgb)
+        q = render_match(src, basename, pal)
+        if q is not None:
+            a = pal.get("render_match_strength", 0.8)
+            v = int(round(max(0.0, min(255.0, src * (1 - a) + q * a))))
+            base = (v, v, v)
     floor = pal.get("transfer_luma_floor", 32)
     ceil = pal.get("transfer_luma_ceiling", 250)
     thresholds = pal.get("transfer_warm_share", {})

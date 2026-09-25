@@ -99,6 +99,21 @@ def main():
 
     changed = [j for j in jobs if j[2]]
     print(f"{len(jobs)} files, {len(changed)} with a colour to remap")
+
+    # Drop art from an earlier rule. The build only writes files whose colours change, so when a rule
+    # stops changing a file - which the evidence-only rule does for 50 of them - the previous build's
+    # SWF stays in the output folder and ships. The verification caught exactly that: files we had
+    # just written with Norden's own #e5e5e5 were shipping as #ebebeb from the run before.
+    keep = {os.path.normcase(os.path.abspath(out)) for _, out, ch in jobs if ch}
+    stale = [os.path.join(r, f)
+             for r, _, fs in os.walk(MOD) for f in fs
+             if f.lower().endswith(".swf")
+             and os.path.normcase(os.path.abspath(os.path.join(r, f))) not in keep]
+    if stale:
+        print(f"removing {len(stale)} SWFs left by an earlier rule")
+        if "--build" in sys.argv:
+            for p_ in stale:
+                os.remove(p_)
     for (a, b), c in sorted(stats.items(), key=lambda x: -x[1])[:24]:
         print(f"  #{a[0]:02x}{a[1]:02x}{a[2]:02x} -> #{b[0]:02x}{b[1]:02x}{b[2]:02x}  x{c}")
 
