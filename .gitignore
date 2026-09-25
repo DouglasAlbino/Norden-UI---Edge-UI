@@ -1,0 +1,21 @@
+# Norden UI's and Edge UI's permissions forbid redistributing their art outside Nexus:
+# every file that carries it stays on the build machine.
+/Interface/
+/SKSE/
+/MapMarkers/
+build/
+package/*.zip
+*.swf
+*.svg
+*.bin
+*.7z
+
+# ...except the finished mod this project produces. A negation cannot rescue files inside an
+# excluded DIRECTORY, so the directory rules above are anchored to the repo root with a leading
+# slash and these exceptions re-include the output tree itself. Without this the build silently
+# commits an installer with no art in it - which is exactly what happened in 1.0.0.
+!Norden UI - Edge Colours/**/*.swf
+!Norden UI - Edge Colours/**/*.svg
+!Norden UI - Edge Colours.zip
+__pycache__/
+*.pyc

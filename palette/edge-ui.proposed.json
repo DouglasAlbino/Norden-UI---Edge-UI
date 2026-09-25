@@ -1,0 +1,103 @@
+{
+  "name": "Edge UI (measured)",
+  "source": "Edge UI 0.61 (Eugene) - https://www.nexusmods.com/skyrimspecialedition/mods/130983",
+  "note": "Written by tools/sample-edge.py from /tmp/build/xml-edge; Norden ramp measured from /tmp/build/xml.",
+  "neutral_ramp": [
+    [
+      0,
+      0
+    ],
+    [
+      25,
+      10
+    ],
+    [
+      51,
+      51
+    ],
+    [
+      88,
+      66
+    ],
+    [
+      153,
+      153
+    ],
+    [
+      169,
+      159
+    ],
+    [
+      204,
+      204
+    ],
+    [
+      229,
+      218
+    ],
+    [
+      230,
+      219
+    ],
+    [
+      235,
+      247
+    ],
+    [
+      255,
+      255
+    ]
+  ],
+  "neutral_spread": 3,
+  "accent": [
+    236,
+    226,
+    183
+  ],
+  "accent_luma_ramp": [
+    [
+      0,
+      0
+    ],
+    [
+      128,
+      128
+    ],
+    [
+      255,
+      255
+    ]
+  ],
+  "accent_min_saturation": 12,
+  "accent_enabled": false,
+  "text": [
+    235,
+    235,
+    235
+  ],
+  "panel": [
+    10,
+    10,
+    10
+  ],
+  "header": [
+    26,
+    26,
+    26
+  ],
+  "divider": [
+    46,
+    46,
+    46
+  ],
+  "hover": [
+    38,
+    38,
+    38
+  ],
+  "protected": [
+    "00ff00",
+    "00ffff",
+    "ff00ff"
+  ]
+}
