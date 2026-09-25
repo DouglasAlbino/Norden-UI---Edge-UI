@@ -1,0 +1,16 @@
+# Norden UI's and Edge UI's permissions forbid redistributing their art outside Nexus:
+# every file that carries it stays on the build machine.
+Interface/
+SKSE/
+MapMarkers/
+# ...except the recoloured output this project produces, which the repository owner keeps here
+# alongside the source mods he committed to main. See NOTICE.md - Nexus permissions still apply.
+!Norden UI - Edge Colours/**
+build/
+package/*.zip
+*.swf
+*.svg
+*.bin
+*.7z
+__pycache__/
+*.pyc

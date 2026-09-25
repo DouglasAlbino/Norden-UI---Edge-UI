@@ -1,0 +1,3898 @@
+<?xml version='1.0' encoding='utf-8'?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Cutleast/FOMOD-Creation-Kit/master/res/schemas/ModConfig5.0.xsd">
+	<moduleName>Norden UI - Edge Colours</moduleName>
+	<moduleImage path="Images\Norden header.jpg" />
+	<installSteps order="Explicit">
+		<installStep name="Welcome">
+			<optionalFileGroups order="Explicit">
+				<group name="Norden UI" type="SelectAny">
+					<plugins order="Explicit">
+						<plugin name="Proceed 💬">
+							<description>Norden UI is an interface overhaul that seamlessly merges three core principles: the clean functionality of modern design, the rustic feel of the Nords, and the sophisticated restraint of a muted, monochromatic color scheme. The result is a deeply immersive experience that feels both timeless and current, pulling you deeper into the world of Tamriel without ever breaking your focus.
+It's based on my previous UI - Oathvein synthesizing the best elements of Dear Diary Dark Mode, Edge UI, Nordic UI, New Horizon UI, and Horizon UI Remake into a cohesive new vision.
+
+⚠️ To proceed with installation You need to select "Proceed"!</description>
+							<image path="Images\Norden header.jpg" />
+							<conditionFlags>
+								<flag name="Readme">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+		<installStep name="Select Your Resolution">
+			<visible>
+				<dependencies operator="And">
+					<flagDependency flag="Readme" value="On" />
+				</dependencies>
+			</visible>
+			<optionalFileGroups order="Explicit">
+				<group name="Resolutions" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. 16:9">
+							<description>Essential files for a standard 16:9 aspect ratio, redesigned with the clean, rustic aesthetic of Norden.</description>
+							<image path="Images\16.jpg" />
+							<conditionFlags>
+								<flag name="16by9">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. 21:9">
+							<description>Essential files for an ultrawide 21:9 aspect ratio, crafted to maintain Norden's immersive and focused design on wider screens.
+</description>
+							<image path="Images\21.jpg" />
+							<conditionFlags>
+								<flag name="21by9">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+		<installStep name="16 by 9 Base Files">
+			<visible operator="And">
+				<dependencies operator="And">
+					<flagDependency flag="Readme" value="On" />
+					<flagDependency flag="16by9" value="On" />
+				</dependencies>
+			</visible>
+			<optionalFileGroups order="Explicit">
+				<group name="Base Files" type="SelectAll">
+					<plugins order="Explicit">
+						<plugin name="Main bulk 💬 Read Me 💬">
+							<description>The core components of Norden UI for 16:9 displays. This foundational setup brings the clean, modern functionality and rustic Nordic feel to your Skyrim.
+
+⚠️ Mandatory:
+
+Widescreen Scale Removed (Fix for squished UI - Skyrim after version 1130)
+• https://www.nexusmods.com/skyrimspecialedition/mods/136793
+SkyUI
+• https://www.nexusmods.com/skyrimspecialedition/mods/12604
+Skyhud
+• https://www.nexusmods.com/skyrimspecialedition/mods/463
+STB Widgets
+• https://www.nexusmods.com/skyrimspecialedition/mods/136148
+STB Active Effects
+• https://www.nexusmods.com/skyrimspecialedition/mods/140002
+TrueHud
+• https://www.nexusmods.com/skyrimspecialedition/mods/62775
+
+Recommended:
+Constructible Object Custom Keyword System
+• https://www.nexusmods.com/skyrimspecialedition/mods/81409
+Morehud (Includes MCM preset that You need to peronsally apply)
+• https://www.nexusmods.com/skyrimspecialedition/mods/12688
+MoreHUD Inventory Edition
+• https://www.nexusmods.com/skyrimspecialedition/mods/18619
+Better Third Person Selection - BTPS
+• https://www.nexusmods.com/skyrimspecialedition/mods/64339
+Experience
+• https://www.nexusmods.com/skyrimspecialedition/mods/17751
+Compass Navigation Overhaul
+• https://www.nexusmods.com/skyrimspecialedition/mods/74484
+Oblivion Interaction Icons
+• https://www.nexusmods.com/skyrimspecialedition/mods/52743
+True Directional Movement (MCM &gt; TDM &gt; HUD &gt; set target lock to glow)
+• https://www.nexusmods.com/skyrimspecialedition/mods/51614
+Smooth Cam (Smooth Cam preset included that fits the existing UI elements)
+• https://www.nexusmods.com/skyrimspecialedition/mods/41252</description>
+							<image path="Images\Norden Main Menu.jpg" />
+							<files>
+								<folder source="Patches\Norden 1.2.3 16x9\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="1" />
+								</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Start Menu" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Default - Skip">
+							<description>The default Norden Start Menu - a clean, modern layout with rustic Nordic accents against a muted background.
+
+You can freely overwrite Norden UI with any background replacer you wish!</description>
+							<image path="Images\Norden Main Menu.jpg" />
+							<conditionFlags>
+								<flag name="a">o</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Simple">
+							<description>A simpler reskin of the Main Menu for a more classic, understated look that aligns with Norden's minimalist philosophy.</description>
+							<image path="Images\mainmenusimple.jpg" />
+							<files>
+								<folder source="Patches\Norden simple main menu\Interface" destination="Interface" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="3. Simple with logo">
+							<description>A simpler reskin of the Main Menu for a more classic, understated look that aligns with Norden's minimalist philosophy - now without the neat dragon, what a shame.</description>
+							<image path="Images\skyrimlogo.jpg" />
+							<files>
+								<folder source="Patches\Norden simple main menu Skyrim logo\Interface" destination="Interface" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="4. Clean">
+							<description>A clean menu, who knew it could be done, look at those chickens!</description>
+							<image path="Images\cleanmenu.jpg" />
+							<files>
+								<folder source="Patches\Norden main menu clean\Interface" destination="Interface" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="5. Full">
+							<description>A menu with all them options, look at all those buggers.</description>
+							<image path="Images\Fullmenu.jpg" />
+							<files>
+								<folder source="Patches\Norden startmenu all options 16x9 1.1\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="4" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="6. Start Game Settings">
+							<description>Reskin for a mod Start Game Settings
+
+⚠️ Requires:
+
+Start Game Settings
+• https://www.nexusmods.com/skyrimspecialedition/mods/180690</description>
+							<image path="Images\Start Game Settings.jpg" />
+							<files>
+								<folder source="Patches\Norden Start Game Settings\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="4" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="7A. Start Game Settings Norden Logo">
+							<description>Reskin for a mod Start Game Settings with Norden logo
+
+⚠️ Requires:
+
+Start Game Settings
+• https://www.nexusmods.com/skyrimspecialedition/mods/180690</description>
+							<image path="Images\Start Game Settings logo.jpg" />
+							<files>
+								<folder source="Patches\Norden Start Game Settings logo\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="4" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="7B. Start Game Settings Skyrim Logo">
+							<description>Reskin for a mod Start Game Settings with Skyrim logo
+
+⚠️ Requires:
+
+Start Game Settings
+• https://www.nexusmods.com/skyrimspecialedition/mods/180690</description>
+							<image path="Images\Start Game Settings Skyrim logo.jpg" />
+							<files>
+								<folder source="Patches\Norden Start Game Settings Skyrim logo\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="4" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Inventory Style" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Horizontal Tabs - UIs default">
+							<description>Inventory Tabs (the thingy you click/select) are now on the TOP aka horizontal.
+
+For spining the items move cursor where the item used to be located or press C and rotate it that way.</description>
+							<image path="Images\AIT.jpg" />
+							<conditionFlags>
+								<flag name="a">o</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Horizontal Tabs - Vertical Itemcard">
+							<description>Norden vertical itemcard option
+If choosen it overrides any other 3D item placement</description>
+							<image path="Images\Vertical itemcard.jpg" />
+							<files>
+								<folder source="Patches\Norden itemcard vertical 1.1\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="7" />
+								</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="3. Vertical Tabs">
+							<description>Inventory Tabs (the thingy you click/select) are now on the side aka vertical.
+
+For spining the items move cursor where the item used to be located or press C and rotate it that way.</description>
+							<image path="Images\verticalinv.jpg" />
+							<files>
+								<folder source="Patches\Norden vertical inventory 1.2\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="4. Slimventory">
+							<description>Inventory is compacted now.</description>
+							<image path="Images\Slimventory.jpg" />
+							<files>
+								<folder source="Patches\Norden Slimventory 1.1 16x9\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="5" />
+								</files>
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Truehud Style" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. STB Widgets - default">
+							<description>Default hud preset containing Truehud, STB Widgets, small part of morehud and some other mods.</description>
+							<image path="Images\detectionmeter.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Non STB Widgets">
+							<description>A hud preset with Truehud and Morehud as a base for UI.</description>
+							<image path="Images\morehudpreset.jpg" />
+							<files>
+								<folder source="Patches\Norden UI Addon - TrueHUD bars V3.1\Interface" destination="Interface" priority="2" />
+								</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="3. Truehud new shout">
+							<description>New shout, using default preset. Shout need to be enabled in truehud MCM</description>
+							<image path="Images\truehud 2.0.jpg" />
+							<files>
+								<folder source="Patches\Norden UI Truehud 2.0\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="STB Preset" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Default - Skip">
+							<description>This is the default truehud/ STB Effects/Widgets etc preset, deal with it.</description>
+							<image path="Images\dragoneye.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. 3THANY Preset">
+							<description>A preset somewhat based on 3THAN's Edge UI Supplements, what else do you want me to write here?</description>
+							<image path="Images\3thans.jpg" />
+							<files>
+								<file source="Patches\STB Widgets Norden - EthanY Edit 16x9\interface\equipWidget_STB.swf" destination="Interface\equipWidget_STB.swf" alwaysInstall="false" installIfUsable="false" priority="2" />
+								</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Major Patches" type="SelectAny">
+					<plugins order="Explicit">
+						<plugin name="1. CoMAP Map Markers">
+							<description>Redesign of CoMAP markers in the theme of Norden UI, featuring a clean, sleek aesthetic.
+
+⚠️ Requires:
+
+CoMAP:
+• https://www.nexusmods.com/skyrimspecialedition/mods/56123</description>
+							<image path="Images\Comap.jpg" />
+							<files>
+								<folder source="Patches\Norden CoMAP 4.4.0 Map Markers 1.1\MapMarkers" destination="MapMarkers" alwaysInstall="false" installIfUsable="false" priority="1" />
+								</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Diffrent Main Background">
+							<description>This is diffrent background for people who dislike the crow one, shameful.
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
+							<image path="Images\Viking.jpg" />
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="3. Dragonborn Voice Over">
+							<description>Reskin of Dragonborn's Voice Over dialogue menu fitting Norden's muted, immersive design.
+Patched for Smart Talk.
+
+⚠️ Requires:
+
+Dragonborn's Voice Over
+• https://www.nexusmods.com/skyrimspecialedition/mods/84329
+
+Optional:
+
+Smart Talk
+• https://www.nexusmods.com/skyrimspecialedition/mods/161500</description>
+							<image path="Images\Norden Dialouge.jpg" />
+							<files>
+								<folder source="Patches\Norden Smart Talk DBVO\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="4. Oblivion Interaction Icons">
+							<description>Patch for icons to be compatible with Norden. Styled with a muted, monochromatic-ish palette.
+Make sure that you've not selected any optional theme or font in Oblivion's MCM. 
+
+⚠️ Requires:
+
+Oblivion Interaction Icons
+• https://www.nexusmods.com/skyrimspecialedition/mods/52743
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
+							<image path="Images\OII.jpg" />
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="5. Scribes of Skyrim">
+							<description>READ THE MOD'S NEXUS PAGE PROPERLY BEFORE SELETHING THIS SO YOU WON'T HAVE AN ERROR ABOUT MISSING FONT FILES.
+
+"Patch" for Scribes of Skyrim adding Jost font (the one I'm trying to change to Sovngarde) to the fontconfig. Patched for Oblivion icons, for uses who dont(or want to use their own custom font) use it delete in fontconfig.txt: 
+fontlib "interface\Fonticon.swf"
+
+*So make sure to register your own custom font when you delete this.
+
+⚠️ Requires:
+
+Scribes of Skyrim - a font extension
+• https://www.nexusmods.com/skyrimspecialedition/mods/50008
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
+							<image path="Images\Scribes.jpg" />
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="6. Main Menu Music">
+							<description>Default Norden UI Main Menu music is now optional - wow, such upgrades.
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
+							<image path="Images\Norden Main Menu.jpg" />
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="7. PS Buttons">
+							<description>What the helly? PlayStation buttons in my Skyrim?
+
+This is only for SkyUI (soon tm, maybe more, idk, i just work here)</description>
+							<image path="Images\psbutton.jpg" />
+							<files>
+								<folder source="Patches\Norden Playstation Buttons 16x9\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="3" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+		<installStep name="21 by 9 Base Files">
+			<visible operator="And">
+				<dependencies operator="And">
+					<flagDependency flag="Readme" value="On" />
+					<flagDependency flag="21by9" value="On" />
+				</dependencies>
+			</visible>
+			<optionalFileGroups order="Explicit">
+				<group name="Base Files" type="SelectAll">
+					<plugins order="Explicit">
+						<plugin name="Main bulk 💬 Read Me 💬">
+							<description>The core components of Norden UI for 16:9 displays. This foundational setup brings the clean, modern functionality and rustic Nordic feel to your Skyrim.
+
+⚠️ Mandatory:
+
+Widescreen Scale Removed (Fix for squished UI - Skyrim after version 1130)
+• https://www.nexusmods.com/skyrimspecialedition/mods/136793
+SkyUI
+• https://www.nexusmods.com/skyrimspecialedition/mods/12604
+Skyhud
+• https://www.nexusmods.com/skyrimspecialedition/mods/463
+STB Widgets
+• https://www.nexusmods.com/skyrimspecialedition/mods/136148
+STB Active Effects
+• https://www.nexusmods.com/skyrimspecialedition/mods/140002
+TrueHud
+• https://www.nexusmods.com/skyrimspecialedition/mods/62775
+
+Recommended:
+Constructible Object Custom Keyword System
+• https://www.nexusmods.com/skyrimspecialedition/mods/81409
+Morehud (Includes MCM preset that You need to peronsally apply)
+• https://www.nexusmods.com/skyrimspecialedition/mods/12688
+MoreHUD Inventory Edition
+• https://www.nexusmods.com/skyrimspecialedition/mods/18619
+Better Third Person Selection - BTPS
+• https://www.nexusmods.com/skyrimspecialedition/mods/64339
+Experience
+• https://www.nexusmods.com/skyrimspecialedition/mods/17751
+Compass Navigation Overhaul
+• https://www.nexusmods.com/skyrimspecialedition/mods/74484
+Oblivion Interaction Icons
+• https://www.nexusmods.com/skyrimspecialedition/mods/52743
+True Directional Movement (MCM &gt; TDM &gt; HUD &gt; set target lock to glow)
+• https://www.nexusmods.com/skyrimspecialedition/mods/51614
+Smooth Cam (Smooth Cam preset included that fits the existing UI elements)
+• https://www.nexusmods.com/skyrimspecialedition/mods/41252</description>
+							<image path="Images\mainmenusimple.jpg" />
+							<files>
+								<folder source="Patches\Norden 1.2.3 21x9\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="1" />
+								</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Start Menu" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Default - Skip">
+							<description>Default style of the Norden Start Menu for ultrawide displays.</description>
+							<image path="Images\Norden Main Menu.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Simple">
+							<description>A simpler reskin of the Main Menu for ultrawide, offering a more classic Norden look.</description>
+							<image path="Images\mainmenusimple.jpg" />
+							<files>
+								<folder source="Patches\Norden simple main menu\Interface" destination="Interface" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="3. Simple with logo">
+							<description>A simpler reskin of the Main Menu for a more classic, understated look that aligns with Norden's minimalist philosophy - now without the neat dragon, what a shame.</description>
+							<image path="Images\skyrimlogo.jpg" />
+							<files>
+								<folder source="Patches\Norden simple main menu Skyrim logo 21x9\Interface" destination="Interface" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="4. Clean">
+							<description>A clean menu, who knew it could be done, look at those chickens!</description>
+							<image path="Images\cleanmenu.jpg" />
+							<files>
+								<folder source="Patches\Norden main menu clean\Interface" destination="Interface" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="5. Full">
+							<description>A menu with all them options, look at all those buggers.</description>
+							<image path="Images\Fullmenu.jpg" />
+							<files>
+								<folder source="Patches\Norden Start menu all options 21x9 1.1\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="4" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="6. Start Game Settings">
+							<description>Reskin for a mod Start Game Settings
+
+⚠️ Requires:
+
+Start Game Settings
+• https://www.nexusmods.com/skyrimspecialedition/mods/180690</description>
+							<image path="Images\Start Game Settings.jpg" />
+							<files>
+								<folder source="Patches\Norden Start Game Settings\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="4" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="7A. Start Game Settings Norden Logo">
+							<description>Reskin for a mod Start Game Settings with Norden logo
+
+⚠️ Requires:
+
+Start Game Settings
+• https://www.nexusmods.com/skyrimspecialedition/mods/180690</description>
+							<image path="Images\Start Game Settings logo.jpg" />
+							<files>
+								<folder source="Patches\Norden simple main menu Skyrim logo 21x9\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="4" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="7B. Start Game Settings Skyrim Logo">
+							<description>Reskin for a mod Start Game Settings with Skyrim logo
+
+⚠️ Requires:
+
+Start Game Settings
+• https://www.nexusmods.com/skyrimspecialedition/mods/180690</description>
+							<image path="Images\Start Game Settings Skyrim logo.jpg" />
+							<files>
+								<folder source="Patches\Norden Start Game Settings Skyrim logo 21x9\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="4" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Inventory Style" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Horizontal Tabs - UIs default">
+							<description>Inventory Tabs (the thingy you click/select) are now on the side aka, vertical.
+
+For spining the items move cursor where the item used to be located or press C and rotate it that way.</description>
+							<image path="Images\AIT.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Horizontal Tabs - Vertical Itemcard">
+							<description>Norden vertical itemcard option
+If choosen it overrides any other 3D item placement</description>
+							<image path="Images\Vertical itemcard.jpg" />
+							<files>
+								<folder source="Patches\Norden itemcard vertical 1.1 21x9\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="7" />
+								</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="3. Vertical Tabs">
+							<description>The regular inventory menu, adapted for Norden's aesthetic on 21:9 screens.</description>
+							<image path="Images\regular inv.jpg" />
+							<files>
+								<folder source="Patches\Norden vertical inventory 1.2\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="2" />
+								</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="4. Slimventory">
+							<description>Them tabs are vertical, i don't know why or how but they are now.</description>
+							<image path="Images\Slimventory.jpg" />
+							<files>
+								<folder source="Patches\Norden Slimventory 1.1 21x9\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="5" />
+								</files>
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Truehud Style" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. STB Widgets - Skip">
+							<description>Default hud preset containing Truehud, STB Widgets, small part of morehud and some other mods.</description>
+							<image path="Images\detectionmeter.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Non STB Widgets">
+							<description>A hud preset with Truehud and Morehud as a base for UI.</description>
+							<image path="Images\morehudpreset.jpg" />
+							<files>
+								<folder source="Patches\Norden UI Addon - TrueHUD bars V3.1 21x9\Interface" destination="Interface" priority="1" />
+								</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="3.Truehud new shout">
+							<description>New shout, using default preset. Shout need to be enabled in truehud MCM</description>
+							<image path="Images\truehud 2.0.jpg" />
+							<files>
+								<folder source="Patches\Norden UI Truehud 2.0\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="STB Preset" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Default - Skip">
+							<description>This is the default STB Effects/Widgets etc preset, deal with it.</description>
+							<image path="Images\detectionmeter.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. 3THANY Preset">
+							<description>A preset somewhat based on 3THAN's Edge UI Supplements, what else do you want me to write here?</description>
+							<image path="Images\3thans.jpg" />
+							<files>
+								<file source="Patches\STB Widgets Norden - EthanY Edit 21x9\interface\equipWidget_STB.swf" destination="Interface\equipWidget_STB.swf" alwaysInstall="false" installIfUsable="false" priority="2" />
+								</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Major Patches" type="SelectAny">
+					<plugins order="Explicit">
+						<plugin name="1. CoMAP Map Markers">
+							<description>Redesign of CoMAP markers in the theme of Norden UI, featuring a clean, sleek aesthetic.
+
+⚠️ Requires:
+
+CoMAP:
+• https://www.nexusmods.com/skyrimspecialedition/mods/56123</description>
+							<image path="Images\Comap.jpg" />
+							<files>
+								<folder source="Patches\Norden CoMAP 4.4.0 Map Markers 1.1\MapMarkers" destination="MapMarkers" alwaysInstall="false" installIfUsable="false" priority="1" />
+								</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Diffrent Main Background">
+							<description>This is diffrent background for people who dislike the crow one, shameful.
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
+							<image path="Images\Viking.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="3. Dragonborn Voice Over">
+							<description>Reskin of Dragonborn's Voice Over dialogue menu fitting Norden's muted, immersive design.
+Patched for Smart Talk.
+
+⚠️ Mandatory:
+
+Dragonborn's Voice Over
+• https://www.nexusmods.com/skyrimspecialedition/mods/84329
+
+Optional:
+
+Smart Talk
+• https://www.nexusmods.com/skyrimspecialedition/mods/161500</description>
+							<image path="Images\Norden Dialouge.jpg" />
+							<files>
+								<folder source="Patches\Norden Smart Talk DBVO\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="4. Oblivion Interaction Icons">
+							<description>Patch for icons to be compatible with Norden. Styled with a muted, monochromatic-ish palette.
+Make sure that you've not selected any optional theme or font in Oblivion's MCM. 
+
+⚠️ Requires:
+
+Oblivion Interaction Icons
+• https://www.nexusmods.com/skyrimspecialedition/mods/52743
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
+							<image path="Images\OII.jpg" />
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="5. Scribes of Skyrim">
+							<description>READ THE MOD'S NEXUS PAGE PROPERLY BEFORE SELETHING THIS SO YOU WON'T HAVE AN ERROR ABOUT MISSING FONT FILES.
+
+"Patch" for Scribes of Skyrim adding Jost font (the one I'm trying to change to Sovngarde) to the fontconfig. Patched for Oblivion icons, for uses who dont (or want to use their own custom font) use it delete in fontconfig.txt: 
+fontlib "interface\Fonticon.swf"
+
+*So make sure to register your own custom font when you delete this.
+
+⚠️ Requires:
+
+Scribes of Skyrim - a font extension
+• https://www.nexusmods.com/skyrimspecialedition/mods/50008
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
+							<image path="Images\Scribes.jpg" />
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="6. Main Menu Music">
+							<description>Default Norden UI Main Menu music is now optional - wow, such upgrades.
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
+							<image path="Images\mainmenusimple.jpg" />
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="7. PS Buttons">
+							<description>What the helly? PlayStation buttons in my Skyrim?
+
+This is only for SkyUI (soon tm, maybe more, idk, i just work here)</description>
+							<image path="Images\psbutton.jpg" />
+							<files>
+								<folder source="Patches\Norden Playstation Buttons 21x9\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="3" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+		<installStep name="Inventory Patches">
+			<visible operator="And">
+				<dependencies operator="And">
+					<flagDependency flag="Readme" value="On" />
+				</dependencies>
+			</visible>
+			<optionalFileGroups order="Explicit">
+				<group name="Select Your Sorting mod" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>Selecthing this option will install a default Sky UI sorting config.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. AIT">
+							<description>Aura's Inventory Tweaks config, what's else do you want me to say here? ~Myoo
+
+⚠️ Requires:
+
+Aura's Inventory Tweaks (More SkyUI Icons Sorting Options and Columns)
+• https://www.nexusmods.com/skyrimspecialedition/mods/68557
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
+							<image path="Images\AIT.jpg" />
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="3A. KIT">
+							<description>Kome's Inventory Tweaks config, what's else do you want me to say here? ~Myoo
+
+⚠️ Requires:
+
+Kome's Inventory Tweaks
+• https://github.com/Komegaki/Komegaki-Inventory-Tweaks/releases
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
+							<image path="Images\KIT.jpg" />
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="3B. KIT EQ on top">
+							<description>Kome's Inventory Tweaks config, what's else do you want me to say here? ~Myoo
+Equipped on top version
+
+⚠️ Requires:
+
+Kome's Inventory Tweaks
+• https://github.com/Komegaki/Komegaki-Inventory-Tweaks/releases
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
+							<image path="Images\KIT.jpg" />
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="3D Item Location" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Norden UI Default">
+							<description>The item preview is to the right of itemcard, what about it?
+Use also with Vertical itemcard</description>
+							<image path="Images\AIT.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. SkyUI Default">
+							<description>For people who complain about the item being somewhere else, not being able to rotate or zoom in.
+It will not apply with vertical itemcard option
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
+							<image path="Images\skyui3ditem.jpg" />
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Player Bars" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't want no bars in the inventory</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Inventory Bars ">
+							<description>Yeah, the inventory now has the HP/MP/SP bars, even more clutter - yippie.</description>
+							<image path="Images\verticalinv.jpg" />
+							<files>
+								<folder source="Patches\Norden inventory bars 1.2\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="3. Inventory Bars ALT">
+							<description>Yeah, the inventory now has the HP/MP/SP bars, even more clutter - yippie.</description>
+							<image path="Images\questicon.jpg" />
+							<files>
+								<folder source="Patches\Norden inventory bars 1.0 alt\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+		<installStep name="Tween Menu Selection">
+			<visible>
+				<dependencies operator="And">
+					<flagDependency flag="Readme" value="On" />
+				</dependencies>
+			</visible>
+			<optionalFileGroups order="Explicit">
+				<group name="Choose Your Style" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Vanilla - Skip">
+							<description>Redesigned Vanilla Tween Menu in the clean, futuristic-ish style of Norden.</description>
+							<image path="Images\vanillatween.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="1B. Vanilla - Centered">
+							<description>Redesigned Vanilla Tween Menu in the clean, futuristic-ish style of Norden.</description>
+							<image path="Images\vanillatweencent.jpg" />
+							<files>
+								<folder source="Patches\Norden Tween Menu centered\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="2" />
+							</files>
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2A. Vanilla Custom Skills">
+							<description>Redesigned Vanilla Tween Menu with the addition of Custom Skills, themed for Norden.
+
+⚠️ Requires:
+
+Custom Skills Framework
+• https://www.nexusmods.com/skyrimspecialedition/mods/41780</description>
+							<image path="Images\customskills.jpg" />
+							<files>
+								<folder source="Patches\Norden Tween Menu Custom Skills 1.2\Interface" destination="Interface" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2B. Vanilla Custom Skills - Centered">
+							<description>Redesigned Vanilla Tween Menu with the addition of Custom Skills, themed for Norden.
+
+⚠️ Requires:
+
+Custom Skills Framework
+• https://www.nexusmods.com/skyrimspecialedition/mods/41780</description>
+							<image path="Images\customskillscent.jpg" />
+							<files>
+								<folder source="Patches\Norden Tween Menu Custom Skills centered 1.1\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="3. Tween Menu Overhaul Classic V1">
+							<description>Classic take on a Tween Menu Overhaul menu fitting Norden UI.
+
+⚠️ Requires:
+
+Tween Menu Overhaul
+• https://www.nexusmods.com/skyrimspecialedition/mods/143275</description>
+							<image path="Images\TMOClassic.jpg" />
+							<files>
+								<folder source="Patches\Norden Tween Menu Overhaul Classic 1.2\Interface" destination="Interface" priority="2" />
+							</files>
+							<conditionFlags>
+								<flag name="TMOAlt Patches">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="4. Tween Menu Overhaul Classic Cenetered">
+							<description>Classic take on a Tween Menu Overhaul menu fitting Norden UI now in centre of the screen, wowie!
+
+⚠️ Requires:
+
+Tween Menu Overhaul
+• https://www.nexusmods.com/skyrimspecialedition/mods/143275</description>
+							<image path="Images\TMOCLASSICCENTER.jpg" />
+							<files>
+								<folder source="Patches\Norden Tween Menu Overhaul Classic 1.2 centered\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="2" />
+							</files>
+							<conditionFlags>
+								<flag name="TMOAlt Patches">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="5. Tween Menu Overhaul Alternative">
+							<description>An alternative design of Tween Menu Overhaul menu in the theme of Norden UI.
+
+⚠️ Requires:
+
+Tween Menu Overhaul
+• https://www.nexusmods.com/skyrimspecialedition/mods/143275</description>
+							<image path="Images\TMOalt.jpg" />
+							<files>
+								<folder source="Patches\a1.Norden Tween Menu Overhaul Alternative 1.1\interface" destination="interface" priority="2" />
+							</files>
+							<conditionFlags>
+								<flag name="TMOAlt Patches">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+		<installStep name="TMO Patches">
+			<visible>
+				<dependencies operator="And">
+					<flagDependency flag="Readme" value="On" />
+					<flagDependency flag="TMOAlt Patches" value="On" />
+				</dependencies>
+			</visible>
+			<optionalFileGroups order="Explicit">
+				<group name="Select Your patches" type="SelectAny">
+					<plugins order="Explicit">
+						<plugin name="1. Achievements">
+							<description>Patch to open Achivements Injector straight from Tween Menu. 
+Required mod for this option further along!
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
+							<image path="Images\Norden header.jpg" />
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Dialogue History">
+							<description>Patch to open Dialogue History straight from Tween Menu.
+Required mod for this option further along!
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
+							<image path="Images\Norden header.jpg" />
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="3. Photo Mode">
+							<description>Patch to open Photo Mode straight from Tween Menu.
+Required mod for this option further along!
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
+							<image path="Images\Norden header.jpg" />
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="4. Swiftly Order Squad">
+							<description>Patch to open Swiftly Order Squad straight from Tween Menu.
+Required mod for this option further along!
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
+							<image path="Images\Norden header.jpg" />
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="5. Skyrim Party Sheet">
+							<description>Patch to open Skyrim Party Sheet straight from Tween Menu.
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
+							<image path="Images\Norden header.jpg" />
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+		<installStep name="Major Patches">
+			<visible operator="And">
+				<dependencies operator="And">
+					<flagDependency flag="Readme" value="On" />
+					<flagDependency flag="16by9" value="On" />
+				</dependencies>
+			</visible>
+			<optionalFileGroups order="Explicit">
+				<group name="Altenate Perspective" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>Redesigned UI for selecting your starting choices in Alternate Perspective, styled with Norden's clean, rustic aesthetic.
+
+⚠️ Requires:
+
+Alternate Perspective
+• https://www.nexusmods.com/skyrimspecialedition/mods/50307</description>
+							<image path="Images\Altpersp.jpg" />
+							<files>
+								<folder source="Patches\Norden Alternate Perspective 1.3\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Dragonborn Bestiary" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="aa">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Standard">
+							<description>Standard Dragonborn's Bestiary redesigned with Norden's muted, monochromatic theme.
+
+⚠️ Mandatory:
+
+Dragonborn's Bestiary
+• https://www.nexusmods.com/skyrimspecialedition/mods/123521</description>
+							<image path="Images\Norden StnBestiary.jpg" />
+							<files>
+								<folder source="Patches\Norden Dragonborn Bestiary 1.3\Interface" destination="Interface" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="3. Know Your Emeny 2 LITE">
+							<description>Know Your Enemy 2 Lite addon for Dragonborn's Bestiary, themed to fit Norden UI.
+
+❗ Using full version of KYE2 patch will freeze Your game upon opening the Bestiary ❗
+
+⚠️ Mandatory:
+
+Dragonborn's Bestiary
+• https://www.nexusmods.com/skyrimspecialedition/mods/123521
+Know Your Enemy 2
+• https://www.nexusmods.com/skyrimspecialedition/mods/93258
+The Dragonborn's Bestiary and Know Your Enemy 2 Patch
+• https://www.nexusmods.com/skyrimspecialedition/mods/124145?tab=files&amp;file_id=527149</description>
+							<image path="Images\KYE2 Bestiary.jpg" />
+							<files>
+								<folder source="Patches\Norden Dragonborn Bestiary KYE2 patch 1.3\Interface" destination="Interface" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Favorite Menu" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Vanilla - Skip">
+							<description>Redesigned Vanilla Favorites Menu in the clean, functional style of Norden.</description>
+							<image path="Images\vanillafavs.jpg" />
+							<conditionFlags>
+								<flag name="a">o</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2A. Archmagus Favorites">
+							<description>Redesigned Favorites Menu from Archmagus Favorites in the theme of Norden.
+
+⚠️ Requires:
+
+Archmagus' Favorites
+• https://www.nexusmods.com/skyrimspecialedition/mods/116513</description>
+							<image path="Images\ArchFavs.jpg" />
+							<files>
+								<folder source="Patches\Norden ArchmagusFavorites 1.2\interface" destination="interface" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2B. Archmagus Favorites Cut">
+							<description>Redesigned Favorites Menu from Archmagus Favorites in the theme of Norden.
+With smaller background
+
+⚠️ Requires:
+
+Archmagus' Favorites
+• https://www.nexusmods.com/skyrimspecialedition/mods/116513</description>
+							<image path="Images\Archmagus Favorites 1.2 cut.jpg" />
+							<files>
+								<folder source="Patches\Norden ArchmagusFavorites 1.2 cut\interface" destination="interface" alwaysInstall="false" installIfUsable="false" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="3. Extended Favorites">
+							<description>Redesigned Extended Favorites menu in the style fitting the Norden UI.
+Based on DDDM Extended Favorites
+
+</description>
+							<image path="Images\ExtFavs.jpg" />
+							<files>
+								<folder source="Patches\4b.Norden Extended Favorites\Interface" destination="Interface" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="4. Favorites Menu Effects Descriptions">
+							<description>Redesigned Favorites Menu Effects Descriptions, styled for Norden.
+
+⚠️ Mandatory:
+
+Favorites Menu Effects Descriptions:
+• https://www.nexusmods.com/skyrimspecialedition/mods/143532</description>
+							<image path="Images\FavsEffect.jpg" />
+							<files>
+								<folder source="Patches\Norden Favorites Menu Effects Description V2 1.2\Interface" destination="Interface" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="5. Favorites Menu Effects Descriptions Extended">
+							<description>Redesigned Favorites Menu Effects Descriptions Extended version with separate shout, styled for Norden.
+
+⚠️ Mandatory:
+
+Favorites Menu Effects Descriptions:
+• https://www.nexusmods.com/skyrimspecialedition/mods/143532</description>
+							<image path="Images\Norden Favorites Menu Effects Description Extended.jpg" />
+							<files>
+								<folder source="Patches\Norden Favorites Menu Effects Description 1.2\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Minimap" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos are those mods.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Dragons Eye Minimap">
+							<description>Dragon's Eye Minimap reskinned to be in theme with the muted, rustic Norden UI look.
+
+⚠️ Requires:
+
+Dragon's Eye Minimap
+• https://www.nexusmods.com/skyrimspecialedition/mods/135489</description>
+							<image path="Images\dragoneye.jpg" />
+							<files>
+								<folder source="Patches\Norden Dragon Eye Minimap 1.1\Interface" destination="Interface" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="3. Minimap Menu">
+							<description>Minimap Menu with added touches of Norden's monochromatic theme.
+
+⚠️ Requires:
+
+Minimap Menu
+• https://www.nexusmods.com/skyrimspecialedition/mods/149508</description>
+							<image path="Images\minimapmenu.jpg" />
+							<files>
+								<folder source="Patches\Norden Luckycheech_MiniMapMenu 4.2.3\Interface" destination="Interface" priority="2" />
+								</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Sleep/Wait Menu" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Vanilla - Skip">
+							<description>You don't even know what in the name of Talos are those mods.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. No Boring Slep/Wait Menu">
+							<description>Yea, it's a reskin and you don't need the original mod.</description>
+							<image path="Images\nbwm.jpg" />
+							<files>
+								<folder source="Patches\Norden No Boring Sleep Wait\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="4" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="3. Modern Wait Menu">
+							<description>Modern Wait Menu in style of Norden Ui.
+
+⚠️ Require
+
+Modern Wait Menu
+• https://www.nexusmods.com/skyrimspecialedition/mods/117661</description>
+							<image path="Images\modernwaitmenu.jpg" />
+							<files>
+								<folder source="Patches\Norden Modern Wait Menu 2.1.1\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="4" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Static Skill Leveling Rewritten" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes - Basic">
+							<description>Retextured Static Skill Leveling Rewritten in the clean, functional theme of Norden Ui.
+
+⚠️ Requires:
+
+Skill Leveling Rewritten:
+• https://www.nexusmods.com/skyrimspecialedition/mods/89940</description>
+							<image path="Images\StaticSkilllev.jpg" />
+							<files>
+								<folder source="Patches\PatchB8.Norden Static Skill Rewritten patch\Interface" destination="Interface" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="3. Yes - Constellations">
+							<description>Retextured Static Skill Leveling Rewritten in the clean, functional theme of Norden Ui with added support for Constellation who people that care about such stuff.
+
+⚠️ Requires:
+
+Skill Leveling Rewritten:
+• https://www.nexusmods.com/skyrimspecialedition/mods/89940
+Constellations - Additional Player Skills
+• https://www.nexusmods.com/skyrimspecialedition/mods/117352</description>
+							<image path="Images\Constellations.jpg" />
+							<files>
+								<folder source="Patches\Norden Static Skill Leveling for Consellations\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="4. Yes - Firmament">
+							<description>Retextured Static Skill Leveling Rewritten in the clean, functional theme of Norden Ui with added support forFirmament who people that care about such stuff.
+
+⚠️ Requires:
+
+Skill Leveling Rewritten:
+• https://www.nexusmods.com/skyrimspecialedition/mods/89940
+Firmament
+• https://www.nexusmods.com/skyrimspecialedition/mods/153781</description>
+							<image path="Images\Firament.jpg" />
+							<files>
+								<folder source="Patches\Norden UI Static Skill Leveling for Firmament patch 1.1\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Quest Journal Overhaul" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\qjv.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>Redesigned Quest Journal Overhaul menu with the theme fitting the clean, immersive Norden UI.
+
+⚠️ Requires:
+
+Scaleform Translation Plus Plus NG:
+• http://nexusmods.com/skyrimspecialedition/mods/77359
+Quest Journal Overhaul:
+• https://www.nexusmods.com/skyrimspecialedition/mods/141295</description>
+							<image path="Images\qjo.jpg" />
+							<files>
+								<folder source="Patches\Norden Quest Journal Overhaul 2.2 16x9\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+		<installStep name="Major Patchers 21x9">
+			<visible operator="And">
+				<dependencies operator="And">
+					<flagDependency flag="Readme" value="On" />
+					<flagDependency flag="21by9" value="On" />
+				</dependencies>
+			</visible>
+			<optionalFileGroups order="Explicit">
+				<group name="Altenate Perspective" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="aa">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>Redesigned UI for selecting your starting choices in Alternate Perspective, styled with Norden's clean, rustic aesthetic.
+
+⚠️ Requires:
+
+Alternate Perspective
+• https://www.nexusmods.com/skyrimspecialedition/mods/50307</description>
+							<image path="Images\Altpersp.jpg" />
+							<files>
+								<folder source="Patches\Norden Alternate Perspective 1.3 21x9\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Dragonborn Bestiary" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="aa">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Standard">
+							<description>Standard Dragonborn's Bestiary redesigned with Norden's muted, monochromatic theme.
+
+⚠️ Mandatory:
+
+Dragonborn's Bestiary
+• https://www.nexusmods.com/skyrimspecialedition/mods/123521</description>
+							<image path="Images\Norden StnBestiary.jpg" />
+							<files>
+								<folder source="Patches\Norden Dragonborn Bestiary 1.3 21x9\Interface" destination="Interface" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="3. Know Your Enemy 2 LITE">
+							<description>Know Your Enemy 2 Lite addon for Dragonborn's Bestiary, themed to fit Norden UI.
+
+❗ Using full version of KYE2 patch will freeze Your game upon opening the Bestiary ❗
+
+⚠️ Mandatory:
+
+Dragonborn's Bestiary
+• https://www.nexusmods.com/skyrimspecialedition/mods/123521
+Know Your Enemy 2
+• https://www.nexusmods.com/skyrimspecialedition/mods/93258
+The Dragonborn's Bestiary and Know Your Enemy 2 Patch
+• https://www.nexusmods.com/skyrimspecialedition/mods/124145?tab=files&amp;file_id=527149</description>
+							<image path="Images\KYE2 Bestiary.jpg" />
+							<files>
+								<folder source="Patches\Norden Dragonborn Bestiary KYE2 patch 1.3 21x9\Interface" destination="Interface" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Favorites Menu" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Vanilla - Skip">
+							<description>Redesigned Vanilla Favorites Menu in the style fitting the Ui.</description>
+							<image path="Images\vanillafavs.jpg" />
+							<conditionFlags>
+								<flag name="a">o</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2A. Archmagus Favorites">
+							<description>Redesigned Favorites Menu from Archmagus Favorites in the theme of Norden.
+
+⚠️ Requires:
+
+Archmagus' Favorites
+• https://www.nexusmods.com/skyrimspecialedition/mods/116513</description>
+							<image path="Images\ArchFavs.jpg" />
+							<files>
+								<folder source="Patches\Norden ArchmagusFavorites 1.2\interface" destination="interface" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2B. Archmagus Favorites Cut">
+							<description>Redesigned Favorites Menu from Archmagus Favorites in the theme of Norden.
+With smaller background
+
+⚠️ Requires:
+
+Archmagus' Favorites
+• https://www.nexusmods.com/skyrimspecialedition/mods/116513</description>
+							<image path="Images\Archmagus Favorites 1.2 cut.jpg" />
+							<files>
+								<folder source="Patches\Norden ArchmagusFavorites 1.2 cut\interface" destination="interface" alwaysInstall="false" installIfUsable="false" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="3. Extended Favorites">
+							<description>Redesigned Extended Favorites menu in the style fitting the Norden UI.
+Based on DDDM Extended Favorites</description>
+							<image path="Images\ExtFavs.jpg" />
+							<files>
+								<folder source="Patches\4b.Norden Extended Favorites\Interface" destination="Interface" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="4. Favorite Menu Effect Descriptions">
+							<description>Redesigned Favorites Menu Effects Descriptions, styled for Norden.
+
+⚠️ Mandatory:
+
+Favorites Menu Effects Descriptions:
+• https://www.nexusmods.com/skyrimspecialedition/mods/143532</description>
+							<image path="Images\FavsEffect.jpg" />
+							<files>
+								<folder source="Patches\Norden Favorites Menu Effects Description V2 1.2\Interface" destination="Interface" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="5. Favorite Menu Effect Descriptions Extended">
+							<description>Redesigned Favorites Menu Effects Descriptions Extended version with separate shout, styled for Norden.
+
+⚠️ Mandatory:
+
+Favorites Menu Effects Descriptions:
+• https://www.nexusmods.com/skyrimspecialedition/mods/143532</description>
+							<image path="Images\Norden Favorites Menu Effects Description Extended.jpg" />
+							<files>
+								<folder source="Patches\Norden Favorites Menu Effects Description 1.2\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Minimap" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos are those mods.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Dragons Eye Minimap">
+							<description>Dragon's Eye Minimap reskinned to be in theme with the muted, rustic Norden UI look.
+
+⚠️ Requires:
+
+Dragon's Eye Minimap
+• https://www.nexusmods.com/skyrimspecialedition/mods/135489</description>
+							<image path="Images\dragoneye.jpg" />
+							<files>
+								<folder source="Patches\Norden Dragon Eye Minimap 1.1\Interface" destination="Interface" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="3. Minimap Menu">
+							<description>Minimap Menu with added touches of Norden's monochromatic theme.
+
+⚠️ Requires:
+
+Minimap Menu
+• https://www.nexusmods.com/skyrimspecialedition/mods/149508</description>
+							<image path="Images\minimapmenu.jpg" />
+							<files>
+								<folder source="Patches\Norden Luckycheech_MiniMapMenu 4.2.3 21x9\Interface" destination="Interface" priority="2" />
+								</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Sleep/Wait Menu" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Vanlla - Skip">
+							<description>You don't even know what in the name of Talos are those mods.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="aa">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. No Boring Sleep/Wait Menu">
+							<description>Yea, it's a reskin and you don't need the original mod.</description>
+							<image path="Images\nbwm.jpg" />
+							<files>
+								<folder source="Patches\Norden No Boring Sleep Wait\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="4" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="3. Modern Wait Menu">
+							<description>Modern Wait Menu in style of Norden Ui.
+
+⚠️ Require
+
+Modern Wait Menu
+• https://www.nexusmods.com/skyrimspecialedition/mods/117661</description>
+							<image path="Images\modernwaitmenu.jpg" />
+							<files>
+								<folder source="Patches\Norden Modern Wait Menu 2.1.1\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="4" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Static Skill Leveling Rewritten" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes - Basic">
+							<description>Retextured Static Skill Leveling Rewritten in the clean, functional theme of Norden Ui.
+
+⚠️ Requires:
+
+Skill Leveling Rewritten:
+• https://www.nexusmods.com/skyrimspecialedition/mods/89940</description>
+							<image path="Images\StaticSkilllev.jpg" />
+							<files>
+								<folder source="Patches\PatchB8.Norden Static Skill Rewritten patch\Interface" destination="Interface" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="3. Yes - Constellations">
+							<description>Retextured Static Skill Leveling Rewritten in the clean, functional theme of Norden Ui with added support for Constellation who people that care about such stuff.
+
+⚠️ Requires:
+
+Skill Leveling Rewritten:
+• https://www.nexusmods.com/skyrimspecialedition/mods/89940
+Constellations - Additional Player Skills
+• https://www.nexusmods.com/skyrimspecialedition/mods/117352</description>
+							<image path="Images\Constellations.jpg" />
+							<files>
+								<folder source="Patches\Norden Static Skill Leveling for Consellations\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="4. Yes - Firmament">
+							<description>Retextured Static Skill Leveling Rewritten in the clean, functional theme of Norden Ui with added support forFirmament who people that care about such stuff.
+
+⚠️ Requires:
+
+Skill Leveling Rewritten:
+• https://www.nexusmods.com/skyrimspecialedition/mods/89940
+Firmament
+• https://www.nexusmods.com/skyrimspecialedition/mods/153781</description>
+							<image path="Images\Firament.jpg" />
+							<files>
+								<folder source="Patches\Norden UI Static Skill Leveling for Firmament patch 1.1\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Quest Journal Overhaul" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\qjv.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>Redesigned Quest Journal Overhaul menu with the theme fitting the clean, immersive Norden UI.
+⚠️ Requires:
+
+Scaleform Translation Plus Plus NG:
+• http://nexusmods.com/skyrimspecialedition/mods/77359
+Quest Journal Overhaul:
+• https://www.nexusmods.com/skyrimspecialedition/mods/141295</description>
+							<image path="Images\qjo.jpg" />
+							<files>
+								<folder source="Patches\Norden Quest Journal Overhaul 2.2 21x9\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+		<installStep name="Wheeler">
+			<visible>
+				<dependencies operator="And">
+					<flagDependency flag="Readme" value="On" />
+				</dependencies>
+			</visible>
+			<optionalFileGroups order="Explicit">
+				<group name="Wheeler" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="aa">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>Redesigned Wheeler in the style of Norden UI.
+
+⚠️ Requires:
+
+Wheeler - Quick Action Wheel Of Skyrim
+• https://www.nexusmods.com/skyrimspecialedition/mods/97345
+Wheeler CTD-Fix
+• https://www.nexusmods.com/skyrimspecialedition/mods/132074</description>
+							<image path="Images\Wheeler.jpg" />
+							<conditionFlags>
+								<flag name="wheeleryes">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+		<installStep name="Wheeler Style">
+			<visible>
+				<dependencies operator="And">
+					<flagDependency flag="Readme" value="On" />
+					<flagDependency flag="wheeleryes" value="On" />
+				</dependencies>
+			</visible>
+			<optionalFileGroups order="Explicit">
+				<group name="Selection" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Background">
+							<description>Nithog: Simple wheeler with background.
+Myoo: Boy ain't no way boi.</description>
+							<image path="Images\wheelerbackground.jpg" />
+							<files>
+								<folder source="Patches\Norden Wheeler with background 1.1\SKSE" destination="SKSE" alwaysInstall="false" installIfUsable="false" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. No Background">
+							<description>Nithog: Simple wheeler without background.
+Myoo: Boy ain't no way boi.</description>
+							<image path="Images\wheelernobackground.jpg" />
+							<files>
+								<folder source="Patches\Norden Wheeler no background 1.1\SKSE" destination="SKSE" alwaysInstall="false" installIfUsable="false" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+		<installStep name="Wheeler Icons">
+			<visible>
+				<dependencies operator="And">
+					<flagDependency flag="Readme" value="On" />
+					<flagDependency flag="wheeleryes" value="On" />
+				</dependencies>
+			</visible>
+			<optionalFileGroups order="Explicit">
+				<group name="Selection" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip - Your installed ones">
+							<description>If you want to use icons from any other source like KIT or any other replacer.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">o</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Colored Icons">
+							<description>Icons will have color- wow!</description>
+							<image path="Images\wheelerbackground.jpg" />
+							<files>
+								<folder source="Patches\Norden Wheeler icons colored\SKSE" destination="SKSE" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="3. White Icons">
+							<description>Icons will be white, wow i guess?</description>
+							<image path="Images\whiteicons.jpg" />
+							<files>
+								<folder source="Patches\Norden Wheeler icons white\SKSE" destination="SKSE" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+		<installStep name="Patches Page 1 of 4">
+			<visible operator="And">
+				<dependencies operator="And">
+					<flagDependency flag="Readme" value="On" />
+				</dependencies>
+			</visible>
+			<optionalFileGroups order="Explicit">
+				<group name="Achievement Injector" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. 16x9">
+							<description>Achievement Injector design in the clean, rustic theme of Norden UI.
+
+⚠️ Requires:
+
+Achievement Injector
+• https://www.nexusmods.com/skyrimspecialedition/mods/126220</description>
+							<image path="Images\AchievementInj.jpg" />
+							<files>
+								<folder source="Patches\Norden Achievement Injector 1.2\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="3. 21x9">
+							<description>Achievement Injector design in the clean, rustic theme of Norden UI.
+
+⚠️ Requires:
+
+Achievement Injector
+• https://www.nexusmods.com/skyrimspecialedition/mods/126220</description>
+							<image path="Images\AchievementInj.jpg" />
+							<files>
+								<folder source="Patches\Norden Achievement Injector 21x9 1.2\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Bathing in Skyrim" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>Widget from Bathing in Skyrim Renewed Addon redesigned to fit Norden's muted, monochromatic UI theme.
+
+⚠️ Requires:
+
+Bathing in Skyrim - Renewed
+• https://www.nexusmods.com/skyrimspecialedition/mods/135288
+Widget Addon - Bathing in Skyrim Renewed
+• https://www.nexusmods.com/skyrimspecialedition/mods/138988</description>
+							<image path="Images\sunhelmbathing.jpg" />
+							<files>
+								<file source="Patches\Norden SunHelm and Bathing patch\interface\exported\widgets\wa\WA_BathStatus.swf" destination="interface\exported\widgets\wa\WA_BathStatus.swf" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Biggie Traits and Sky Sign" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>Biggie Traits/Sky Sign/ Nirn's Choosen redesigned in the clean, functional style of Norden UI.
+
+⚠️ Requires:
+
+Biggie Traits
+• https://www.nexusmods.com/skyrimspecialedition/mods/136384
+Sky Signs
+• https://www.nexusmods.com/skyrimspecialedition/mods/147884</description>
+							<image path="Images\biggienirnskysigns.jpg" />
+							<files>
+								<folder source="Patches\Norden Biggie Traits and Sky Signs 1.1\Interface" destination="Interface" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Casting Bar" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>Simple Casting Bar reskin fitting the design of UI.
+
+⚠️ Requires:
+
+Casting Bar
+• https://www.nexusmods.com/skyrimspecialedition/mods/80455</description>
+							<image path="Images\castingbar.jpg" />
+							<files>
+								<folder source="Patches\PatchA2.Norden Casting Bars\Interface" destination="Interface" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Character Suggestor" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>Redesigned Racemenu Addon Character Suggestor in theme with the rest of UI.
+
+⚠️ Requires:
+
+Racemenu
+• https://www.nexusmods.com/skyrimspecialedition/mods/19080
+Character Suggestor
+• https://www.nexusmods.com/skyrimspecialedition/mods/144854</description>
+							<image path="Images\Suggestor.jpg" />
+							<files>
+								<folder source="Patches\PatchA3.Norden Character Suggestor 1.0.9\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Compare Equipment NG" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>Redesigned cards added via Compare Equipment in style fitting the UI.
+
+⚠️ Requires:
+
+Compare Equipment NG
+• https://www.nexusmods.com/skyrimspecialedition/mods/158874</description>
+							<image path="Images\Norden Compare Eq.jpg" />
+							<files>
+								<folder source="Patches\Norden Compare Equipment NG 1.4\Interface" destination="Interface" priority="1" />
+								</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Cycle Movesets Framework - CMF" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>Reskin of UI element added from CMF.
+
+⚠️ Requires:
+
+Cycle Movesets Framework
+• https://www.nexusmods.com/skyrimspecialedition/mods/157948
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
+							<image path="Images\CMF.jpg" />
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="RoleRim Series" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>Reskinned Roleplaying in Skyrim
+
+⚠️ Requires any or all of the following mods:
+
+Roleplaying in Skyrim - Classic Attributes
+• https://www.nexusmods.com/skyrimspecialedition/mods/151476
+
+OR/AND
+
+Roleplaying In Skyrim - Origins
+• https://www.nexusmods.com/skyrimspecialedition/mods/150186
+
+OR/AND
+
+Roleplaying in Skyrim - Lineages
+• https://www.nexusmods.com/skyrimspecialedition/mods/174443
+
+OR/AND
+
+Roleplaying in Skyrim - Races
+• https://www.nexusmods.com/skyrimspecialedition/mods/149544
+
+OR/AND
+
+Roleplaying in Skyrim - Birthsigns
+• https://www.nexusmods.com/skyrimspecialedition/mods/154610</description>
+							<image path="Images\RoleRim.jpg" />
+							<files>
+								<folder source="Patches\Norden RoleRim\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="My Precious...es - Multiple Rings SKSE" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>Yep, My Precious...es - Multiple Rings SKSE menu in theme of UI.
+
+⚠️ Requires:
+
+My Precious...es - Multiple Rings SKSE
+• https://www.nexusmods.com/skyrimspecialedition/mods/180015</description>
+							<image path="Images\My Precious...es - Multiple Rings SKSE.jpg" />
+							<files>
+								<folder source="Patches\Norden My Precious...es - Multiple Rings SKSE 0.4.5\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Tears Of Kyne" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>Reskin of the Tears of Kyne - Water Need Mod
+
+⚠️ Requires:
+
+Tears of Kyne - Water Need Mod
+• https://www.nexusmods.com/skyrimspecialedition/mods/181212</description>
+							<image path="Images\Tears Of Kyne.jpg" />
+							<files>
+								<folder source="Patches\Norden Tears Of Kyne\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Kill Feed" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>Preset for Kill Feed Norden style
+
+⚠️ Requires:
+
+Kill Feed
+• https://www.nexusmods.com/skyrimspecialedition/mods/179053
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
+							<image path="Images\kill feed.jpg" />
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+		<installStep name="Patches Page 2 of 4">
+			<visible operator="And">
+				<dependencies operator="And">
+					<flagDependency flag="Readme" value="On" />
+				</dependencies>
+			</visible>
+			<optionalFileGroups order="Explicit">
+				<group name="Character Menu" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Character Menu Patch">
+							<description>Reskinned Menu added via Character menu in the theme of well done ui.
+
+⚠️ Requires:
+
+Character Menu SE
+• https://www.nexusmods.com/skyrimspecialedition/mods/173074</description>
+							<image path="Images\charmenu.jpg" />
+							<files>
+								<folder source="Patches\Norden Character Menu SE 1.2.1\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Character Menu Hand to Hand Patch">
+							<description>Reskinned Menu added via Character menu in the theme of well done ui.
+
+⚠️ Requires:
+
+Character Menu SE
+• https://www.nexusmods.com/skyrimspecialedition/mods/173074
+
+Hand to Hand - An Adamant Addon
+• https://www.nexusmods.com/skyrimspecialedition/mods/59790
+</description>
+							<image path="Images\charmenu.jpg" />
+							<files>
+								<folder source="Patches\Norden Character Menu SE 1.2.1 Hand to Hand\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Detection Meter" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="aa">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>Simple reskin of Detection Meter.
+
+⚠️ Requires:
+
+Detection Meter
+• https://www.nexusmods.com/skyrimspecialedition/mods/63057
+Detection Meter AE Support
+• https://www.nexusmods.com/skyrimspecialedition/mods/77350
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
+							<image path="Images\detectionmeter.jpg" />
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Dialogue History" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>Dialogue History design fitting rest of UI.
+
+❗ For people who want the function of opening History from Tween Menu please see link below ❗
+
+⚠️ Requires:
+
+Dialogue History
+• https://www.nexusmods.com/skyrimspecialedition/mods/114238
+❗ For use from Tween Menu - Skyrim Souls RE Updated
+• https://www.nexusmods.com/skyrimspecialedition/mods/27859
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
+							<image path="Images\dialoguehistory.jpg" />
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Easy Console Commands" type="SelectExactlyOne">
+					<plugins>
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>Quick reskin of UI elements added via Quick Console Commands.
+
+⚠️ Requires:
+
+Easy Console Commands
+• https://www.nexusmods.com/skyrimspecialedition/mods/122895</description>
+							<image path="Images\EasyComs.jpg" />
+							<files>
+								<folder source="Patches\Norden Easy Console Commands\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Extended UI" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="aa">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>❗ Not compatible with Constellations - Additional Player Skills and Firmament ❗
+
+Overhaul of Extended Ui in style fitting Norden UI.
+
+⚠️ Requires:
+
+Extended UI
+• https://www.nexusmods.com/skyrim/mods/57873
+Extended UI - ESP FIX ONLY!!
+• https://www.nexusmods.com/skyrimspecialedition/mods/64979</description>
+							<image path="Images\Norden ExtUI.jpg" />
+							<files>
+								<folder source="Patches\PatchA7.Norden Extended UI 1.0\interface" destination="interface" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Faction Ranks" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos are those mods.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="aa">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>Reskin of menu and widget/notification added via FactionsRanks.
+
+⚠️ Requires:
+
+Facation Ranks
+• https://www.nexusmods.com/skyrimspecialedition/mods/170776</description>
+							<image path="Images\factionrank.jpg" />
+							<files>
+								<folder source="Patches\Norden Faction Ranks 1.1\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Fancy Fishing" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>Redesigned minigame UI from Fancy Fishing in theme with rest of the UI.
+
+⚠️ Requires:
+
+Fancy Fishing - Minigame and Tweaks 
+• https://www.nexusmods.com/skyrimspecialedition/mods/89352</description>
+							<image path="Images\fancyfishing.jpg" />
+							<files>
+								<folder source="Patches\Norden Fancy Fishing patch\Interface" destination="Interface" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Follower Stats" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>Redesigned Follower Stats UI in theme with Ui.
+
+⚠️ Requires:
+
+Follower Stats
+• https://www.nexusmods.com/skyrimspecialedition/mods/159406</description>
+							<image path="Images\Followerstats.jpg" />
+							<files>
+								<folder source="Patches\Norden Follower Stats 1.4.0\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="1" />
+								</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Frostfall and Last Seed bars" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>A redesigned bars in the theme of Norden Ui.
+
+⚠️ Requires:
+
+Frostfall - Hypothermia Camping Survival
+• https://www.nexusmods.com/skyrimspecialedition/mods/671
+
+OR
+
+Last Seed
+• https://www.nexusmods.com/skyrimspecialedition/mods/56393</description>
+							<image path="Images\frostfall bars.jpg" />
+							<files>
+								<folder source="Patches\Norden Frostfall and Last Seed bars\Interface" destination="Interface" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Frostfall Iwant Widgets" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>A refreshed look of IWant Widgets that fit the theme of UI.
+
+⚠️ Requires:
+
+Frostfall - Hypothermia Camping Survival
+• https://www.nexusmods.com/skyrimspecialedition/mods/671
+iWant Status Bars
+• https://www.nexusmods.com/skyrimspecialedition/mods/36460
+iWant Frostfall Widgets
+• https://www.nexusmods.com/skyrimspecialedition/mods/35714
+
+OR
+
+Survival Mode Improved UI Widgets for Needs Display by iWant
+• https://www.nexusmods.com/skyrimspecialedition/mods/91878
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
+							<image path="Images\frostfall widgets.jpg" />
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="FTweaks" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="aa">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes - Requires Requiem">
+							<description>💬 Requires Requiem! 💬 
+Reskinned Skill Menu from FTweaks in style of Norden UI.
+
+⚠️ Requires:
+
+FTweaks Skill Increase Menu
+• https://www.nexusmods.com/skyrimspecialedition/mods/124253</description>
+							<image path="Images\requr.jpg" />
+							<files>
+								<folder source="Patches\Norden FTweaks Skill Increase Menu patch\Interface" destination="Interface" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Hotkey Reminder" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>Retextured Hotkey Reminder in theme of Norden UI.
+
+⚠️ Requires:
+
+Hotkey Reminder
+• https://www.nexusmods.com/skyrimspecialedition/mods/115853</description>
+							<image path="Images\hotkeyremind.jpg" />
+							<files>
+								<folder source="Patches\Norden Hotkey Reminder\Interface" destination="Interface" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Requiem - Lock Bash Threshold Meter" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="aa">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes - Requires Requiem">
+							<description>💬 Requires Requiem! 💬 
+Reskinned Lock Bash Threshold Meter in style of Norden
+
+⚠️ Requires:
+
+Requiem - Lock Bash Threshold Meter
+• https://www.nexusmods.com/skyrimspecialedition/mods/109661
+• https://www.nexusmods.com/skyrimspecialedition/mods/60888</description>
+							<image path="Images\Requiem - Lock Bash Threshold Meter.jpg" />
+							<files>
+								<folder source="Patches\Norden Lock Bash Threshold Meter\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="1" />
+								</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+		<installStep name="Patches Page 3 of 4">
+			<visible operator="And">
+				<dependencies operator="And">
+					<flagDependency flag="Readme" value="On" />
+				</dependencies>
+			</visible>
+			<optionalFileGroups order="Explicit">
+				<group name="Ineed Widget" type="SelectExactlyOne">
+					<plugins>
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>Reskinned Ineed Widget, idk what else to write here.
+
+⚠️ Requires:
+
+Ineed - iNeed - Food Water and Sleep
+• https://www.nexusmods.com/skyrimspecialedition/mods/645
+
+OR
+
+Ineed - iNeed - Food Water and Sleep - Continued
+• https://www.nexusmods.com/skyrimspecialedition/mods/19390</description>
+							<image path="Images\ineedwidgets.jpg" />
+							<files>
+								<folder source="Patches\Norden UI iNeed patch\interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="ImGUI Icons" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>Stylized ImGUI Icons in theme of Norden UI.
+
+⚠️ Requires:
+
+ImGUI Icons
+• https://www.nexusmods.com/skyrimspecialedition/mods/114790
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
+							<image path="Images\Norden Imgui.jpg" />
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Legendary Map" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip - Default/Vanilla">
+							<description>You don't even know what in the name of Talos is this mod.
+
+https://www.youtube.com/watch?v=gEfftVsyk_c</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2A. Yes">
+							<description>Reskin of the Legendary Map, what else did you expect here?
+
+⚠️ Requires:
+
+Legendary Map
+• https://www.nexusmods.com/skyrimspecialedition/mods/157397</description>
+							<image path="Images\legmap.jpg" />
+							<files>
+								<folder source="Patches\PatchB1.Norden Legendary Map Patch 1.1\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2B. Yes - Widescreen">
+							<description>Reskin of the Legendary Map, what else did you expect here?
+
+⚠️ Requires:
+
+Legendary Map
+• https://www.nexusmods.com/skyrimspecialedition/mods/157397</description>
+							<image path="Images\legmap.jpg" />
+							<files>
+								<folder source="Patches\Norden Legendary Map Patch 21x9 1.1\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="3A. Yes (CoMAP Support)">
+							<description>Reskin of the Legendary Map, what else did you expect here? Added the thingy with CoMAP thingy.
+
+⚠️ Requires:
+
+Legendary Map
+• https://www.nexusmods.com/skyrimspecialedition/mods/157397
+
+Legendary Map - CoMAP Support and Some Improvements
+• https://www.nexusmods.com/skyrimspecialedition/mods/174532</description>
+							<image path="Images\legcomap.jpg" />
+							<files>
+								<folder source="Patches\Norden Legendary Map - CoMAP Support and Some Improvement\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="3B. Yes (CoMAP Support) - Widescreen">
+							<description>Reskin of the Legendary Map, what else did you expect here? Added the thingy with CoMAP thingy.
+
+⚠️ Requires:
+
+Legendary Map
+• https://www.nexusmods.com/skyrimspecialedition/mods/157397
+
+Legendary Map - CoMAP Support and Some Improvements
+• https://www.nexusmods.com/skyrimspecialedition/mods/174532</description>
+							<image path="Images\legcomap.jpg" />
+							<files>
+								<folder source="Patches\Norden Legendary Map - CoMAP Support and Some Improvement 21x9\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Lore Box" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>Reskinned Lore Box in theme with UI, addional compability with KYE2 included.
+
+⚠️ Requires:
+
+Lore Box
+• https://www.nexusmods.com/skyrimspecialedition/mods/156534
+
+❗ Optional:
+
+Know Your Enemy 2
+• https://www.nexusmods.com/skyrimspecialedition/mods/93258</description>
+							<image path="Images\Norden Lorebox.jpg" />
+							<files>
+								<folder source="Patches\Norden UI Know Your Enemy 2 - LoreBox 1.0.6a\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Loading Menu Overhaul" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. 16x9">
+							<description>Loading Menu Overhaul redesigned to be a good fit with the rest of UI.
+
+⚠️ Requires:
+
+Loading Menu Overhaul
+• https://www.nexusmods.com/skyrimspecialedition/mods/149874</description>
+							<image path="Images\LMO.jpg" />
+							<files>
+								<folder source="Patches\Norden Loading Menu Overhaul 1.3\interface" destination="interface" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. 21x9">
+							<description>Loading Menu Overhaul redesigned to be a good fit with the rest of UI.
+
+⚠️ Requires:
+
+Loading Menu Overhaul
+• https://www.nexusmods.com/skyrimspecialedition/mods/149874</description>
+							<image path="Images\LMO.jpg" />
+							<files>
+								<folder source="Patches\Norden Loading Menu Overhaul 1.3 21x9\interface" destination="interface" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Local Map Upgrade" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="aa">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>Overhauled Local Map upgrade in the theme of Norden.
+
+⚠️ Requires:
+
+Local Map Upgrade
+• https://www.nexusmods.com/skyrimspecialedition/mods/129756</description>
+							<image path="Images\localmap.jpg" />
+							<files>
+								<folder source="Patches\Norden Local Map Upgrade patch 1.1\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Oxygen Meter 2" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>Simple reskinned Oxygen Meter 2 fitting the look of UI.
+
+⚠️ Requires:
+
+Oxygen Meter
+• https://www.nexusmods.com/skyrimspecialedition/mods/64532</description>
+							<image path="Images\oxygenmeter.jpg" />
+							<files>
+								<folder source="Patches\PatchB5.Norden OxygenMeter2 1.1\Interface" destination="Interface" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Witness Indicator" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>Reskined Icon in Norden style
+
+⚠️ Requires:
+
+Witness Indicator
+• https://www.nexusmods.com/skyrimspecialedition/mods/177592</description>
+							<image path="Images\Witness Indicator.jpg" />
+							<files>
+								<folder source="Patches\Norden Witness Indicator\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Unsearched Corpses Indicator" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>Reskined Icon in Norden style
+
+⚠️ Requires:
+
+Unsearched Corpses Indicator
+• https://www.nexusmods.com/skyrimspecialedition/mods/177677</description>
+							<image path="Images\Unsearched Corpses Indicator.jpg" />
+							<files>
+								<folder source="Patches\Norden Unsearched Corpses Indicator\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Quest Givers Have Icons Framework" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>Reskined Icon in Norden style
+
+⚠️ Requires:
+
+Quest Givers Have Icons Framework
+• https://www.nexusmods.com/skyrimspecialedition/mods/178921
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
+							<image path="Images\QuestGiversHaveIcons.jpg" />
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Who (tf) is detecting me - Complete Detection Indicator" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>Reskined Icons in Norden style
+
+⚠️ Requires:
+
+Who (tf) is detecting me - Complete Detection Indicator
+• https://www.nexusmods.com/skyrimspecialedition/mods/177819</description>
+							<image path="Images\Complete Detection Indicator.jpg" />
+							<files>
+								<folder source="Patches\Norden Complete Detection Indicator\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+		<installStep name="Patches Page 4 of 4">
+			<visible operator="And">
+				<dependencies operator="And">
+					<flagDependency flag="Readme" value="On" />
+				</dependencies>
+			</visible>
+			<optionalFileGroups order="Explicit">
+				<group name="Photo Mode" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>Photo Mode redesign fitting rest of UI.
+
+❗ For people who want the function of opening History from Tween Menu please see link below ❗
+
+⚠️ Requires:
+
+Photo Mode
+• https://www.nexusmods.com/skyrimspecialedition/mods/91701
+❗ For use from Tween Menu - Skyrim Souls RE Updated
+• https://www.nexusmods.com/skyrimspecialedition/mods/27859
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
+							<image path="Images\photomode.jpg" />
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Quest Item Icon" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.
+
+https://www.youtube.com/watch?v=gEfftVsyk_c</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>What is that? A patch you say? Impossible.
+
+⚠️ Requires:
+
+Quest Item Icon
+• https://www.nexusmods.com/skyrimspecialedition/mods/174141</description>
+							<image path="Images\questicon.jpg" />
+							<files>
+								<folder source="Patches\Norden QuestItemIcon\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="2" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Quick Item Transfer" type="SelectExactlyOne">
+					<plugins>
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>Quickly reskinned Quick Item Transfer in theme of Norden UI.
+
+⚠️ Requires:
+
+Quick Item Transfer
+• https://www.nexusmods.com/skyrimspecialedition/mods/125160</description>
+							<image path="Images\QIT.jpg" />
+							<files>
+								<folder source="Patches\Norden Quick Item Transfer 1.0\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="QuickLoot IE" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>Reskin of Quickloot IE's menu to look and fit with the theme of Norden.
+
+⚠️ Requires:
+
+QuickLoot IE
+• https://www.nexusmods.com/skyrimspecialedition/mods/120075</description>
+							<image path="Images\Norden Quickloot.jpg" />
+							<files>
+								<folder source="Patches\Norden Quickloot IE V3 1.3\Interface" destination="Interface" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Spell Hotbar" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. V1">
+							<description>A redisigned Spell Hotbar v1 in style fitting Norden Ui.
+
+⚠️ Requires:
+
+Spell Hotbar
+• https://www.nexusmods.com/skyrimspecialedition/mods/110763
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
+							<image path="Images\spellhotbar.jpg" />
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="3. V2">
+							<description>A redisigned Spell Hotbar v1 in style fitting Norden Ui.
+
+⚠️ Requires:
+
+Spell Hotbar
+• https://www.nexusmods.com/skyrimspecialedition/mods/110763
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
+							<image path="Images\spellhotbar.jpg" />
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Staff Enchanthing Plus" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Regular Inventory">
+							<description>Redesigned menu of Staff Enchanting Plus fitting the overall style of Norden UI.
+
+⚠️ Requires:
+
+Staff Enchanting Plus
+• https://www.nexusmods.com/skyrimspecialedition/mods/132680</description>
+							<image path="Images\staffench.jpg" />
+							<files>
+								<folder source="Patches\Norden Staff Enchanting Plus 1.6\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="3. Slimventory 16x9">
+							<description>Redesigned menu of Staff Enchanting Plus fitting the overall style of Norden UI - but smol.
+
+⚠️ Requires:
+
+Staff Enchanting Plus
+• https://www.nexusmods.com/skyrimspecialedition/mods/132680</description>
+							<image path="Images\staffench.jpg" />
+							<files>
+								<folder source="Patches\Norden Staff Enchanting Plus Slimventory 1.1\Interface" destination="Interface" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="4. Slimventory 21x9">
+							<description>Redesigned menu of Staff Enchanting Plus fitting the overall style of Norden UI - but smol.
+
+⚠️ Requires:
+
+Staff Enchanting Plus
+• https://www.nexusmods.com/skyrimspecialedition/mods/132680</description>
+							<image path="Images\staffench.jpg" />
+							<files>
+								<folder source="Patches\Norden Staff Enchanting Plus Slimventory 1.1 21x9\Interface" destination="Interface" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="5. Regular Inventory Vertical itemcard">
+							<description>Redesigned menu of Staff Enchanting Plus fitting the overall style of Norden UI with Vertical Itemcard.
+
+⚠️ Requires:
+
+Staff Enchanting Plus
+• https://www.nexusmods.com/skyrimspecialedition/mods/132680</description>
+							<image path="Images\Staff enchanting plus vertical itemcard.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Skyblivion Lockpick" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. 16x9">
+							<description>A redesiged Skyblivion Lockpick Menu in the theme of Norden.
+
+⚠️ Requires:
+
+Skyblivion Lockpick Menu
+• https://www.nexusmods.com/skyrimspecialedition/mods/117184
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
+							<image path="Images\skyblivion lockpick.jpg" />
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="3. 21x9">
+							<description>A redesiged Skyblivion Lockpick Menu in the theme of Norden.
+
+⚠️ Requires:
+
+Skyblivion Lockpick Menu
+• https://www.nexusmods.com/skyrimspecialedition/mods/117184</description>
+							<image path="Images\skyblivion lockpick.jpg" />
+							<files>
+								<folder source="Patches\Norden Skyblivion lockpick 1.07 21x9\interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="4" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Skyrim Character Sheet" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. 16x9">
+							<description>Skyrim Character Sheet reskinned to be a good fit with the rest of Norden UI.
+You can move the Item preview back to the original position via SkyUI's MCM.
+
+⚠️ Requires:
+
+Skyrim Character Sheet
+• https://www.nexusmods.com/skyrimspecialedition/mods/56069</description>
+							<image path="Images\Norden SCH.jpg" />
+							<files>
+								<folder source="Patches\Norden Skyrim Character Sheet 1.1\Interface" destination="Interface" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="3. 21x9">
+							<description>Skyrim Character Sheet reskinned to be a good fit with the rest of Norden UI.
+You can move the Item preview back to the original position via SkyUI's MCM.
+
+⚠️ Requires:
+
+Skyrim Character Sheet
+• https://www.nexusmods.com/skyrimspecialedition/mods/56069</description>
+							<image path="Images\Norden SCH.jpg" />
+							<files>
+								<folder source="Patches\Norden Skyrim Character Sheet 21x9 1.1\Interface" destination="Interface" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Skyrim NPC Stats Card" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>Reskinned menu from Skyrim NPC Stats Card in theme with Norden UI.
+
+⚠️ Requires:
+
+Skyrim NPC Stats Card
+• https://www.nexusmods.com/skyrimspecialedition/mods/165328</description>
+							<image path="Images\skyrim npc.jpg" />
+							<files>
+								<folder source="Patches\Norden UI Skyrim NPC Stats Card 1.3\Interface" destination="Interface" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="3. Yes - Chinese, Japanese, and Korean language support">
+							<description>Reskinned menu from Skyrim NPC Stats Card in theme with Norden UI.
+
+⚠️ Requires:
+
+Skyrim NPC Stats Card
+• https://www.nexusmods.com/skyrimspecialedition/mods/165328
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
+							<image path="Images\skyrim npc.jpg" />
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="SkyUILib" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>A reskin for SkyUILib - who knows what sort of blackmagic this is. Everything beside notifications are reskined
+....because those are incompatible with Skyhud.
+
+⚠️ Requires:
+
+SkyUILib
+• https://www.nexusmods.com/skyrim/mods/57308</description>
+							<image path="Images\Norden header.jpg" />
+							<files>
+								<folder source="Patches\Norden SkyUILib\Interface" destination="Interface" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="SkyParkour v3" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>Redesigned marker from SkyParkour v3 in theme of Norden UI - wow!
+
+⚠️ Requires:
+
+SkyParkour v3
+• https://www.nexusmods.com/skyrimspecialedition/mods/132292</description>
+							<image path="Images\parkour.jpg" />
+							<files>
+								<folder source="Patches\Norden SkyParkour patch 1.2\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Sunhelm" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>Sunhelm widget desigend to fit well with UI.
+
+⚠️ Requires:
+
+Sunhelm
+• https://www.nexusmods.com/skyrimspecialedition/mods/39414</description>
+							<image path="Images\sunhelmbathing.jpg" />
+							<files>
+								<file source="Patches\Norden SunHelm and Bathing patch\interface\exported\widgets\sunhelm\sunhelmcoldicons.swf" destination="interface\exported\widgets\sunhelm\sunhelmcoldicons.swf" priority="1" />
+								<file source="Patches\Norden SunHelm and Bathing patch\interface\exported\widgets\sunhelm\sunhelmicons.swf" destination="interface\exported\widgets\sunhelm\sunhelmicons.swf" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Swiftly Order Squad" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>An overhauled look of Swiftly Order Squad menu in theme with Norden Ui.
+
+⚠️ Requires:
+
+Swiftly Order Squad
+• https://www.nexusmods.com/skyrimspecialedition/mods/63259</description>
+							<image path="Images\SOQ.jpg" />
+							<files>
+								<folder source="Patches\PatchC3.Norden UI - Swiftly Order Squad 1.0\interface" destination="interface" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="UiExtensions" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="aa">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. UIExtensions">
+							<description>UiExtensions menus redesigned in theme of Norden.
+
+⚠️ Requires:
+
+UIExtensions
+• https://www.nexusmods.com/skyrimspecialedition/mods/17561</description>
+							<image path="Images\UI Extens.jpg" />
+							<files>
+								<folder source="Patches\Norden UIExtensions 1.0\interface" destination="interface" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="3. UIExtensions Smaller/Widescreen">
+							<description>UiExtensions menus redesigned in theme of Norden.
+Smaller UiExtensions. Good also for Widescreen users
+
+⚠️ Requires:
+
+UIExtensions
+• https://www.nexusmods.com/skyrimspecialedition/mods/17561</description>
+							<image path="Images\UI Extens.jpg" />
+							<files>
+								<folder source="Patches\Norden UIExtensions Widerscreen\interface" destination="interface" alwaysInstall="false" installIfUsable="false" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Werewolf Transformation Timer" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>Werewolf Transformation Timer widget reskin suiting the UI, some manual tweaking in MCM required.
+
+⚠️ Requires:
+
+Werewolf Transformation Timer - SkyUI Addon
+• https://www.nexusmods.com/skyrimspecialedition/mods/45326
+
+For this exact preset:
+https://imgur.com/a/fnnjQtq</description>
+							<image path="Images\WTT.jpg" />
+							<files>
+								<folder source="Patches\Norden Werewolf Transformation Timer\interface" destination="interface" priority="1" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="W.H.A.T. - In-game Alchemy Calculator" type="SelectExactlyOne">
+					<plugins>
+						<plugin name="1. Skip">
+							<description>You don't even know what in the name of Talos is this mod.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. 16x9">
+							<description>ONLY FOR REGULAR STYLE OF INVENTORY FOR NOW
+
+
+Reskin of WHAT the thingy that does stuff with alchemy table's UI... well now it fits the Norden UI theme.
+
+⚠️ Requires:
+
+W.H.A.T. - In-game Alchemy Calculator
+• https://www.nexusmods.com/skyrimspecialedition/mods/167681
+</description>
+							<image path="Images\wideasswhat.png" />
+							<files>
+								<folder source="Patches\Norden UI WHAT patch\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="4" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="3. 21x9">
+							<description>ONLY FOR REGULAR STYLE OF INVENTORY FOR NOW
+
+
+Reskin of WHAT the thingy that does stuff with alchemy table's UI... well now it fits the Norden UI theme.
+
+⚠️ Requires:
+
+W.H.A.T. - In-game Alchemy Calculator
+• https://www.nexusmods.com/skyrimspecialedition/mods/167681
+</description>
+							<image path="Images\wideasswhat.png" />
+							<files>
+								<folder source="Patches\Norden UI WHAT patch 21x9\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="4" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Why I came to Skyrim" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip - Default/Vanilla">
+							<description>You don't even know what in the name of Talos is this mod.
+
+https://www.youtube.com/watch?v=gEfftVsyk_c</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">a</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>Reskin of the new UI added via the mod you see linked below...
+
+⚠️ Requires:
+
+Why I came to Skyrim - Origin Stories
+• https://www.nexusmods.com/skyrimspecialedition/mods/167166</description>
+							<image path="Images\wicts.jpg" />
+							<files>
+								<folder source="Patches\Norden Why I Came to Skyrim - Origin Stories\Interface" destination="Interface" alwaysInstall="false" installIfUsable="false" priority="0" />
+							</files>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+		<installStep name="Guides and minor stuff">
+			<visible>
+				<dependencies operator="And">
+					<flagDependency flag="Readme" value="On" />
+				</dependencies>
+			</visible>
+			<optionalFileGroups order="Explicit">
+				<group name="Skyhud" type="SelectAny">
+					<plugins order="Explicit">
+						<plugin name="Undestanding Skyhud">
+							<description>A quick guide for understanding Skyhud if you want to change positions, size of hud elements.
+
+• https://edge-ui-docs.vercel.app/guides/skyhud</description>
+							<image path="Images\uskyhud.jpg" />
+							<conditionFlags>
+								<flag name="a">o</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Desktop Splash Screen" type="SelectAny">
+					<plugins order="Explicit">
+						<plugin name="Yea">
+							<description>It do be splashing, it shall be screening, it's a splash screen after all. - wow ~Myoo.
+
+⚠️ It do be needy too:
+
+Desktop Splash Screen
+• https://www.nexusmods.com/skyrimspecialedition/mods/83470
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
+							<image path="Images\Norden header.jpg" />
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+				<group name="Sunhelm with Bathing in Skyrim Preset" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="1. Skip">
+							<description>You don't want the preset or you will make Your own one.</description>
+							<image path="Images\Vanillaplaceholder.jpg" />
+							<conditionFlags>
+								<flag name="a">0</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+						<plugin name="2. Yes">
+							<description>Preset for Sunhelm and Bathing in Skyrim Widgets. 
+
+1. Load Sunhelm preset from MCM&gt;Sunhelm&gt;Profiles&gt;Norden Preset
+2. Load Bathing in Skyrim Preset from MCM&gt;Widget Addon&gt;Load.
+If you've grayed out options for any of them double check if You have installed correct FISS version.
+
+⚠️ Requires:
+Bathing in Skyrm - (Link on page "Patches Page 1/4")
+Sunhelm - (link on page "Patches Page 4/4")
+
+FileAccess Interface for Skyrim SE Scripts - FISSES (pre 1.6.1130)
+• https://www.nexusmods.com/skyrimspecialedition/mods/13956
+
+FISSES patch for Skyrim AE 1.6.1130 (or later)
+• https://www.nexusmods.com/skyrimspecialedition/mods/107513
+
+  [No recolour needed: Norden UI's own file for this option already matches Edge's palette.]</description>
+							<image path="Images\sunhelmbathing.jpg" />
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+		<installStep name="Completed Installation">
+			<visible>
+				<dependencies operator="And">
+					<flagDependency flag="Readme" value="On" />
+				</dependencies>
+			</visible>
+			<optionalFileGroups order="Explicit">
+				<group name="Thanks for downloading Norden UI" type="SelectAll">
+					<plugins order="Explicit">
+						<plugin name="Finished">
+							<description>Thank You for downloading Norden UI, please give it an endorsment and do not forget to check for updates.</description>
+							<image path="Images\mainmenusimple.jpg" />
+							<typeDescriptor>
+								<type name="Optional" />
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+	</installSteps>
+</config>

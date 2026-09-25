@@ -1,0 +1,33 @@
+{
+  "name": "Edge UI",
+  "source": "Edge UI 0.61 (Eugene) - https://www.nexusmods.com/skyrimspecialedition/mods/130983",
+  "note": "Default/fallback palette. Run tools/sample-edge.py --write against an installed copy of Edge UI to replace these anchors with values measured from Edge's own SWFs; the measured file is written to palette/edge-ui.measured.json and is preferred automatically by recolour.py.",
+
+  "neutral_ramp": [
+    [0, 0],
+    [26, 8],
+    [51, 20],
+    [64, 26],
+    [88, 38],
+    [102, 46],
+    [128, 74],
+    [160, 128],
+    [192, 180],
+    [208, 205],
+    [224, 226],
+    [235, 235],
+    [255, 255]
+  ],
+  "neutral_spread": 3,
+
+  "accent": [170, 160, 122],
+  "accent_luma_ramp": [[0, 0], [128, 128], [255, 255]],
+  "accent_min_saturation": 12,
+  "accent_enabled": false,
+
+  "text": [235, 235, 235],
+  "panel": [20, 20, 20],
+  "header": [26, 26, 26],
+  "divider": [46, 46, 46],
+  "hover": [38, 38, 38]
+}
