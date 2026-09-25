@@ -189,6 +189,121 @@ def warm_profile(role, basename, pal=None):
     return _chroma_cache[key]
 
 
+# ---------------------------------------------------------------- rendered-pixel matching
+#
+# The node census cannot see screen area, so it read the mid greys as shared and every ramp came out
+# as identity through 128-204 - which is why the menu bodies never moved. Rendered and measured per
+# menu (tools/render-census.py) the picture is different, and it holds a surprise: across the 131
+# menus both mods draw, the MEDIAN luminance gap is 1 of 255. The bodies already match. The outliers
+# are real though, and run both ways - statsmenu 140 vs 48, craftingmenu 163 vs 90, but
+# trainingmenu_fill 101 vs 220 - so this fits one monotone curve per menu, only where warranted.
+
+RENDER_PATH = os.path.join(PALETTE_DIR, "render-census.json")
+_render_cache = {}
+_curve_cache = {}
+
+
+def load_render(path=RENDER_PATH):
+    if path not in _render_cache:
+        if not os.path.exists(path):
+            _render_cache[path] = None
+        else:
+            with open(path, encoding="utf-8-sig") as fh:
+                d = json.load(fh)
+            _render_cache[path] = {"menus": {
+                n.lower(): {t: sorted((int(k), v) for k, v in h.items()) for t, h in sides.items()}
+                for n, sides in d.get("menus", {}).items()}}
+    return _render_cache[path]
+
+
+def _at_quantile(hist, p):
+    tot = sum(w for _, w in hist)
+    if not tot:
+        return None
+    acc = 0.0
+    for l, w in hist:
+        acc += w
+        if acc / tot >= p:
+            return float(l)
+    return float(hist[-1][0])
+
+
+def _menu_key(basename):
+    key = (basename or "").lower()
+    for suffix in (".xml", ".swf"):
+        if key.endswith(suffix):
+            key = key[:-4]
+    return key
+
+
+def render_sides(basename):
+    data = load_render()
+    if not data:
+        return None
+    key = _menu_key(basename)
+    sides = data["menus"].get(key) or data["menus"].get(key + ".swf")
+    return sides if sides and "norden" in sides and "edge" in sides else None
+
+
+def render_curve(basename, pal):
+    """A monotone luminance curve for one menu, or None for "leave this menu alone".
+
+    None is the common answer, deliberately. The curve is skipped when the menu was not rendered on
+    both sides, when the distributions already agree, and when the median gap is under
+    `render_match_min_gap` - a curve fitted to a small difference is fitting noise, and one moved
+    lockpickingmenu_cheat_frame from 27 to 6 against an Edge value of 33.
+    """
+    key = _menu_key(basename)
+    if key in _curve_cache:
+        return _curve_cache[key]
+    sides = render_sides(basename)
+    if not sides:
+        _curve_cache[key] = None
+        return None
+    n, e = sides["norden"], sides["edge"]
+    pairs = [(_at_quantile(n, i / 20.0), _at_quantile(e, i / 20.0)) for i in range(1, 20)]
+    pairs = [(x, y) for x, y in pairs if x is not None and y is not None]
+    if (not pairs
+            or max(abs(x - y) for x, y in pairs) <= pal.get("render_match_agree_within", 8)
+            or abs(_at_quantile(n, .5) - _at_quantile(e, .5)) < pal.get("render_match_min_gap", 25)):
+        _curve_cache[key] = None
+        return None
+    anchors, last = [], None
+    for x, y in sorted(pairs):
+        if last is not None and x <= last[0]:
+            continue
+        anchors.append((x, max(y, last[1]) if last else y))          # keep it monotone
+        last = anchors[-1]
+    lo, hi = _at_quantile(n, 0.02), _at_quantile(n, 0.98)
+    _curve_cache[key] = (anchors, lo, hi) if len(anchors) >= 2 else None
+    return _curve_cache[key]
+
+
+def render_match(value, basename, pal):
+    """Where Edge puts this luminance in this menu. None means "no evidence, do not move it".
+
+    Values outside the range the render covers return None on purpose: quantile mapping pins anything
+    past the ends to the extremes of the target, and in itemcard_thumb - where both mods render
+    identically - that turned every dark node into 153 and shipped a menu that matched Edge exactly
+    (254) at 41.
+    """
+    curve = render_curve(basename, pal)
+    if not curve:
+        return None
+    anchors, lo, hi = curve
+    if value < lo - 1 or value > hi + 1:
+        return None
+    if value <= anchors[0][0]:
+        return anchors[0][1]
+    if value >= anchors[-1][0]:
+        return anchors[-1][1]
+    for (x0, y0), (x1, y1) in zip(anchors, anchors[1:]):
+        if value <= x1:
+            t = 0.0 if x1 == x0 else (value - x0) / (x1 - x0)
+            return y0 + (y1 - y0) * t
+    return anchors[-1][1]
+
+
 def transfer(rgb, pal, role, basename, strength=None):
     """Map one Norden colour by adopting Edge's temperature for that role in that menu.
 

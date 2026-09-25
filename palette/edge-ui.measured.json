@@ -176,5 +176,12 @@
     "color": 0.04,
     "dropShadowColor": 1.1,
     "default": 0.06
-  }
+  },
+  "render_match_roles": [
+    "color"
+  ],
+  "render_match_strength": 0.8,
+  "render_match_agree_within": 8,
+  "render_match_min_gap": 25,
+  "render_match_evidence_only": true
 }
