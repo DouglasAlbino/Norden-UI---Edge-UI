@@ -84,6 +84,47 @@ curve keeps gradients smooth.
 ```
 
 
+## 1.1.0 - why 1.0.0 looked like Norden in game
+
+1.0.0 installed cleanly and showed none of Edge's gold or cream. Two separate causes.
+
+### Cause 1: a channel swap, invisible on greys
+
+JPEXS writes XML attributes alphabetically - `alpha`, `blue`, `green`, `red` - and `recolour.py`
+substituted the new values **positionally**, in R, G, B order. Red and blue were swapped on every
+write. On a neutral grey (r = g = b) that is undetectable, which is why it survived the 16 FOMOD
+checks, the read-back and `verify.py`: 1.0.0 produced almost nothing but greys. Its one warm output,
+`#ffd700 -> #f5d87c`, shipped as `#7cd8f5` - a pale blue. Values are now substituted by attribute
+name, with a selftest (`recolour.py --selftest`).
+
+### Cause 2: the rule itself, measured and still wrong
+
+The census said the two mods share most of their neutral ramp, and 1.0.0 read that as "little needs
+to change". The same census said this, and 1.0.0 did not act on it:
+
+| | Norden | Edge |
+| --- | --- | --- |
+| text nodes that are cream/gold | **5%** | **35%** |
+
+Edge's identity is not its greys. It is `#ece2b7`, `#f5d87c`, `#aaa07a` and `#b1af97` on text,
+concentrated in the quest journal, HUD, stats, inventory lists and start menu.
+
+### The rule that replaced it: colour-temperature transfer
+
+`palette/edge-roles.json` records what Edge paints in each role (`textColor`, `color`,
+`backgroundColor`, `dropShadowColor`) in each of its 287 menus. For a node in Norden's
+`quest_journal.swf`, the recolour asks what Edge does in the same role in *its* `quest_journal.swf`
+and adopts the temperature at Norden's own luminance. Pure white and near-black are left alone -
+white is still Edge's most used text colour and its panels are black.
+
+Two wrong versions are worth keeping: averaging every warm colour in a menu dragged the hue to red,
+because Skyrim's status reds (`#9d0000`, `#803300`) are warm and inherited by both mods, giving
+`#cccccc -> #ffbfb3` across 532 nodes; and choosing the nearest Edge entry by luminance let one rare
+gold define a whole menu. The profile is now the cream-gold band only (hue 25-65 degrees, saturation
+12-60%) with saturation capped at 30%.
+
+Result: **27% of text nodes in the shipped art are warm**, against Edge's 35% and Norden's 5%.
+
 ## 1.2.0 - measuring the menus the way the player sees them
 
 1.1.0 warmed the text and the player reported the menu bodies unchanged. Chasing that exposed the
