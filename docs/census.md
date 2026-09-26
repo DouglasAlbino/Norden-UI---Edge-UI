@@ -82,3 +82,77 @@ curve keeps gradients smooth.
 #e6e6e6 -> #ececec  x1135      #191919 -> #0d0d0d  x665
 #ebebeb -> #f0f0f0  x828       #ffd800 -> #f6db85  x400
 ```
+
+
+## 1.2.0 - measuring the menus the way the player sees them
+
+1.1.0 warmed the text and the player reported the menu bodies unchanged. Chasing that exposed the
+methodological error under every census in this repository, and then contradicted the premise.
+
+### Node count is not screen area
+
+Every census here counted colour NODES in the SWF XML. A panel background is one node covering the
+whole screen; an icon is two hundred nodes covering nothing. Counted by node the two mods "share"
+the mid greys - which is exactly why every ramp came out as identity through 128-204 and the menu
+bodies never moved.
+
+`tools/render-census.py` renders frame 1 of every menu both mods have and reads the visible pixels.
+Two artifacts had to go first:
+
+* **The SWF stage background.** Both mods declare `#333333` in nearly every file. Left in, it swamps
+  the histogram and both sides read as identical at every percentile - and it produced a wrong
+  conclusion I nearly shipped: Norden's crafting menu appears to render as flat mid-grey, but that
+  grey IS the stage (`#999999` there), which Scaleform never shows in game. It is now read from the
+  SWF's SetBackgroundColor tag, straight from the binary, so the census does not need the XML export.
+* **Frames too small to be a menu** (under 500 visible pixels) - icons and empty shells.
+
+### The surprise: the menu bodies already match
+
+Across the 131 menus measurable on both sides, the **median luminance gap between Norden and Edge is
+1** (of 255). The real gaps are a minority and run in both directions:
+
+| menu | Norden | Edge |
+| --- | --- | --- |
+| statsmenu | 140 | 48 |
+| craftingmenu | 163 | 90 |
+| inventorylists_select_lr | 146 | 82 |
+| trainingmenu_fill | 101 | 220 |
+| lockpickingmenu_fill | 85 | 191 |
+
+### What 1.2.0 does, and what it deliberately does not
+
+A monotone curve is fitted per menu by quantile matching between the two rendered distributions, and
+applied only where there is evidence: the menu was rendered on both sides, the median gap is over 25,
+and the value lies inside the range the render covers. That is **28 of 131 menus**. Everywhere else
+the fills keep Norden's own values - including against the neutral ramp, which the renders showed was
+making 43 menus worse.
+
+Closed-loop check (re-render the shipped art, compare to Edge): 18 menus closer, 85 unchanged, 27
+marginally further, mean gap unchanged. An honest wash overall with a clear win on the statsmenu
+family - which is why the rule is gated rather than global.
+
+### Four bugs the closed loop caught
+
+* **Clamping.** Quantile mapping applied to a colour absent from the rendered frame lands at
+  quantile 0 or 1 and is pinned to the end of Edge's distribution. In `itemcard_thumb`, where both
+  mods render identically, every dark node became 153 and a menu matching Edge exactly (254) shipped
+  at 41.
+* **Domain mismatch.** The curve was looked up with the *ramped* luminance while its domain is what
+  Norden *renders*, so menus needing lightening were darkened - `itemcard_*_bg` sat at 27 against
+  Edge's 31 and came out 16.
+* **An artifact in the checker itself.** It removed the stage background using Norden's colour, but
+  our build recolours the stage too (51 -> 41), so those pixels stayed in and every menu read as 41.
+  The first "everything got worse" verdict was the checker, not the build.
+* **Stale art shipping.** The build only writes files whose colours change, so when the
+  evidence-only rule stopped changing 50 files, the previous build's SWFs stayed in the output folder
+  and went into the archive. `verify.py` now recomputes every shipped file from Norden's original and
+  demands an exact match; stale files are deleted. The same failure recurred one level up - the
+  repository kept the 1.1.0 archive after the 1.2.0 art was pushed - which is why the archive is now
+  rebuilt and pushed in the same commit as the art it contains.
+
+### The honest limit
+
+Norden UI and Edge UI are different art. Their menu chrome already renders within a luminance level
+or two of each other; what differs is shape, layout and the elements each mod draws that the other
+does not. A recolour can carry Edge's palette - its cream and gold text, its darker stats and
+crafting panels - but it cannot turn one mod's menus into the other's.

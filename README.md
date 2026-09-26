@@ -60,6 +60,7 @@ and the reasoning. The short version:
 | `tools/palette.py` | the rule itself: `map_rgb`, the ramp, the selftest |
 | `tools/recolour.py --build` | remaps every colour node in Norden's XML and `-xml2swf`s the changed files into the output mod folder |
 | `tools/recolour-svg.py --write` | the same rule on Norden's Wheeler SVGs, with read-back |
+| `tools/render-census.py` | renders every menu both mods have and measures visible pixels - the census that reflects screen area |
 | `tools/verify.py` | re-exports the **shipped** SWFs and proves no Norden neutral survived |
 | `tools/build-fomod.py` | rewrites Norden UI's own `ModuleConfig.xml` to point at the recoloured files - same steps, groups, options, images and flags |
 | `tools/validate-fomod.py` | proves the built installer against Norden's, option for option (16 checks) |
@@ -82,7 +83,7 @@ and the reasoning. The short version:
 * A dry install (`tools/install-with-choices.py`) of a 16x9 default run shows 15 steps, 84 options
   and **447 files** landing in `Interface`, `SKSE/Plugins/wheeler` and `MapMarkers`.
 
-**`Norden UI - Edge Colours.zip`** (54.6 MB, 1092 files) is that folder packaged for Mod Organizer 2
+**`Norden UI - Edge Colours.zip`** (53.3 MB, 1046 files) is that folder packaged for Mod Organizer 2
 - `fomod/` sits at the archive root, so MO2 runs the installer on it directly. Or point your mod
 manager at the folder, or rebuild the archive with `tools/build-package.py`. Install it **after**
 (below) Norden UI and pick the same options you picked there.
